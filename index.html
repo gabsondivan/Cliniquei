@@ -1775,6 +1775,12 @@ function renderHints(){
 
 function sync(){ /* btn-hint removed — dicas reveladas automaticamente ao errar */ }
 
+function revealAllHints(){
+  rev = CASE.hints.length;
+  renderHints();
+  sync();
+}
+
 function saveGameState(){
   try {
     const payload = {
@@ -1822,6 +1828,10 @@ function init(){
   solved = !!saved.solved;
   finalPoints = Math.max(0, Number(saved.finalPoints) || 0);
 
+  if(solved){
+    rev = CASE.hints.length;
+  }
+
   renderHints();
 
   if(over){
@@ -1860,6 +1870,7 @@ function submit(e){
     const pts=PTS[rev-1]+(rev===1?BONUS:0);
     solved=true;
     finalPoints=pts;
+    revealAllHints();
     fb.className='feedback'; fb.textContent='';
     document.getElementById('input').disabled=true;
     document.getElementById('submit').disabled=true;
