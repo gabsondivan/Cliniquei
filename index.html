@@ -1321,6 +1321,211 @@ const CASES = [
 const CASE_TIMEZONE = 'America/Sao_Paulo';
 const DAY_MS = 86400000;
 const CASE_ROTATION_START_DAY = Math.floor(Date.UTC(2026, 4, 2) / DAY_MS);
+const HINT_PT_BR_REPLACEMENTS = {
+  "abdomen": "abdômen",
+  "abdomens": "abdômens",
+  "acido": "ácido",
+  "acidos": "ácidos",
+  "alteracoes": "alterações",
+  "ambulatorio": "ambulatório",
+  "anexial": "anexial",
+  "apos": "após",
+  "aereas": "aéreas",
+  "atencao": "atenção",
+  "avaliacao": "avaliação",
+  "bilaterais": "bilaterais",
+  "cardiaca": "cardíaca",
+  "cardiaco": "cardíaco",
+  "cardiacos": "cardíacos",
+  "cefaleia": "cefaleia",
+  "cirurgico": "cirúrgico",
+  "cirurgica": "cirúrgica",
+  "cirurgicas": "cirúrgicas",
+  "clinica": "clínica",
+  "clinicas": "clínicas",
+  "clinico": "clínico",
+  "clinicos": "clínicos",
+  "colica": "cólica",
+  "compativel": "compatível",
+  "compativeis": "compatíveis",
+  "complicacao": "complicação",
+  "compressao": "compressão",
+  "comecou": "começou",
+  "consciencia": "consciência",
+  "consolidacao": "consolidação",
+  "continua": "contínua",
+  "continuas": "contínuas",
+  "coriza": "coriza",
+  "cansaco": "cansaço",
+  "crepitacao": "crepitação",
+  "crepitacoes": "crepitações",
+  "cronica": "crônica",
+  "cronicas": "crônicas",
+  "cronico": "crônico",
+  "cronicos": "crônicos",
+  "crianca": "criança",
+  "criancas": "crianças",
+  "descompressao": "descompressão",
+  "desidratacao": "desidratação",
+  "diagnostico": "diagnóstico",
+  "diagnosticos": "diagnósticos",
+  "diarreia": "diarreia",
+  "diabetico": "diabético",
+  "diabetica": "diabética",
+  "disuria": "disúria",
+  "distensao": "distensão",
+  "doenca": "doença",
+  "doencas": "doenças",
+  "eletrocardiografico": "eletrocardiográfico",
+  "elevacao": "elevação",
+  "entao": "então",
+  "episodio": "episódio",
+  "episodios": "episódios",
+  "estavel": "estável",
+  "estaveis": "estáveis",
+  "esofago": "esôfago",
+  "esofagica": "esofágica",
+  "especifica": "específica",
+  "especifico": "específico",
+  "esforco": "esforço",
+  "esforcos": "esforços",
+  "estao": "estão",
+  "evidencia": "evidência",
+  "evolucao": "evolução",
+  "expectoracao": "expectoração",
+  "falencia": "falência",
+  "ficara": "ficará",
+  "flutuacao": "flutuação",
+  "fratura": "fratura",
+  "frequencia": "frequência",
+  "funcao": "função",
+  "gasometria": "gasometria",
+  "gestacao": "gestação",
+  "ginecologico": "ginecológico",
+  "ginecologica": "ginecológica",
+  "ha": "há",
+  "hemodinamica": "hemodinâmica",
+  "hemodinamicamente": "hemodinamicamente",
+  "hemorragia": "hemorragia",
+  "higido": "hígido",
+  "higida": "hígida",
+  "hipertensao": "hipertensão",
+  "hipotensao": "hipotensão",
+  "hidroaereos": "hidroaéreos",
+  "ictericia": "icterícia",
+  "iliaca": "ilíaca",
+  "iliacas": "ilíacas",
+  "inapetencia": "inapetência",
+  "inducao": "indução",
+  "infeccao": "infecção",
+  "infeccoes": "infecções",
+  "infeccioso": "infeccioso",
+  "inflamacao": "inflamação",
+  "inflamatoria": "inflamatória",
+  "inflamatorio": "inflamatório",
+  "inflamatorios": "inflamatórios",
+  "insuficiencia": "insuficiência",
+  "internacoes": "internações",
+  "intoxicacao": "intoxicação",
+  "irritacao": "irritação",
+  "ja": "já",
+  "lamina": "lâmina",
+  "lesao": "lesão",
+  "lesoes": "lesões",
+  "lentificacao": "lentificação",
+  "limitrofe": "limítrofe",
+  "lombar": "lombar",
+  "mae": "mãe",
+  "mecanica": "mecânica",
+  "masseterica": "massetérica",
+  "metalico": "metálico",
+  "miocardica": "miocárdica",
+  "mobilizacao": "mobilização",
+  "murmurio": "murmúrio",
+  "nao": "não",
+  "nausea": "náusea",
+  "nauseas": "náuseas",
+  "neurologico": "neurológico",
+  "obstetrica": "obstétrica",
+  "obstrucao": "obstrução",
+  "obvia": "óbvia",
+  "obvio": "óbvio",
+  "palpitacoes": "palpitações",
+  "palpacao": "palpação",
+  "padrao": "padrão",
+  "pelvica": "pélvica",
+  "pelvicas": "pélvicas",
+  "pelve": "pelve",
+  "perioperatorio": "perioperatório",
+  "perfusao": "perfusão",
+  "pos-operatorio": "pós-operatório",
+  "posoperatorio": "pós-operatório",
+  "pressao": "pressão",
+  "preocupacao": "preocupação",
+  "porem": "porém",
+  "punho-percussao": "punho-percussão",
+  "puncao": "punção",
+  "quadro tipico": "quadro típico",
+  "radiografia": "radiografia",
+  "reacao": "reação",
+  "reducao": "redução",
+  "regiao": "região",
+  "relacao": "relação",
+  "respiracao": "respiração",
+  "rapida": "rápida",
+  "rapido": "rápido",
+  "rabdomiolise": "rabdomiólise",
+  "saturacao": "saturação",
+  "secrecao": "secreção",
+  "sensacao": "sensação",
+  "sequencia": "sequência",
+  "situacao": "situação",
+  "sonolencia": "sonolência",
+  "subita": "súbita",
+  "subito": "súbito",
+  "substancias": "substâncias",
+  "sudoretico": "sudorético",
+  "sudoretica": "sudorética",
+  "sibilancia": "sibilância",
+  "taquicardico": "taquicárdico",
+  "taquicardica": "taquicárdica",
+  "televisao": "televisão",
+  "tipica": "típica",
+  "tipico": "típico",
+  "toracica": "torácica",
+  "toracico": "torácico",
+  "torax": "tórax",
+  "urinaria": "urinária",
+  "urinarias": "urinárias",
+  "vesicular": "vesicular",
+  "ventilacao": "ventilação",
+  "vomito": "vômito",
+  "vomitos": "vômitos"
+};
+
+function preserveCase(source, replacement){
+  if(source === source.toUpperCase()) return replacement.toUpperCase();
+  if(source[0] === source[0].toUpperCase()) return replacement.charAt(0).toUpperCase() + replacement.slice(1);
+  return replacement;
+}
+
+function normalizeHintPortuguese(text){
+  let output = String(text || '');
+  output = output.replace(/\b[\w-]+\b/gu, word => {
+    const replacement = HINT_PT_BR_REPLACEMENTS[word.toLowerCase()];
+    return replacement ? preserveCase(word, replacement) : word;
+  });
+  output = output.replace(/\ba direita\b/gi, match => preserveCase(match, 'à direita'));
+  output = output.replace(/\ba esquerda\b/gi, match => preserveCase(match, 'à esquerda'));
+  output = output.replace(/\bagora e o\b/gi, match => preserveCase(match, 'agora é o'));
+  output = output.replace(/(^|[.!?]\s+)e tabagista\b/gi, (_, prefix) => `${prefix}É tabagista`);
+  output = output.replace(/(^|[.!?]\s+)e o primeiro\b/gi, (_, prefix) => `${prefix}É o primeiro`);
+  output = output.replace(/\bcomeca\b/gi, match => preserveCase(match, 'começa'));
+  output = output.replace(/quadro tipico/gi, match => preserveCase(match, 'quadro típico'));
+  output = output.replace(/mais compativel/gi, match => preserveCase(match, 'mais compatível'));
+  return output;
+}
+
 function getHintTier(hint){
   const text = String(hint || '').toLowerCase();
   if(/\b(compativel|quadro tipico|trata-se de|favorecendo o diagnostico|mais compativel com|classicamente|exigindo abordagem|diagnostico)\b/.test(text)) return 4;
@@ -1421,11 +1626,16 @@ function shortenOpeningHintClinical(hint){
   complaint = complaint.replace(/\s{2,}/g, ' ').replace(/\s+([,.;:])/g, '$1').trim();
   const isPediatric = /^(lactente|crianca|recem-nascido|rn|bebe)/i.test(subject);
   let compact = '';
+  const proceduralOpening = /^(previamente\b|em procedimento\b|sob\b|durante\b)/i.test(complaint);
 
   if(subject && complaint){
-    compact = isPediatric
-      ? `${subject} foi trazido ao PS com ${complaint}`
-      : `${subject} deu entrada no PS relatando ${complaint}`;
+    if(proceduralOpening){
+      compact = `${subject}, ${complaint}`;
+    } else {
+      compact = isPediatric
+        ? `${subject} foi trazido ao PS com ${complaint}`
+        : `${subject} deu entrada no PS relatando ${complaint}`;
+    }
   } else if(complaint){
     compact = `Paciente deu entrada no PS relatando ${complaint}`;
   } else {
@@ -1447,7 +1657,7 @@ function buildProgressiveHints(hints){
     .map(item => item.hint);
 
   ordered[0] = shortenOpeningHintClinical(ordered[0]);
-  return ordered;
+  return ordered.map(normalizeHintPortuguese);
 }
 
 const CASE_DAY_KEY = getCaseDayKey();
