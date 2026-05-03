@@ -669,6 +669,164 @@ body {
     line-height: 1.4;
   }
 }
+
+/* ── success popup ── */
+.success-overlay {
+  position: fixed; inset: 0;
+  background: rgba(29,36,48,0.45);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 300; padding: 20px;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.25s;
+}
+.success-overlay.open { opacity: 1; pointer-events: all; }
+
+.success-box {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  width: 100%; max-width: 380px;
+  padding: 32px 28px 28px;
+  text-align: center;
+  transform: translateY(12px) scale(0.97);
+  transition: transform 0.25s ease;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.12);
+}
+.success-overlay.open .success-box {
+  transform: translateY(0) scale(1);
+}
+
+.success-trophy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.success-check-svg {
+  width: 56px;
+  height: 56px;
+  display: block;
+}
+
+.success-check-circle {
+  stroke-dasharray: 152;
+  stroke-dashoffset: 152;
+  transition: stroke-dashoffset 0.5s ease;
+}
+.success-check-mark {
+  stroke-dasharray: 30;
+  stroke-dashoffset: 30;
+  transition: stroke-dashoffset 0.4s ease 0.4s;
+}
+.success-overlay.open .success-check-circle {
+  stroke-dashoffset: 0;
+}
+.success-overlay.open .success-check-mark {
+  stroke-dashoffset: 0;
+}
+
+.success-title {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.35;
+  margin-bottom: 22px;
+}
+
+.success-share-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink-3);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.success-link-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 22px;
+}
+
+.success-link-input {
+  flex: 1;
+  min-width: 0;
+  font-family: 'Geist', system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--ink-2);
+  background: var(--surface);
+  border: 1.5px solid var(--border-2);
+  border-radius: var(--radius);
+  padding: 9px 12px;
+  outline: none;
+  cursor: default;
+  -webkit-appearance: none;
+}
+
+.success-copy-btn {
+  font-family: 'Geist', system-ui, sans-serif;
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 9px 14px;
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s;
+  -webkit-appearance: none;
+  flex-shrink: 0;
+}
+.success-copy-btn:hover { background: var(--blue-dark); }
+.success-copy-btn.copied {
+  background: #1a6640;
+}
+
+.success-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 4px;
+}
+
+.success-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border-2);
+  color: var(--ink-2);
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+  background: var(--bg);
+}
+.success-social-link:hover {
+  border-color: var(--ink);
+  color: var(--ink);
+  background: var(--surface);
+}
+
+.success-close-btn {
+  position: absolute;
+  top: 14px; right: 16px;
+  background: none; border: none; cursor: pointer;
+  color: var(--ink-3); padding: 4px;
+  display: flex; transition: color 0.15s;
+  font-size: 18px; line-height: 1;
+}
+.success-close-btn:hover { color: var(--ink); }
+
+.success-box { position: relative; }
+
+@media (max-width: 480px) {
+  .success-box { padding: 28px 20px 24px; }
+  .success-title { font-size: 15px; }
+}
 </style>
 </head>
 <body>
@@ -704,6 +862,39 @@ body {
 
   <div class="result-panel" id="result-panel"></div>
 
+</div>
+
+<!-- success popup -->
+<div class="success-overlay" id="success-overlay">
+  <div class="success-box">
+    <button class="success-close-btn" onclick="closeSuccessPopup()" aria-label="Fechar">✕</button>
+    <div class="success-trophy">
+      <svg class="success-check-svg" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle class="success-check-circle" cx="28" cy="28" r="24" stroke="#34d399" stroke-width="2.5" fill="none"/>
+        <polyline class="success-check-mark" points="17,29 24,36 39,21" stroke="#34d399" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </svg>
+    </div>
+    <div class="success-title">Parabéns! Você acertou o caso do dia.</div>
+    <div class="success-share-label">Compartilhe o Cliniquei com seus amigos</div>
+    <div class="success-link-row">
+      <input class="success-link-input" id="success-link-input" type="text" value="https://cliniquei.com.br" readonly />
+      <button class="success-copy-btn" id="success-copy-btn" onclick="copySuccessLink()">Copiar</button>
+    </div>
+    <div class="success-socials">
+      <a class="success-social-link" href="https://www.instagram.com/cliniquei" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+        </svg>
+      </a>
+      <a class="success-social-link" href="https://x.com/cliniquei" target="_blank" rel="noopener" aria-label="X (Twitter)">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
 </div>
 
 <!-- calendar overlay -->
@@ -1841,6 +2032,7 @@ function init(){
       msgEl.textContent='✓ Você acertou!';
       msgEl.classList.add('show');
       showResult(finalPoints,true);
+      setTimeout(function(){ if(shouldShowPopup()) openSuccessPopup(); }, 400);
     } else {
       msgEl.textContent=`✗ Não foi dessa vez. O diagnóstico correto era ${cap(CASE.diagnosis[0])}.`;
       msgEl.style.background='#fef2f2';
@@ -1882,6 +2074,7 @@ function submit(e){
     launchGlow();
     saveGameState();
     showResult(pts,true);
+    setTimeout(function(){ openSuccessPopup(); }, 600);
   } else {
     results.push('wrong');
     const isLastHint = rev >= CASE.hints.length;
@@ -2263,6 +2456,47 @@ function launchGlow(){
       card.addEventListener('animationend', () => card.classList.remove('glow'), {once:true});
     }, i * 120);
   });
+}
+
+// ── success popup ──────────────────────────────────────
+function openSuccessPopup(){
+  const popupKey = `cliniquei:popup:${CASE_DAY_KEY}`;
+  try { localStorage.setItem(popupKey, '1'); } catch(e) {}
+  document.getElementById('success-overlay').classList.add('open');
+}
+
+function shouldShowPopup(){
+  const popupKey = `cliniquei:popup:${CASE_DAY_KEY}`;
+  try { return !localStorage.getItem(popupKey); } catch(e) { return false; }
+}
+function closeSuccessPopup(){
+  document.getElementById('success-overlay').classList.remove('open');
+}
+document.getElementById('success-overlay').addEventListener('click', function(e){
+  if(e.target === this) closeSuccessPopup();
+});
+function copySuccessLink(){
+  const input = document.getElementById('success-link-input');
+  const btn = document.getElementById('success-copy-btn');
+  try {
+    navigator.clipboard.writeText(input.value).then(function(){
+      btn.textContent = 'Copiado!';
+      btn.classList.add('copied');
+      setTimeout(function(){ btn.textContent = 'Copiar'; btn.classList.remove('copied'); }, 2000);
+    }).catch(function(){
+      input.select();
+      document.execCommand('copy');
+      btn.textContent = 'Copiado!';
+      btn.classList.add('copied');
+      setTimeout(function(){ btn.textContent = 'Copiar'; btn.classList.remove('copied'); }, 2000);
+    });
+  } catch(e) {
+    input.select();
+    document.execCommand('copy');
+    btn.textContent = 'Copiado!';
+    btn.classList.add('copied');
+    setTimeout(function(){ btn.textContent = 'Copiar'; btn.classList.remove('copied'); }, 2000);
+  }
 }
 
 buildWeek();
