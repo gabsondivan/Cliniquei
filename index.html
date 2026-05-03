@@ -114,11 +114,24 @@ body {
   padding: 18px 20px;
   font-size: 15px; line-height: 1.7;
   color: var(--ink); background: var(--surface);
-  transition: background 0.3s;
+  border: 1.5px solid transparent;
+  transition: background 0.3s, border-color 0.3s, color 0.3s;
   min-height: 80px;
   display: flex;
   align-items: center;
   overflow: hidden;
+}
+
+.hint-card.correct-final {
+  background: #edf7f0;
+  border-color: #b8dfc9;
+  color: #1a6640;
+}
+
+.hint-card.wrong-final {
+  background: #fef2f2;
+  border-color: #f5c0c0;
+  color: #9b2424;
 }
 
 .hint-card.locked {
@@ -707,7 +720,8 @@ body {
 }
 
 /* ── success popup ── */
-.success-overlay {
+.success-overlay,
+.wrong-overlay {
   position: fixed; inset: 0;
   background: rgba(29,36,48,0.45);
   display: flex; align-items: center; justify-content: center;
@@ -715,9 +729,11 @@ body {
   opacity: 0; pointer-events: none;
   transition: opacity 0.25s;
 }
-.success-overlay.open { opacity: 1; pointer-events: all; }
+.success-overlay.open,
+.wrong-overlay.open { opacity: 1; pointer-events: all; }
 
-.success-box {
+.success-box,
+.wrong-box {
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
@@ -728,18 +744,21 @@ body {
   transition: transform 0.25s ease;
   box-shadow: 0 8px 40px rgba(0,0,0,0.12);
 }
-.success-overlay.open .success-box {
+.success-overlay.open .success-box,
+.wrong-overlay.open .wrong-box {
   transform: translateY(0) scale(1);
 }
 
-.success-trophy {
+.success-trophy,
+.wrong-icon {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 16px;
 }
 
-.success-check-svg {
+.success-check-svg,
+.wrong-x-svg {
   width: 56px;
   height: 56px;
   display: block;
@@ -762,11 +781,37 @@ body {
   stroke-dashoffset: 0;
 }
 
-.success-title {
+.wrong-x-circle {
+  stroke-dasharray: 152;
+  stroke-dashoffset: 152;
+  transition: stroke-dashoffset 0.5s ease;
+}
+.wrong-x-line {
+  stroke-dasharray: 26;
+  stroke-dashoffset: 26;
+  transition: stroke-dashoffset 0.32s ease 0.32s;
+}
+.wrong-x-line.second { transition-delay: 0.5s; }
+.wrong-overlay.open .wrong-x-circle,
+.wrong-overlay.open .wrong-x-line {
+  stroke-dashoffset: 0;
+}
+
+.success-title,
+.wrong-title {
   font-size: 17px;
   font-weight: 600;
   color: var(--ink);
   line-height: 1.35;
+  margin-bottom: 22px;
+}
+
+.wrong-title { margin-bottom: 10px; }
+
+.wrong-subtitle {
+  font-size: 13px;
+  color: var(--ink-2);
+  line-height: 1.55;
   margin-bottom: 22px;
 }
 
@@ -847,7 +892,8 @@ body {
   background: var(--surface);
 }
 
-.success-close-btn {
+.success-close-btn,
+.wrong-close-btn {
   position: absolute;
   top: 14px; right: 16px;
   background: none; border: none; cursor: pointer;
@@ -855,13 +901,17 @@ body {
   display: flex; transition: color 0.15s;
   font-size: 18px; line-height: 1;
 }
-.success-close-btn:hover { color: var(--ink); }
+.success-close-btn:hover,
+.wrong-close-btn:hover { color: var(--ink); }
 
-.success-box { position: relative; }
+.success-box,
+.wrong-box { position: relative; }
 
 @media (max-width: 480px) {
-  .success-box { padding: 28px 20px 24px; }
-  .success-title { font-size: 15px; }
+  .success-box,
+  .wrong-box { padding: 28px 20px 24px; }
+  .success-title,
+  .wrong-title { font-size: 15px; }
 }
 </style>
 </head>
@@ -919,6 +969,41 @@ body {
     <div class="success-link-row">
       <input class="success-link-input" id="success-link-input" type="text" value="https://cliniquei.com.br" readonly />
       <button class="success-copy-btn" id="success-copy-btn" onclick="copySuccessLink()">Copiar</button>
+    </div>
+    <div class="success-socials">
+      <a class="success-social-link" href="https://www.instagram.com/cliniquei" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+        </svg>
+      </a>
+      <a class="success-social-link" href="https://x.com/cliniquei" target="_blank" rel="noopener" aria-label="X (Twitter)">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- wrong popup -->
+<div class="wrong-overlay" id="wrong-overlay">
+  <div class="wrong-box">
+    <button class="wrong-close-btn" onclick="closeWrongPopup()" aria-label="Fechar">✕</button>
+    <div class="wrong-icon">
+      <svg class="wrong-x-svg" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle class="wrong-x-circle" cx="28" cy="28" r="24" stroke="#ef4444" stroke-width="2.5" fill="none"/>
+        <line class="wrong-x-line" x1="20" y1="20" x2="36" y2="36" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round"/>
+        <line class="wrong-x-line second" x1="36" y1="20" x2="20" y2="36" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="wrong-title">Não foi dessa vez.</div>
+    <div class="wrong-subtitle" id="wrong-popup-subtitle"></div>
+    <div class="success-share-label">Compartilhe o Cliniquei com seus amigos</div>
+    <div class="success-link-row">
+      <input class="success-link-input" id="wrong-link-input" type="text" value="https://cliniquei.com.br" readonly />
+      <button class="success-copy-btn" id="wrong-copy-btn" onclick="copyWrongLink()">Copiar</button>
     </div>
     <div class="success-socials">
       <a class="success-social-link" href="https://www.instagram.com/cliniquei" target="_blank" rel="noopener" aria-label="Instagram">
@@ -1998,7 +2083,10 @@ function renderHints(){
   const el=document.getElementById('hints'); el.innerHTML='';
   CASE.hints.forEach((h,i)=>{
     const d=document.createElement('div');
-    if(i<rev){ d.className='hint-card'; d.textContent=h; }
+    if(i<rev){
+      d.className='hint-card' + (over ? (solved ? ' correct-final' : ' wrong-final') : '');
+      d.textContent=h;
+    }
     else { d.className='hint-card locked'; d.innerHTML='<div class="locked-dash"></div>'; }
     el.appendChild(d);
   });
@@ -2073,19 +2161,13 @@ function init(){
     document.getElementById('input').disabled=true;
     document.getElementById('submit').disabled=true;
     if(solved){
-      msgEl.textContent='✓ Você acertou!';
-      msgEl.classList.add('show');
       showWrongAnswersFull();
       showResult(finalPoints,true);
       setTimeout(function(){ if(shouldShowPopup()) openSuccessPopup(); }, 400);
     } else {
-      msgEl.textContent=`✗ Não foi dessa vez. O diagnóstico correto era ${cap(CASE.diagnosis[0])}.`;
-      msgEl.style.background='#fef2f2';
-      msgEl.style.borderColor='#f5c0c0';
-      msgEl.style.color='#9b2424';
-      msgEl.classList.add('show');
       showWrongAnswersFull();
       showResult(0,false);
+      setTimeout(function(){ if(shouldShowWrongPopup()) openWrongPopup(); }, 400);
     }
   }
 }
@@ -2114,8 +2196,8 @@ function submit(e){
     document.getElementById('submit').disabled=true;
     const msg = document.getElementById('correct-msg');
     resetResultMessageStyles(msg);
-    msg.textContent = `✓ Você acertou!`;
-    msg.classList.add('show');
+    msg.textContent = '';
+    msg.classList.remove('show');
     playSuccessSound();
     launchGlow();
     saveGameState();
@@ -2135,13 +2217,11 @@ function submit(e){
       fb.className='feedback'; fb.textContent='';
       const msg = document.getElementById('correct-msg');
       resetResultMessageStyles(msg);
-      msg.textContent = `✗ Não foi dessa vez. O diagnóstico correto era ${cap(CASE.diagnosis[0])}.`;
-      msg.style.background = '#fef2f2';
-      msg.style.borderColor = '#f5c0c0';
-      msg.style.color = '#9b2424';
-      msg.classList.add('show');
+      msg.textContent = '';
+      msg.classList.remove('show');
       document.getElementById('input').disabled=true;
       document.getElementById('submit').disabled=true;
+      renderHints();
       // shake last card before showing result
       const cards = document.querySelectorAll('.hint-card:not(.locked)');
       const last = cards.length ? cards[cards.length-1] : null;
@@ -2149,6 +2229,7 @@ function submit(e){
       saveGameState();
       showWrongAnswers();
       showResult(0,false);
+      setTimeout(function(){ openWrongPopup(); }, 600);
     } else {
       fb.className='feedback';
       fb.textContent='';
@@ -2561,9 +2642,29 @@ function closeSuccessPopup(){
 document.getElementById('success-overlay').addEventListener('click', function(e){
   if(e.target === this) closeSuccessPopup();
 });
-function copySuccessLink(){
-  const input = document.getElementById('success-link-input');
-  const btn = document.getElementById('success-copy-btn');
+
+// ── wrong popup ────────────────────────────────────────
+function openWrongPopup(){
+  const popupKey = `cliniquei:wrong-popup:${CASE_DAY_KEY}`;
+  try { localStorage.setItem(popupKey, '1'); } catch(e) {}
+  document.getElementById('wrong-popup-subtitle').textContent = `O diagnóstico correto era ${cap(CASE.diagnosis[0])}.`;
+  document.getElementById('wrong-overlay').classList.add('open');
+}
+
+function shouldShowWrongPopup(){
+  const popupKey = `cliniquei:wrong-popup:${CASE_DAY_KEY}`;
+  try { return !localStorage.getItem(popupKey); } catch(e) { return false; }
+}
+function closeWrongPopup(){
+  document.getElementById('wrong-overlay').classList.remove('open');
+}
+document.getElementById('wrong-overlay').addEventListener('click', function(e){
+  if(e.target === this) closeWrongPopup();
+});
+
+function copyLink(inputId, btnId){
+  const input = document.getElementById(inputId);
+  const btn = document.getElementById(btnId);
   try {
     navigator.clipboard.writeText(input.value).then(function(){
       btn.textContent = 'Copiado!';
@@ -2583,6 +2684,12 @@ function copySuccessLink(){
     btn.classList.add('copied');
     setTimeout(function(){ btn.textContent = 'Copiar'; btn.classList.remove('copied'); }, 2000);
   }
+}
+function copySuccessLink(){
+  copyLink('success-link-input', 'success-copy-btn');
+}
+function copyWrongLink(){
+  copyLink('wrong-link-input', 'wrong-copy-btn');
 }
 
 buildWeek();
