@@ -1,5 +1,6 @@
 [
   {
+    "id": "apendicite-aguda-001",
     "diagnosis": [
       "apendicite aguda",
       "apendicite"
@@ -14,6 +15,7 @@
     ]
   },
   {
+    "id": "pneumonia-adquirida-na-comunidade-001",
     "diagnosis": [
       "pneumonia adquirida na comunidade",
       "PAC"
@@ -28,6 +30,7 @@
     ]
   },
   {
+    "id": "bronquiolite-viral-aguda-001",
     "diagnosis": [
       "bronquiolite viral aguda",
       "bronquiolite"
@@ -42,6 +45,7 @@
     ]
   },
   {
+    "id": "gravidez-ectopica-001",
     "diagnosis": [
       "gravidez ectópica",
       "gestação ectópica"
@@ -56,6 +60,7 @@
     ]
   },
   {
+    "id": "hipertermia-maligna-001",
     "diagnosis": [
       "hipertermia maligna"
     ],
@@ -69,6 +74,7 @@
     ]
   },
   {
+    "id": "infarto-agudo-do-miocardio-001",
     "diagnosis": [
       "infarto agudo do miocárdio",
       "IAM",
@@ -84,6 +90,7 @@
     ]
   },
   {
+    "id": "celulite-001",
     "diagnosis": [
       "celulite"
     ],
@@ -97,6 +104,7 @@
     ]
   },
   {
+    "id": "transtorno-depressivo-maior-001",
     "diagnosis": [
       "transtorno depressivo maior",
       "depressão maior"
@@ -111,6 +119,7 @@
     ]
   },
   {
+    "id": "delirium-001",
     "diagnosis": [
       "delirium"
     ],
@@ -124,6 +133,7 @@
     ]
   },
   {
+    "id": "colecistite-aguda-001",
     "diagnosis": [
       "colecistite aguda"
     ],
@@ -137,6 +147,7 @@
     ]
   },
   {
+    "id": "cetoacidose-diabetica-001",
     "diagnosis": [
       "cetoacidose diabética",
       "CAD"
@@ -151,6 +162,7 @@
     ]
   },
   {
+    "id": "doenca-de-kawasaki-001",
     "diagnosis": [
       "doença de Kawasaki"
     ],
@@ -164,6 +176,7 @@
     ]
   },
   {
+    "id": "pre-eclampsia-grave-001",
     "diagnosis": [
       "pré-eclâmpsia grave",
       "pré-eclâmpsia com sinais de gravidade"
@@ -178,6 +191,7 @@
     ]
   },
   {
+    "id": "cefaleia-pos-puncao-dural-001",
     "diagnosis": [
       "cefaleia pós-punção dural"
     ],
@@ -191,6 +205,7 @@
     ]
   },
   {
+    "id": "fibrilacao-atrial-001",
     "diagnosis": [
       "fibrilação atrial",
       "FA"
@@ -205,6 +220,7 @@
     ]
   },
   {
+    "id": "herpes-zoster-001",
     "diagnosis": [
       "herpes-zóster",
       "herpes zoster"
@@ -219,6 +235,7 @@
     ]
   },
   {
+    "id": "transtorno-bipolar-001",
     "diagnosis": [
       "transtorno bipolar",
       "episódio maníaco",
@@ -234,6 +251,7 @@
     ]
   },
   {
+    "id": "demencia-de-alzheimer-001",
     "diagnosis": [
       "demência de Alzheimer",
       "doença de Alzheimer"
@@ -248,6 +266,7 @@
     ]
   },
   {
+    "id": "obstrucao-intestinal-001",
     "diagnosis": [
       "obstrução intestinal"
     ],
@@ -261,6 +280,7 @@
     ]
   },
   {
+    "id": "pielonefrite-aguda-001",
     "diagnosis": [
       "pielonefrite aguda"
     ],
@@ -274,6 +294,7 @@
     ]
   },
   {
+    "id": "invaginacao-intestinal-001",
     "diagnosis": [
       "invaginação intestinal"
     ],
@@ -287,6 +308,7 @@
     ]
   },
   {
+    "id": "hemorragia-pos-parto-001",
     "diagnosis": [
       "hemorragia pós-parto"
     ],
@@ -300,6 +322,7 @@
     ]
   },
   {
+    "id": "toxicidade-sistemica-por-anestesico-local-001",
     "diagnosis": [
       "toxicidade sistêmica por anestésico local",
       "LAST"
@@ -314,6 +337,7 @@
     ]
   },
   {
+    "id": "tamponamento-cardiaco-001",
     "diagnosis": [
       "tamponamento cardíaco"
     ],
@@ -327,6 +351,7 @@
     ]
   },
   {
+    "id": "psoriase-001",
     "diagnosis": [
       "psoríase",
       "psoríase em placas"
@@ -341,6 +366,7 @@
     ]
   },
   {
+    "id": "esquizofrenia-001",
     "diagnosis": [
       "esquizofrenia"
     ],
@@ -354,6 +380,7 @@
     ]
   },
   {
+    "id": "pneumonia-aspirativa-001",
     "diagnosis": [
       "pneumonia aspirativa"
     ],
@@ -367,6 +394,7 @@
     ]
   },
   {
+    "id": "diverticulite-aguda-001",
     "diagnosis": [
       "diverticulite aguda",
       "diverticulite"
@@ -381,6 +409,7 @@
     ]
   },
   {
+    "id": "tromboembolismo-pulmonar-001",
     "diagnosis": [
       "tromboembolismo pulmonar",
       "TEP",
@@ -396,6 +425,7 @@
     ]
   },
   {
+    "id": "estenose-hipertrofica-do-piloro-001",
     "diagnosis": [
       "estenose hipertrófica do piloro"
     ],
@@ -409,6 +439,7 @@
     ]
   },
   {
+    "id": "torcao-ovariana-001",
     "diagnosis": [
       "torção ovariana"
     ],
@@ -422,6 +453,7 @@
     ]
   },
   {
+    "id": "anafilaxia-perioperatoria-001",
     "diagnosis": [
       "anafilaxia perioperatória",
       "anafilaxia"
@@ -436,6 +468,7 @@
     ]
   },
   {
+    "id": "disseccao-de-aorta-001",
     "diagnosis": [
       "dissecção de aorta",
       "dissecção aórtica"
@@ -450,6 +483,7 @@
     ]
   },
   {
+    "id": "melanoma-cutaneo-001",
     "diagnosis": [
       "melanoma cutâneo",
       "melanoma"
@@ -464,6 +498,7 @@
     ]
   },
   {
+    "id": "transtorno-de-panico-001",
     "diagnosis": [
       "transtorno de pânico",
       "síndrome do pânico"
@@ -478,6 +513,7 @@
     ]
   },
   {
+    "id": "fratura-de-colo-de-femur-001",
     "diagnosis": [
       "fratura de colo de fêmur",
       "fratura de quadril"
@@ -492,6 +528,7 @@
     ]
   },
   {
+    "id": "hernia-inguinal-encarcerada-001",
     "diagnosis": [
       "hérnia inguinal encarcerada",
       "hérnia encarcerada"
@@ -506,6 +543,7 @@
     ]
   },
   {
+    "id": "cirrose-hepatica-descompensada-001",
     "diagnosis": [
       "cirrose hepática descompensada",
       "cirrose descompensada"
@@ -520,6 +558,7 @@
     ]
   },
   {
+    "id": "glomerulonefrite-pos-estreptococica-infantil-001",
     "diagnosis": [
       "glomerulonefrite pós-estreptocócica infantil"
     ],
@@ -533,6 +572,7 @@
     ]
   },
   {
+    "id": "descolamento-prematuro-de-placenta-001",
     "diagnosis": [
       "descolamento prematuro de placenta",
       "DPP"
@@ -547,6 +587,7 @@
     ]
   },
   {
+    "id": "depressao-geriatrica-001",
     "diagnosis": [
       "depressão geriátrica",
       "episódio depressivo no idoso"

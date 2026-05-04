@@ -2,7 +2,7 @@ export const DEFAULT_GAME_CONFIG = {
   timezone: 'America/Sao_Paulo',
   rotationStartDay: Math.floor(Date.UTC(2026, 4, 2) / 86400000),
   pointsByHint: [100, 80, 60, 40, 20],
-  firstHintBonus: 20,
+  firstHintBonus: 0,
   storagePrefix: 'cliniquei'
 };
 
@@ -400,8 +400,37 @@ export function isCorrectAnswer(answer, caseData){
 }
 
 export function calculatePoints(revealedHints, config = DEFAULT_GAME_CONFIG){
-  const base = config.pointsByHint[Math.max(0, revealedHints - 1)] || 0;
-  return base + (revealedHints === 1 ? config.firstHintBonus : 0);
+  return config.pointsByHint[Math.max(0, revealedHints - 1)] || 0;
+}
+
+export function getCaseStableId(caseData, fallbackIndex = 0){
+  if(caseData?.id) return String(caseData.id);
+  const diagnosis = Array.isArray(caseData?.diagnosis) ? caseData.diagnosis[0] : 'caso';
+  const slug = normalizeAnswer(diagnosis)
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '') || 'caso';
+  return `${slug}-${String(fallbackIndex + 1).padStart(3, '0')}`;
+}
+
+export function createGameResult({
+  caseData,
+  caseDayKey,
+  attempts,
+  hintsUsed,
+  solved,
+  points,
+  finalAnswer,
+  fallbackIndex = 0
+}){
+  return {
+    caseId: getCaseStableId(caseData, fallbackIndex),
+    caseDayKey,
+    attempts: Math.max(0, Number(attempts) || 0),
+    hintsUsed: Math.max(1, Number(hintsUsed) || 1),
+    solved: Boolean(solved),
+    points: Math.max(0, Number(points) || 0),
+    finalAnswer: finalAnswer || null
+  };
 }
 
 export function createInitialGameState(){
@@ -419,6 +448,7 @@ export function createInitialGameState(){
 export function validateCases(cases){
   if(!Array.isArray(cases)) throw new Error('cases.json precisa conter um array.');
   cases.forEach((item, index) => {
+    if(typeof item.id !== 'string' || !item.id.trim()) throw new Error(`Caso ${index + 1} nao tem id estavel.`);
     if(!Array.isArray(item.diagnosis) || item.diagnosis.length === 0) throw new Error(`Caso ${index + 1} não tem diagnosis válido.`);
     if(typeof item.specialty !== 'string' || !item.specialty.trim()) throw new Error(`Caso ${index + 1} não tem specialty válido.`);
     if(!Array.isArray(item.hints) || item.hints.length === 0) throw new Error(`Caso ${index + 1} não tem hints válidos.`);
