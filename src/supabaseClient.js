@@ -98,6 +98,19 @@ export async function signUpWithEmail(email, password){
   });
 }
 
+export async function resendSignupEmail(email){
+  const supabase = await getSupabaseClient();
+  if(!supabase) return { error: new Error('Supabase nao configurado.') };
+
+  return supabase.auth.resend({
+    type: 'signup',
+    email: String(email || '').trim(),
+    options: {
+      emailRedirectTo: window.location.origin + window.location.pathname
+    }
+  });
+}
+
 export async function signOut(){
   const supabase = await getSupabaseClient();
   if(!supabase) return { error: null };

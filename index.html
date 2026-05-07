@@ -211,6 +211,25 @@ body {
 .auth-submit:hover:not(:disabled) { background: var(--blue-dark); color: #fff; }
 .auth-submit:disabled { opacity: 0.5; cursor: default; }
 
+.auth-resend {
+  font-family: 'Geist', system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink);
+  background: transparent;
+  border: none;
+  padding: 2px 0;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--border-2);
+}
+
+.auth-resend[hidden] { display: none; }
+.auth-resend:hover:not(:disabled) { text-decoration-color: var(--ink); }
+.auth-resend:disabled { opacity: 0.45; cursor: default; }
+
 .auth-divider {
   display: flex;
   align-items: center;
@@ -1278,6 +1297,7 @@ body {
       <input class="auth-input" id="auth-email" type="email" placeholder="email" autocomplete="email" />
       <input class="auth-input" id="auth-password" type="password" placeholder="senha" autocomplete="current-password" />
       <div class="auth-message" id="auth-message"></div>
+      <button class="auth-resend" id="auth-resend" type="button" hidden>Reenviar email de confirmacao</button>
       <button class="auth-submit" id="auth-submit" type="submit">Entrar</button>
       <div class="auth-divider">ou</div>
       <button class="auth-google" id="login-google" type="button">Continuar com Google</button>
@@ -1399,6 +1419,7 @@ import {
 import {
   getSupabaseClient,
   isSupabaseConfigured,
+  resendSignupEmail,
   signInWithEmail,
   signInWithGoogle,
   signUpWithEmail,
@@ -1463,7 +1484,10 @@ function getCaseIndexForDate(date=new Date()){ return getLogicCaseIndexForDate(C
 function getCaseDateWithOffset(offset,date=new Date()){ return getLogicCaseDateWithOffset(offset, date, GAME_CONFIG); }
 function isSameCaseDay(a,b){ return isSameLogicCaseDay(a, b, GAME_CONFIG); }
 function getCaseDayStartTimestamp(dayNumber){ return getLogicCaseDayStartTimestamp(dayNumber, GAME_CONFIG); }
-function getGameStorageKey(){ return getLogicGameStorageKey(CASE_DAY_KEY, GAME_CONFIG); }
+function getGameStorageKey(user=authUser){
+  const baseKey = getLogicGameStorageKey(CASE_DAY_KEY, GAME_CONFIG);
+  return user?.id ? `${baseKey}:user:${user.id}` : baseKey;
+}
 function resetResultMessageStyles(el){
   el.style.background='';
   el.style.borderColor='';
@@ -1473,6 +1497,7 @@ function resetResultMessageStyles(el){
 let rev=1, att=0, over=false, results=[], wrongAnswers=[], chatHistory=[], solved=false, finalPoints=0, finalHintsUsed=1, finalAnswer='', countdownTimer=null;
 let authUser=null, caseAttemptId=null, submitting=false;
 let authMode='signin';
+let pendingSignupEmail='';
 
 function getTrackingContext(){
   return {
@@ -1513,6 +1538,7 @@ function setAuthMode(mode){
   document.getElementById('auth-password').autocomplete = isSignup ? 'new-password' : 'current-password';
   document.getElementById('auth-tab-signin').classList.toggle('active', !isSignup);
   document.getElementById('auth-tab-signup').classList.toggle('active', isSignup);
+  document.getElementById('auth-resend').hidden = true;
   setAuthMessage('', '');
 }
 
@@ -1525,9 +1551,15 @@ function setAuthMessage(type, text){
 
 function translateAuthError(error){
   const message = String(error?.message || '');
+  const status = Number(error?.status || error?.__isAuthError && error?.status || 0);
+  if(status === 429 || /rate limit|too many|over.*limit|request this after/i.test(message)) {
+    return 'Muitas tentativas de cadastro agora. Aguarde alguns minutos e tente novamente. Se o email de confirmacao nao chegar, configure o envio de emails no Supabase.';
+  }
   if(/invalid login credentials/i.test(message)) return 'Email ou senha incorretos.';
   if(/password/i.test(message) && /six|6|short/i.test(message)) return 'Use uma senha com pelo menos 6 caracteres.';
   if(/already registered|already exists|user already/i.test(message)) return 'Esse email ja tem uma conta.';
+  if(/redirect/i.test(message)) return 'A URL local precisa estar liberada no Supabase Auth.';
+  if(/signup|signups/i.test(message) && /disabled|not allowed/i.test(message)) return 'Cadastro por email/senha esta desativado no Supabase Auth.';
   if(/email/i.test(message)) return 'Confira o email informado.';
   return message || 'Nao foi possivel concluir. Tente novamente.';
 }
@@ -1542,6 +1574,39 @@ function openAuth(mode='signin'){
 
 function closeAuth(){ document.getElementById('auth-overlay').classList.remove('open'); }
 function handleAuthOverlay(e){ if(e.target===document.getElementById('auth-overlay')) closeAuth(); }
+
+function showSignupConfirmation(email){
+  pendingSignupEmail = email;
+  document.getElementById('auth-resend').hidden = false;
+  setAuthMessage('success', `Conta criada para ${email}. Verifique sua caixa de entrada e spam. Depois da confirmacao, volte aqui e entre com email e senha.`);
+}
+
+async function resendConfirmationEmail(){
+  const email = pendingSignupEmail || document.getElementById('auth-email').value.trim();
+  if(!email){
+    setAuthMessage('error', 'Informe o email para reenviar a confirmacao.');
+    return;
+  }
+
+  const button = document.getElementById('auth-resend');
+  button.disabled = true;
+  let result;
+  try {
+    result = await resendSignupEmail(email);
+  } catch (error) {
+    result = { error };
+  } finally {
+    button.disabled = false;
+  }
+
+  if(result?.error){
+    setAuthMessage('error', translateAuthError(result.error));
+    return;
+  }
+
+  pendingSignupEmail = email;
+  setAuthMessage('success', `Email de confirmacao reenviado para ${email}. Confira tambem Spam, Promocoes e Atualizacoes.`);
+}
 
 async function submitAuthForm(e){
   e.preventDefault();
@@ -1572,7 +1637,7 @@ async function submitAuthForm(e){
   }
 
   if(authMode === 'signup' && !result?.data?.session){
-    setAuthMessage('success', 'Conta criada. Verifique seu email para confirmar o acesso.');
+    showSignupConfirmation(email);
     return;
   }
 
@@ -1666,6 +1731,7 @@ async function initAuth(){
   if(!supabase) return;
   const { data } = await supabase.auth.getSession();
   authUser = data.session?.user || null;
+  init();
 
   if(authUser){
     await upsertProfile(authUser);
@@ -1678,6 +1744,7 @@ async function initAuth(){
   supabase.auth.onAuthStateChange(async (_event, session) => {
     authUser = session?.user || null;
     caseAttemptId = null;
+    init();
     if(authUser){
       await upsertProfile(authUser);
       await beginTrackedAttempt();
@@ -1693,6 +1760,7 @@ document.getElementById('account-profile').addEventListener('click', openProfile
 document.getElementById('auth-tab-signin').addEventListener('click', () => setAuthMode('signin'));
 document.getElementById('auth-tab-signup').addEventListener('click', () => setAuthMode('signup'));
 document.getElementById('auth-form').addEventListener('submit', submitAuthForm);
+document.getElementById('auth-resend').addEventListener('click', resendConfirmationEmail);
 document.getElementById('login-google').addEventListener('click', () => { signInWithGoogle(); });
 document.getElementById('logout').addEventListener('click', async () => { await signOut(); closeProfile(); });
 
