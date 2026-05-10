@@ -14,7 +14,8 @@ export function getSupabaseConfig(){
   const stored = readStoredConfig();
   return {
     url: runtime.url || stored.url || '',
-    anonKey: runtime.anonKey || stored.anonKey || ''
+    anonKey: runtime.anonKey || stored.anonKey || '',
+    redirectTo: runtime.redirectTo || stored.redirectTo || runtime.siteUrl || stored.siteUrl || ''
   };
 }
 
@@ -63,6 +64,21 @@ export async function getCurrentSession(){
   return data.session || null;
 }
 
+export function getAuthRedirectUrl(){
+  const config = getSupabaseConfig();
+  const explicitRedirect = String(config.redirectTo || '').trim();
+
+  if(explicitRedirect) {
+    try {
+      return new URL(explicitRedirect, window.location.href).toString();
+    } catch (e) {
+      console.warn('URL de redirecionamento Supabase invalida.', e);
+    }
+  }
+
+  return new URL(window.location.pathname || '/', window.location.origin).toString();
+}
+
 export async function signInWithGoogle(){
   const supabase = await getSupabaseClient();
   if(!supabase) return { error: new Error('Supabase nao configurado.') };
@@ -70,7 +86,7 @@ export async function signInWithGoogle(){
   return supabase.auth.signInWithOAuth({
     provider: 'google',
     options: {
-      redirectTo: window.location.origin + window.location.pathname
+      redirectTo: getAuthRedirectUrl()
     }
   });
 }
@@ -93,7 +109,7 @@ export async function signUpWithEmail(email, password){
     email: String(email || '').trim(),
     password: String(password || ''),
     options: {
-      emailRedirectTo: window.location.origin + window.location.pathname
+      emailRedirectTo: getAuthRedirectUrl()
     }
   });
 }
@@ -106,7 +122,7 @@ export async function resendSignupEmail(email){
     type: 'signup',
     email: String(email || '').trim(),
     options: {
-      emailRedirectTo: window.location.origin + window.location.pathname
+      emailRedirectTo: getAuthRedirectUrl()
     }
   });
 }
