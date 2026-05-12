@@ -256,13 +256,13 @@ export function shortenOpeningHintClinical(hint){
     .split(/\b(?:diz que|conta que|ela comenta que|ele comenta que|nega|mas|porem|por[ée]m)\b/i)[0]
     .trim();
 
-  const subjectMatch = coreSentence.match(/^((?:homem|mulher|paciente|lactente|crianca|adolescente|idoso|recem-nascido|rn|bebe)[^,.;]*?)(?=(?:\s+(?:chega|procura|comparece|deu entrada|e trazido|foi trazido|e levado|foi levado|relata|refere|apresenta)\b|,))/i);
+  const subjectMatch = coreSentence.match(/^((?:homem|mulher|paciente|lactente|crianca|adolescente|idoso|recem-nascido|rn|bebe)[^,.;]*?)(?=(?:\s+(?:chega|procura|comparece|deu entrada|e trazido|foi trazido|e levado|foi levado|relata|refere|apresenta|passa a apresentar|evolui com|desenvolve)\b|,))/i);
   const subject = subjectMatch ? subjectMatch[1].trim() : '';
   let complaint = subject ? coreSentence.slice(subjectMatch[0].length).trim() : coreSentence;
 
   complaint = complaint
     .replace(/^(?:,|\s)+/, '')
-    .replace(/^(?:(?:chega(?: ao ps| ao pronto atendimento)?|procura atendimento|procura o pronto atendimento|comparece(?: ao ps| ao pronto atendimento)?|deu entrada(?: no ps| no pronto atendimento)?|e trazido(?: pela mae| pelos pais)?|foi trazido(?: pela mae| pelos pais)?|e levado|foi levado|relatando|referindo|refere|relata|apresentando|apresenta|com|por)\b[\s,]*)+/gi, '')
+    .replace(/^(?:(?:chega(?: ao ps| ao pronto atendimento)?|procura atendimento|procura o pronto atendimento|comparece(?: ao ps| ao pronto atendimento)?|deu entrada(?: no ps| no pronto atendimento)?|e trazido(?: pela mae| pelos pais)?|foi trazido(?: pela mae| pelos pais)?|e levado|foi levado|relatando|referindo|refere|relata|apresentando|apresenta|passa a apresentar|evolui com|desenvolve|com|por)\b[\s,]*)+/gi, '')
     .replace(/\s+,/g, ',')
     .replace(/\s{2,}/g, ' ')
     .trim();
@@ -279,12 +279,15 @@ export function shortenOpeningHintClinical(hint){
 
   complaint = complaint.replace(/\s{2,}/g, ' ').replace(/\s+([,.;:])/g, '$1').trim();
   const isPediatric = /^(lactente|crianca|recem-nascido|rn|bebe)/i.test(subject);
+  const isHospitalized = /\binternad[oa]s?\b/i.test(subject);
   let compact = '';
   const proceduralOpening = /^(previamente\b|em procedimento\b|sob\b|durante\b)/i.test(complaint);
 
   if(subject && complaint){
     if(proceduralOpening){
       compact = `${subject}, ${complaint}`;
+    } else if(isHospitalized){
+      compact = `${subject} passa a apresentar ${complaint}`;
     } else {
       compact = isPediatric
         ? `${subject} foi trazido ao PS com ${complaint}`
@@ -298,7 +301,6 @@ export function shortenOpeningHintClinical(hint){
 
   compact = compact.replace(/\s{2,}/g, ' ').replace(/\s+([,.;:])/g, '$1').trim();
   if(!/[.!?]$/.test(compact)) compact += '.';
-  if(compact.length > 120) compact = `${compact.slice(0, 117).trimEnd()}...`;
   return compact;
 }
 
@@ -310,7 +312,6 @@ export function buildProgressiveHints(hints){
     .sort((a, b) => a.tier - b.tier || a.score - b.score || a.index - b.index)
     .map(item => item.hint);
 
-  ordered[0] = shortenOpeningHintClinical(ordered[0]);
   return ordered.map(normalizeHintPortuguese);
 }
 

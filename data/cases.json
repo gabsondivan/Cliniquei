@@ -1,17 +1,16 @@
 [
   {
-    "id": "apendicite-aguda-001",
+    "id": "hipertermia-maligna-001",
     "diagnosis": [
-      "apendicite aguda",
-      "apendicite"
+      "hipertermia maligna"
     ],
-    "specialty": "cirurgia geral",
+    "specialty": "anestesiologia",
     "hints": [
-      "Homem de 25 anos chega ao PS relatando dor abdominal ha cerca de 18 horas. Diz que comecou “no meio da barriga”, mal localizada, e foi ficando mais forte ate se concentrar na fossa iliaca direita. Nega episodios parecidos previos.",
-      "Refere anorexia, nauseas e um episodio de vomito. Conta que a dor piora quando anda, sobe escadas ou tosse. Nega diarreia, disuria e corrimento.",
-      "Ao exame, encontra-se em regular estado geral, levemente taquicardico, afebril ou com febre baixa. Abdome com dor localizada em FID, discreta defesa e descompressao dolorosa; restante sem sinais francos de peritonite difusa.",
-      "Hemograma mostra leucocitose moderada com neutrofilia; PCR discretamente elevada. Urina tipo I sem achados que expliquem o quadro.",
-      "USG abdominal evidencia estrutura tubular nao compressivel em FID, espessada, com diametro aumentado e pequena reacao inflamatoria ao redor."
+      "Paciente jovem, previamente higido, em procedimento cirurgico sob anestesia geral, passa a apresentar elevacao progressiva do CO2 expirado poucos minutos apos a inducao.",
+      "A equipe nota taquicardia desproporcional, dificuldade de ventilacao e rigidez muscular, inicialmente percebida como masseterica. Nao ha sangramento importante nem causa cirurgica obvia para a instabilidade.",
+      "Em seguida, instala-se acidose e a temperatura comeca a subir de forma rapida. A urina fica escurecida ao longo da evolucao e surge preocupacao com rabdomiolise.",
+      "Gasometria mostra acidose mista, potassio elevado e aumento de CK nas dosagens subsequentes.",
+      "Trata-se de complicacao farmacogenetica desencadeada no perioperatorio, classicamente relacionada a anestesicos halogenados e succinilcolina."
     ]
   },
   {
@@ -30,47 +29,34 @@
     ]
   },
   {
-    "id": "bronquiolite-viral-aguda-001",
+    "id": "torcao-ovariana-001",
     "diagnosis": [
-      "bronquiolite viral aguda",
-      "bronquiolite"
-    ],
-    "specialty": "pediatria",
-    "hints": [
-      "Lactente de 7 meses e trazido pela mae por coriza e tosse ha 3 dias, com piora importante da respiracao desde a madrugada. Ela comenta que hoje ele mamou menos e ficou mais irritado.",
-      "Teve febre baixa no primeiro dia, mas o que mais chama atencao agora e o chiado e o esforco para respirar. E o primeiro episodio de sibilancia; a mae nega engasgo ou corpo estranho.",
-      "Ao exame, apresenta taquipneia, tiragem subcostal e intercostal leves a moderadas e batimento de asa nasal. Ausculta com sibilos difusos e estertores finos bilaterais.",
-      "Saturacao em ar ambiente em torno de 92–94%, piorando ao choro ou durante a mamada. Sem sinais de toxemia ou foco bacteriano claro ao exame geral.",
-      "Quadro tipico de infeccao viral de vias aereas inferiores em lactente pequeno, mais compativel com bronquiolite do que com asma estabelecida."
-    ]
-  },
-  {
-    "id": "gravidez-ectopica-001",
-    "diagnosis": [
-      "gravidez ectópica",
-      "gestação ectópica"
+      "torção ovariana"
     ],
     "specialty": "ginecologia/obstetrícia",
     "hints": [
-      "Mulher de 29 anos chega ao pronto atendimento por dor em baixo ventre, mais intensa a direita, associada a pequeno sangramento vaginal ha 2 dias. Refere atraso menstrual de quase 7 semanas.",
-      "Diz que a dor comecou em colica e depois ficou mais continua. Tem antecedente de doenca inflamatoria pelvica tratada ha alguns anos. Nega febre e corrimento com odor forte.",
-      "Encontra-se hemodinamicamente estavel, porem dolorosa a palpacao profunda em fossa iliaca direita. Ao exame ginecologico, ha dor a mobilizacao do colo e sensibilidade anexial a direita.",
-      "Teste de gravidez e positivo. Beta-hCG esta acima do esperado para uma ultrassonografia sem evidencia de saco gestacional intrauterino.",
-      "USG transvaginal mostra massa anexial a direita e pequena lamina de liquido livre na pelve, favorecendo o diagnostico de gestacao ectopica."
+      "Mulher de 25 anos chega ao PS com dor pelvica subita, intensa, do lado direito, iniciada ha 4 horas. Conta que a dor veio acompanhada de nauseas e varios vomitos.",
+      "Refere antecedente de cisto ovariano funcional em acompanhamento. Nega atraso menstrual importante e o teste de gravidez e negativo.",
+      "Ao exame, encontra-se muito algiada, com dor localizada em fossa iliaca direita e discreta defesa, porem sem sinais francos de sepse ou irritacao peritoneal difusa.",
+      "Laboratorio pode ser pouco especifico, as vezes com leucocitose discreta apenas. A intensidade da dor contrasta com exames iniciais pouco alterados.",
+      "Ultrassom transvaginal mostra ovario aumentado e edemaciado, com fluxo diminuido ou ausente ao Doppler, sugerindo torcao anexial."
     ]
   },
   {
-    "id": "hipertermia-maligna-001",
+    "id": "insuficiencia-adrenal-primaria-crise-001",
     "diagnosis": [
-      "hipertermia maligna"
+      "insuficiência adrenal primária",
+      "crise adrenal",
+      "crise addisoniana",
+      "doença de Addison"
     ],
-    "specialty": "anestesiologia",
+    "specialty": "clínica médica",
     "hints": [
-      "Paciente jovem, previamente higido, em procedimento cirurgico sob anestesia geral, passa a apresentar elevacao progressiva do CO2 expirado poucos minutos apos a inducao.",
-      "A equipe nota taquicardia desproporcional, dificuldade de ventilacao e rigidez muscular, inicialmente percebida como masseterica. Nao ha sangramento importante nem causa cirurgica obvia para a instabilidade.",
-      "Em seguida, instala-se acidose e a temperatura comeca a subir de forma rapida. A urina fica escurecida ao longo da evolucao e surge preocupacao com rabdomiolise.",
-      "Gasometria mostra acidose mista, potassio elevado e aumento de CK nas dosagens subsequentes.",
-      "Trata-se de complicacao farmacogenetica desencadeada no perioperatorio, classicamente relacionada a anestesicos halogenados e succinilcolina."
+      "Homem de 68 anos apresenta perda de peso, fraqueza, hipotensão postural e dor abdominal vaga há 2 meses.",
+      "Usa corticoide inalatório em dose alta, fez infiltrações articulares recentes e relata hiperpigmentação discreta que atribui ao sol.",
+      "Exames mostram hiponatremia, hipercalemia leve, glicemia baixa-normal e eosinofilia discreta.",
+      "Durante gastroenterite, evolui com confusão, hipotensão persistente e piora da dor abdominal. Não melhora adequadamente com volume.",
+      "Cortisol basal muito baixo e ACTH elevado; resposta inadequada ao teste com cosintropina."
     ]
   },
   {
@@ -90,104 +76,48 @@
     ]
   },
   {
-    "id": "celulite-001",
+    "id": "apendicite-aguda-001",
     "diagnosis": [
-      "celulite"
-    ],
-    "specialty": "dermatologia",
-    "hints": [
-      "Homem de 54 anos procura atendimento por vermelhidao dolorosa na perna esquerda ha 2 dias. Conta que “rachou entre os dedos” apos usar sapato fechado por muito tempo.",
-      "Desde entao, a area foi aumentando e ficou mais quente, inchada e sensivel. Refere febre baixa e mal-estar. E diabetico e tem insuficiencia venosa cronica leve.",
-      "Ao exame, observa-se placa eritematosa mal delimitada em perna esquerda, quente, edemaciada e dolorosa a palpacao. Nao ha flutuacao nem colecao evidente.",
-      "Hemograma mostra leucocitose discreta. Nao ha sinais clinicos de trombose venosa profunda como hipotese principal, embora o edema chame atencao.",
-      "O conjunto favorece infeccao bacteriana de pele e subcutaneo, mais compativel com celulite do que com abscesso ou dermatite inflamatoria."
-    ]
-  },
-  {
-    "id": "transtorno-depressivo-maior-001",
-    "diagnosis": [
-      "transtorno depressivo maior",
-      "depressão maior"
-    ],
-    "specialty": "psiquiatria",
-    "hints": [
-      "Mulher de 36 anos procura consulta referindo que “nao esta conseguindo funcionar” ha cerca de 6 semanas. Descreve tristeza persistente e perda de interesse ate por atividades que antes gostava muito.",
-      "Conta que tem dormido mal, acordando de madrugada, sente-se sem energia e percebeu queda do apetite e do rendimento no trabalho. Nega uso recente de alcool ou outras substancias.",
-      "Durante a entrevista, fala baixo, com lentificacao psicomotora discreta e afeto deprimido. Refere culpa excessiva e dificuldade de concentracao.",
-      "Questionada, nega periodos recentes de euforia, menor necessidade de sono, aumento de energia ou impulsividade que sugiram polo maniaco.",
-      "Quadro sindromico compativel com episodio depressivo maior, a ser manejado apos avaliacao de risco, incluindo ideacao suicida."
-    ]
-  },
-  {
-    "id": "delirium-001",
-    "diagnosis": [
-      "delirium"
-    ],
-    "specialty": "geriatria",
-    "hints": [
-      "Homem de 81 anos internado por infeccao urinaria passa a apresentar, nas ultimas 24 horas, fala desconexa e dificuldade para reconhecer o local onde esta. A familia relata que a mudanca foi abrupta.",
-      "Segundo os familiares, ele vinha com memoria razoavel para o basal e era independente para atividades simples. Hoje alterna momentos de sonolencia com agitacao, sobretudo a noite.",
-      "No exame, chama atencao a dificuldade em manter a atencao durante perguntas curtas e em seguir comandos simples. O nivel de consciencia oscila ao longo da avaliacao.",
-      "Ha fatores precipitantes claros: infeccao aguda, mudanca de ambiente e uso recente de medicacoes sintomaticas. Nao ha deficit focal novo evidente.",
-      "Sindome confusional aguda de curso flutuante, mais compativel com delirium do que com progressao natural de demencia."
-    ]
-  },
-  {
-    "id": "colecistite-aguda-001",
-    "diagnosis": [
-      "colecistite aguda"
+      "apendicite aguda",
+      "apendicite"
     ],
     "specialty": "cirurgia geral",
     "hints": [
-      "Mulher de 43 anos chega ao PS com dor em hipocondrio direito ha cerca de 1 dia, iniciada algumas horas depois de refeicao gordurosa. Refere que ja teve episodios mais leves semelhantes, mas desta vez a dor nao passou.",
-      "Apresenta nauseas, dois episodios de vomito e febre baixa. Nega ictericia evidente e nao percebeu mudanca da cor das fezes ou urina.",
-      "Ao exame, esta desconfortavel, com dor localizada em quadrante superior direito e interrupcao da inspiracao a palpacao profunda da regiao. Sem sinais de irritacao peritoneal difusa.",
-      "Hemograma revela leucocitose; PCR esta elevada. Funcao hepatica pode estar normal ou com alteracoes discretas, sem padrao claro de obstrucao biliar principal.",
-      "Ultrassonografia mostra calculos na vesicula, espessamento parietal e liquido perivesicular, fechando quadro compativel com inflamacao aguda da vesicula biliar."
+      "Homem de 25 anos chega ao PS relatando dor abdominal ha cerca de 18 horas. Diz que comecou “no meio da barriga”, mal localizada, e foi ficando mais forte ate se concentrar na fossa iliaca direita. Nega episodios parecidos previos.",
+      "Refere anorexia, nauseas e um episodio de vomito. Conta que a dor piora quando anda, sobe escadas ou tosse. Nega diarreia, disuria e corrimento.",
+      "Ao exame, encontra-se em regular estado geral, levemente taquicardico, afebril ou com febre baixa. Abdome com dor localizada em FID, discreta defesa e descompressao dolorosa; restante sem sinais francos de peritonite difusa.",
+      "Hemograma mostra leucocitose moderada com neutrofilia; PCR discretamente elevada. Urina tipo I sem achados que expliquem o quadro.",
+      "USG abdominal evidencia estrutura tubular nao compressivel em FID, espessada, com diametro aumentado e pequena reacao inflamatoria ao redor."
     ]
   },
   {
-    "id": "cetoacidose-diabetica-001",
+    "id": "invaginacao-intestinal-002",
     "diagnosis": [
-      "cetoacidose diabética",
-      "CAD"
-    ],
-    "specialty": "clínica médica",
-    "hints": [
-      "Mulher de 24 anos com diabetes tipo 1 chega ao PS bastante prostrada, com vomitos e dor abdominal desde a noite anterior. Relata poliuria e muita sede ha alguns dias, apos quadro gripal.",
-      "Conta que vinha aplicando menos insulina porque estava comendo pouco. Nega uso de alcool ou outras drogas e nao ha historia sugestiva de intoxicacao.",
-      "Ao exame, apresenta desidratacao, taquicardia e respiracao profunda, com padrao que chama atencao ja na porta do atendimento. Halito cetonico e percebido pela equipe.",
-      "Glicemia capilar muito elevada. Gasometria mostra acidemia com bicarbonato reduzido e anion gap aumentado; cetonas estao positivas.",
-      "Descompensacao aguda do diabetes com acidose metabolica e cetose, mais compativel com cetoacidose diabetica do que com estado hiperosmolar isolado."
-    ]
-  },
-  {
-    "id": "doenca-de-kawasaki-001",
-    "diagnosis": [
-      "doença de Kawasaki"
+      "invaginação intestinal",
+      "intussuscepção",
+      "intussuscepção intestinal"
     ],
     "specialty": "pediatria",
     "hints": [
-      "Crianca de 4 anos e trazida pelos pais por febre alta diaria ha 6 dias, sem resposta adequada aos antitermicos usuais. Esta mais irritada que o habitual e recusando alimentacao.",
-      "Nos ultimos dias surgiram olhos vermelhos sem secrecao, labios ressecados e uma “lingua muito vermelha”. Os pais tambem notaram manchas no corpo.",
-      "Ao exame, ha conjuntivite bilateral nao purulenta, exantema polimorfo, linfonodo cervical aumentado e edema de extremidades.",
-      "Nao ha foco evidente de infeccao bacteriana localizada que explique bem a febre persistente. Marcadores inflamatorios encontram-se elevados.",
-      "Sindome vasculitica febril da infancia que exige reconhecimento precoce pelo risco de acometimento coronariano."
+      "Lactente de 9 meses apresenta episódios intermitentes de choro intenso, vômitos e períodos de aparente melhora.",
+      "Teve infecção respiratória recente. No pronto atendimento, está afebril, hidratado limítrofe, abdome pouco distendido.",
+      "A mãe relata fezes mais escuras, mas sem sangramento evidente. Ultrassom inicial é inconclusivo por excesso de gases.",
+      "Entre as crises, a criança parece quase normal, levando a equipe a considerar cólica ou gastroenterite.",
+      "Novo ultrassom durante crise mostra imagem em alvo no quadrante superior direito."
     ]
   },
   {
-    "id": "pre-eclampsia-grave-001",
+    "id": "pielonefrite-aguda-001",
     "diagnosis": [
-      "pré-eclâmpsia grave",
-      "pré-eclâmpsia com sinais de gravidade"
+      "pielonefrite aguda"
     ],
-    "specialty": "ginecologia/obstetrícia",
+    "specialty": "clínica médica",
     "hints": [
-      "Gestante de 32 semanas procura maternidade por cefaleia forte e visao embacada desde o dia anterior. Refere que percebeu inchaco importante nas pernas e nas maos na ultima semana.",
-      "Nega perda de liquido e sangramento vaginal. Relata dor em faixa no andar superior do abdomen, mais a direita, e reducao do bem-estar geral.",
-      "Na admissao, apresenta pressao arterial em niveis francamente elevados, com reflexos vivos ao exame neurologico. Edema e evidente, embora nao seja o principal criterio diagnostico.",
-      "Exames mostram proteinuria importante, elevacao de transaminases e tendencia a plaquetopenia, sugerindo comprometimento sistemico.",
-      "Sindome hipertensiva da gestacao com sinais de gravidade, demandando avaliacao materno-fetal e definicao rapida de conduta obstetrica."
+      "Mulher de 31 anos procura atendimento por febre alta, dor lombar a direita e mal-estar ha 24 horas. Conta que vinha com ardor para urinar e aumento da frequencia miccional ha alguns dias, mas nao procurou atendimento.",
+      "Teve calafrios, nauseas e queda do estado geral. Nega corrimento vaginal e nao tem antecedente de colica renal conhecida.",
+      "Ao exame, esta febril e taquicardica. Apresenta dor a punho-percussao lombar direita, sem sinais de abdomen agudo peritoneal.",
+      "EAS mostra leucocituria e bacteriuria; pode haver nitrito positivo. Hemograma com leucocitose e PCR elevada.",
+      "O conjunto e mais compativel com infeccao urinaria alta do que com cistite simples ou dor musculoesqueletica lombar."
     ]
   },
   {
@@ -202,21 +132,6 @@
       "Ao exame, encontra-se consciente, sem alteracao do nivel de consciencia e sem sinais de infeccao no local da puncao. Pressao arterial esta normal para o contexto.",
       "O padrao postural da dor chama mais atencao do que a intensidade isolada. Nao ha historia que sugira crise hipertensiva ou hemorragia intracraniana.",
       "Complicacao tipica apos puncao da dura-mater, relacionada a perda liquorica e queda da pressao do liquor."
-    ]
-  },
-  {
-    "id": "fibrilacao-atrial-001",
-    "diagnosis": [
-      "fibrilação atrial",
-      "FA"
-    ],
-    "specialty": "cardiologia",
-    "hints": [
-      "Homem de 73 anos procura atendimento por palpitacoes e cansaco ha 2 dias. Diz que o coracao ficou “batendo descompassado” e que desde entao se sente mais indisposto para caminhar.",
-      "Tem antecedente de hipertensao de longa data e apneia do sono. Nega dor toracica tipica, mas refere leve falta de ar ao esforco.",
-      "No exame, o pulso e irregularmente irregular, com frequencia variavel. Ausculta cardiaca sem sopro novo importante e sem sinais francos de instabilidade hemodinamica.",
-      "Eletrocardiograma mostra ausencia de ondas P organizadas e irregularidade dos intervalos RR.",
-      "Arritmia supraventricular muito prevalente no idoso, frequentemente associada a hipertensao, remodelamento atrial e outras comorbidades cardiovasculares."
     ]
   },
   {
@@ -235,37 +150,6 @@
     ]
   },
   {
-    "id": "transtorno-bipolar-001",
-    "diagnosis": [
-      "transtorno bipolar",
-      "episódio maníaco",
-      "mania"
-    ],
-    "specialty": "psiquiatria",
-    "hints": [
-      "Homem de 28 anos e levado pela familia apos uma semana de comportamento muito diferente do habitual. Esta dormindo pouco, falando demais e fazendo planos grandiosos sem base real.",
-      "Familiares relatam aumento de gastos, irritabilidade quando contrariado e impulsividade sexual recente. Houve um periodo de humor deprimido meses antes, mas ele nunca tratou.",
-      "Na entrevista, mostra-se expansivo, com fala pressionada, pensamento acelerado e distraibilidade. O insight e bastante limitado.",
-      "Nega uso recente de cocaina ou anfetaminas, embora a diferenciacao com causas induzidas por substancias precise sempre ser considerada.",
-      "Episodio compativel com mania, dentro do espectro do transtorno bipolar."
-    ]
-  },
-  {
-    "id": "demencia-de-alzheimer-001",
-    "diagnosis": [
-      "demência de Alzheimer",
-      "doença de Alzheimer"
-    ],
-    "specialty": "geriatria",
-    "hints": [
-      "Mulher de 78 anos vem a consulta acompanhada da filha por esquecimento progressivo ha cerca de 3 anos. A principal queixa e repetir perguntas, perder compromissos e esquecer conversas recentes.",
-      "A filha conta que ela ainda reconhece familiares, mas ja teve dificuldade para lidar com contas, remedios e tarefas domesticas mais complexas. O inicio foi insidioso, sem ponto de virada claro.",
-      "No exame cognitivo, ha prejuizo predominante de memoria episodica recente, com linguagem relativamente preservada no inicio, embora ja aparecam pausas para nomeacao.",
-      "Nao ha rebaixamento agudo do nivel de consciencia, flutuacao importante da atencao ou sinais neurologicos focais exuberantes no momento.",
-      "Sindome demencial neurodegenerativa de evolucao lenta, com padrao mais compativel com doenca de Alzheimer."
-    ]
-  },
-  {
     "id": "obstrucao-intestinal-001",
     "diagnosis": [
       "obstrução intestinal"
@@ -280,325 +164,271 @@
     ]
   },
   {
-    "id": "pielonefrite-aguda-001",
+    "id": "tromboembolismo-pulmonar-submacico-001",
     "diagnosis": [
-      "pielonefrite aguda"
+      "tromboembolismo pulmonar submaciço",
+      "tromboembolismo pulmonar intermediário risco",
+      "tromboembolismo pulmonar de risco intermediário",
+      "TEP submaciço",
+      "TEP intermediário risco",
+      "embolia pulmonar submaciça"
     ],
     "specialty": "clínica médica",
     "hints": [
-      "Mulher de 31 anos procura atendimento por febre alta, dor lombar a direita e mal-estar ha 24 horas. Conta que vinha com ardor para urinar e aumento da frequencia miccional ha alguns dias, mas nao procurou atendimento.",
-      "Teve calafrios, nauseas e queda do estado geral. Nega corrimento vaginal e nao tem antecedente de colica renal conhecida.",
-      "Ao exame, esta febril e taquicardica. Apresenta dor a punho-percussao lombar direita, sem sinais de abdomen agudo peritoneal.",
-      "EAS mostra leucocituria e bacteriuria; pode haver nitrito positivo. Hemograma com leucocitose e PCR elevada.",
-      "O conjunto e mais compativel com infeccao urinaria alta do que com cistite simples ou dor musculoesqueletica lombar."
+      "Mulher de 54 anos procura atendimento por dispneia progressiva há 3 semanas, fadiga e desconforto torácico inespecífico. Refere ansiedade recente e sono ruim.",
+      "Tem história de câncer de mama tratado há 8 anos. Está normotensa, taquicárdica, saturando 93% em ar ambiente. Ausculta pulmonar quase normal.",
+      "ECG mostra taquicardia sinusal e alterações inespecíficas de repolarização. Troponina discretamente elevada. Radiografia de tórax sem consolidação.",
+      "D-dímero elevado. Ecocardiograma mostra ventrículo direito discretamente dilatado, mas sem colapso hemodinâmico. A equipe cogita síndrome coronariana sem supra.",
+      "Angiotomografia mostra múltiplos defeitos de enchimento em artérias pulmonares segmentares bilateralmente, com relação VD/VE aumentada."
     ]
   },
   {
-    "id": "invaginacao-intestinal-001",
+    "id": "amiloidose-cardiaca-transtirretina-selvagem-001",
     "diagnosis": [
-      "invaginação intestinal"
+      "amiloidose cardíaca por transtirretina",
+      "amiloidose ATTR",
+      "amiloidose cardíaca ATTR",
+      "amiloidose por transtirretina forma selvagem",
+      "ATTR selvagem"
+    ],
+    "specialty": "clínica médica",
+    "hints": [
+      "Homem de 72 anos tem dispneia aos esforços, edema de membros inferiores e episódios de tontura.",
+      "Tem história de síndrome do túnel do carpo bilateral operada, lombalgia crônica e intolerância progressiva a anti-hipertensivos.",
+      "ECG mostra baixa voltagem nos membros, mas ecocardiograma revela aumento importante da espessura ventricular.",
+      "NT-proBNP muito elevado, função renal limítrofe, proteinúria discreta. Cintilografia óssea cardíaca é fortemente positiva.",
+      "Pesquisa de cadeias leves séricas e urinárias é negativa; cintilografia com traçador ósseo grau 3."
+    ]
+  },
+  {
+    "id": "doenca-de-kawasaki-incompleta-001",
+    "diagnosis": [
+      "doença de Kawasaki incompleta",
+      "Kawasaki incompleta",
+      "doença de Kawasaki com acometimento coronariano"
     ],
     "specialty": "pediatria",
     "hints": [
-      "Lactente de 9 meses e levado ao PS por crises subitas de choro intenso desde a madrugada. Entre os episodios, chega a ficar sonolento e depois volta a chorar puxando as pernas sobre o abdomen.",
-      "Os pais relatam vomitos e notaram uma evacuacao pequena com muco e sangue poucas horas antes da chegada. Nao sabem dizer se houve febre.",
-      "Ao exame, a crianca alterna prostracao com irritabilidade. Abdomen sem distensao exuberante, mas e palpada massa alongada em hemiabdome direito.",
-      "A apresentacao pode inicialmente confundir com gastroenterite ou colica intensa, principalmente se o sangramento ainda nao estiver evidente.",
-      "Ultrassom abdominal mostra imagem em alvo/pseudorrim, fortemente sugestiva de invaginacao intestinal."
+      "Menino de 4 anos tem febre há 6 dias, irritabilidade e redução do apetite. Foi tratado como virose.",
+      "Apresenta conjuntivite bilateral sem secreção, lábios fissurados e exantema polimorfo, mas sem todos os critérios clássicos.",
+      "PCR e VHS muito elevados, plaquetas inicialmente normais, transaminases discretamente elevadas e urina com piúria estéril.",
+      "A febre persiste apesar de antibiótico. Ecocardiograma inicial é descrito como sem alterações significativas, mas a criança permanece muito inflamada.",
+      "Novo ecocardiograma mostra dilatação de artéria coronária direita com escore Z aumentado."
     ]
   },
   {
-    "id": "hemorragia-pos-parto-001",
+    "id": "sindrome-hemolitico-uremica-toxina-shiga-001",
     "diagnosis": [
-      "hemorragia pós-parto"
+      "síndrome hemolítico-urêmica típica",
+      "síndrome hemolítico-urêmica por toxina Shiga",
+      "SHU típica",
+      "SHU por toxina Shiga"
     ],
-    "specialty": "ginecologia/obstetrícia",
+    "specialty": "pediatria",
     "hints": [
-      "Mulher de 32 anos, poucas horas apos parto vaginal, passa a apresentar sangramento genital em grande quantidade. A equipe nota que ela fica progressivamente mais palida e referindo tontura.",
-      "Teve trabalho de parto prolongado e uso de ocitocina. Nao ha laceracao extensa evidente em uma primeira avaliacao rapida.",
-      "Ao exame, apresenta taquicardia, pressao em queda e utero aumentado, amolecido, palpavel acima do esperado.",
-      "Hemoglobina cai em relacao ao valor do intraparto e ha sinais clinicos claros de perda volemica aguda.",
-      "No contexto descrito, a principal hipotese e hemorragia pos-parto por atonia uterina, sem perder de vista as demais causas do mnemônico “4 Ts”."
+      "Criança de 6 anos apresenta edema palpebral, mal-estar e redução do volume urinário.",
+      "Teve diarreia há 8 dias, inicialmente sem sangue visível. Está pálida, hipertensa leve e irritada.",
+      "Hemograma mostra anemia, plaquetopenia e leucocitose. Creatinina elevada. Urina com hematúria e proteinúria moderada.",
+      "Esfregaço mostra esquizócitos. Coombs direto negativo. A família relata consumo de hambúrguer artesanal em festa.",
+      "Pesquisa fecal/PCR identifica toxina Shiga."
     ]
   },
   {
-    "id": "toxicidade-sistemica-por-anestesico-local-001",
+    "id": "isquemia-mesenterica-aguda-embolica-001",
     "diagnosis": [
-      "toxicidade sistêmica por anestésico local",
-      "LAST"
-    ],
-    "specialty": "anestesiologia",
-    "hints": [
-      "Durante realizacao de bloqueio regional, paciente subitamente refere gosto metalico na boca e “formigamento” ao redor dos labios. Em seguida fica agitado e diz estar ouvindo zumbido.",
-      "Pouco depois, evolui com rebaixamento do nivel de consciencia e crise convulsiva. Nao havia instabilidade hemodinamica antes do procedimento.",
-      "Na sequencia, surgem hipotensao e alteracoes do ritmo cardiaco, fazendo suspeitar de repercussao cardiovascular do evento.",
-      "A temporalidade em relacao a injecao chama atencao e ajuda a distinguir o quadro de hipoglicemia, reacao vasovagal ou crise epileptica primaria.",
-      "Complicacao classica associada a absorcao excessiva ou injecao intravascular acidental de anestesico local."
-    ]
-  },
-  {
-    "id": "tamponamento-cardiaco-001",
-    "diagnosis": [
-      "tamponamento cardíaco"
-    ],
-    "specialty": "cardiologia",
-    "hints": [
-      "Homem de 63 anos com neoplasia pulmonar conhecida procura o PS por piora progressiva da falta de ar e sensacao de peso no peito ao longo de alguns dias. Relata muito cansaco ate para conversar.",
-      "Nega tosse produtiva ou febre alta. Conta que percebe o pescoco mais “inchado” quando fica sentado e piora ao deitar.",
-      "Ao exame, apresenta hipotensao, taquicardia, turgencia jugular e bulhas hipofoneticas. Extremidades frias sugerem baixo debito.",
-      "A monitorizacao pode mostrar pulso paradoxal. O eletrocardiograma pode ter baixa voltagem, embora isso nao seja obrigatorio.",
-      "Ecocardiograma revela derrame pericardico volumoso com sinais de restricao diastolica das camaras direitas, compativel com tamponamento."
-    ]
-  },
-  {
-    "id": "psoriase-001",
-    "diagnosis": [
-      "psoríase",
-      "psoríase em placas"
-    ],
-    "specialty": "dermatologia",
-    "hints": [
-      "Homem de 33 anos procura ambulatorio por lesoes de pele recorrentes ha anos, com piora recente em cotovelos, joelhos e couro cabeludo. Diz que as vezes “esfarela pele” no travesseiro.",
-      "Refere prurido variavel, piora em periodos de estresse e historia familiar de lesoes semelhantes no pai. Nega uso recente de antibiotico ou cosmetico novo.",
-      "Ao exame, ha placas eritematoescamosas bem delimitadas em superficies extensoras, com escamas espessas e secas.",
-      "Observam-se pequenas alteracoes ungueais, incluindo pitting. Nao ha sinais sistemicos de infeccao ou farmacodermia.",
-      "Dermatose inflamatoria cronica compativel com psoriase em placas."
-    ]
-  },
-  {
-    "id": "esquizofrenia-001",
-    "diagnosis": [
-      "esquizofrenia"
-    ],
-    "specialty": "psiquiatria",
-    "hints": [
-      "Homem de 22 anos e trazido pela mae por mudanca progressiva de comportamento nos ultimos meses. Abandonou atividades, isolou-se e passou a desconfiar intensamente das pessoas ao redor.",
-      "Relata ouvir vozes comentando o que ele faz e acredita que vizinhos estao enviando mensagens para ele pela televisao. Nega uso atual de drogas segundo a familia, mas isso ainda precisa ser checado.",
-      "Na entrevista, apresenta discurso por vezes tangencial, contato visual pobre e afeto embotado. O autocuidado esta claramente prejudicado.",
-      "Ha comprometimento funcional importante, com prejuizo academico e social que nao se explica apenas por ansiedade ou humor deprimido.",
-      "Quadro psicotico persistente com sintomas positivos e negativos, compativel com esquizofrenia apos exclusao de causas organicas e induzidas por substancias."
-    ]
-  },
-  {
-    "id": "pneumonia-aspirativa-001",
-    "diagnosis": [
-      "pneumonia aspirativa"
-    ],
-    "specialty": "geriatria",
-    "hints": [
-      "Homem de 84 anos, institucionalizado e com sequelas de AVC, e levado ao hospital por febre, tosse e sonolencia apos episodio de engasgo durante a alimentacao no dia anterior.",
-      "A cuidadora refere disfagia antiga e varias tosses durante as refeicoes nas ultimas semanas. Nega contato recente com pessoas gripadas.",
-      "Ao exame, esta taquipneico, com roncos e estertores mais evidentes em base pulmonar direita. Saturacao encontra-se abaixo do basal habitual.",
-      "Exames laboratoriais mostram resposta inflamatoria e a gasometria sugere hipoxemia. O estado funcional encontra-se pior do que o habitual.",
-      "Radiografia/TC mostram infiltrado em area dependente, em contexto clinico tipico de pneumonia relacionada a aspiracao."
-    ]
-  },
-  {
-    "id": "diverticulite-aguda-001",
-    "diagnosis": [
-      "diverticulite aguda",
-      "diverticulite"
+      "isquemia mesentérica aguda embólica",
+      "isquemia mesentérica aguda",
+      "oclusão embólica da artéria mesentérica superior"
     ],
     "specialty": "cirurgia geral",
     "hints": [
-      "Mulher de 59 anos procura o PS por dor continua em fossa iliaca esquerda ha 2 dias, associada a febre e piora do apetite. Conta que o intestino “travou” desde o inicio do quadro.",
-      "Refere alguns episodios previos de desconforto abdominal, mas nunca com essa intensidade. Nega sangramento digestivo importante e nao teve vomitos persistentes.",
-      "Ao exame, apresenta dor localizada em quadrante inferior esquerdo com defesa leve, sem sinais de peritonite generalizada.",
-      "Hemograma com leucocitose e PCR elevada. Funcao renal e eletrolitos ajudam a orientar a gravidade e eventual necessidade de contraste para imagem.",
-      "Tomografia evidencia espessamento de sigmoide, diverticulos e densificacao da gordura pericolica, favorecendo diverticulite aguda."
+      "Homem de 76 anos apresenta dor abdominal intensa há 5 horas, náuseas e exame abdominal surpreendentemente pouco expressivo.",
+      "Tem fibrilação atrial, parou anticoagulante por conta própria para procedimento odontológico. Lactato discretamente elevado.",
+      "Tomografia sem contraste mostra achados pouco específicos. A equipe cogita gastroenterite ou pancreatite leve.",
+      "A dor piora, surge acidose metabólica e leucocitose. Amilase discretamente elevada.",
+      "Angiotomografia mostra oclusão embólica da artéria mesentérica superior."
     ]
   },
   {
-    "id": "tromboembolismo-pulmonar-001",
+    "id": "ileo-biliar-001",
     "diagnosis": [
+      "íleo biliar",
+      "obstrução intestinal por cálculo biliar",
+      "gallstone ileus"
+    ],
+    "specialty": "cirurgia geral",
+    "hints": [
+      "Idosa de 82 anos chega com vômitos, distensão abdominal e constipação há 3 dias.",
+      "Tem história de crises antigas de dor em hipocôndrio direito, mas nunca operou. Sem febre importante.",
+      "Radiografia mostra sinais de obstrução de delgado, mas não identifica causa óbvia. Leucocitose leve.",
+      "TC mostra pneumobilia discreta e cálculo ectópico, mas o achado é inicialmente negligenciado.",
+      "Tríade de obstrução intestinal, pneumobilia e cálculo biliar ectópico em íleo distal."
+    ]
+  },
+  {
+    "id": "gangrena-de-fournier-001",
+    "diagnosis": [
+      "gangrena de Fournier",
+      "fasciíte necrosante perineal",
+      "fasciíte necrosante do períneo"
+    ],
+    "specialty": "cirurgia geral",
+    "hints": [
+      "Homem de 59 anos, diabético, apresenta dor perineal mal localizada e mal-estar há 24 horas.",
+      "Ao exame, há eritema discreto e edema local, sem lesão cutânea exuberante. Dor parece desproporcional.",
+      "Evolui com taquicardia, hipotensão leve e leucocitose. Glicemia elevada. A equipe considera celulite simples.",
+      "TC mostra espessamento de partes moles profundas e pequenos focos gasosos.",
+      "Exploração cirúrgica evidencia necrose fascial perineal extensa, maior que a aparência cutânea sugeria."
+    ]
+  },
+  {
+    "id": "gestacao-heterotopica-001",
+    "diagnosis": [
+      "gestação heterotópica",
+      "gravidez heterotópica"
+    ],
+    "specialty": "ginecologia/obstetrícia",
+    "hints": [
+      "Mulher de 34 anos, gestante inicial, apresenta dor pélvica unilateral e pequeno sangramento vaginal.",
+      "Fez fertilização assistida. Ultrassom mostra gestação intrauterina aparentemente viável.",
+      "Apesar disso, mantém dor progressiva, tontura e líquido livre discreto em pelve.",
+      "Beta-hCG não ajuda muito porque já há gestação intrauterina. A hipótese de ectópica é inicialmente descartada.",
+      "Ultrassom transvaginal revisado mostra massa anexial com saco gestacional extrauterino concomitante."
+    ]
+  },
+  {
+    "id": "sindrome-hellp-001",
+    "diagnosis": [
+      "síndrome HELLP",
+      "HELLP"
+    ],
+    "specialty": "ginecologia/obstetrícia",
+    "hints": [
+      "Gestante de 32 semanas apresenta epigastralgia, náuseas e mal-estar, sem queixa obstétrica exuberante.",
+      "Pressão arterial está apenas levemente elevada em uma medida. Sem proteinúria importante inicialmente.",
+      "Plaquetas caindo, AST/ALT elevadas e DHL aumentado. Dor em hipocôndrio direito persiste.",
+      "A equipe cogita gastrite, colelitíase e hepatite viral. Ultrassom abdominal não mostra obstrução biliar.",
+      "Hemólise laboratorial, enzimas hepáticas elevadas e plaquetopenia em gestante no terceiro trimestre."
+    ]
+  },
+  {
+    "id": "tromboflebite-pelvica-septica-pos-parto-001",
+    "diagnosis": [
+      "tromboflebite pélvica séptica pós-parto",
+      "tromboflebite pélvica séptica",
+      "trombose séptica de veia ovariana"
+    ],
+    "specialty": "ginecologia/obstetrícia",
+    "hints": [
+      "Puérpera no quinto dia após cesariana apresenta febre persistente, dor pélvica leve e mal-estar.",
+      "Recebeu antibiótico adequado para endometrite, com melhora parcial da dor, mas febre continua em picos.",
+      "Hemoculturas negativas, ferida operatória sem secreção, ultrassom sem restos ovulares.",
+      "TC mostra achados discretos e inespecíficos em pelve. A equipe troca antibióticos repetidamente.",
+      "Febre persistente pós-parto apesar de antibiótico, com imagem sugerindo trombo em veia pélvica/ovariana."
+    ]
+  },
+  {
+    "id": "purpura-trombocitopenica-trombotica-adquirida-001",
+    "diagnosis": [
+      "púrpura trombocitopênica trombótica adquirida",
+      "purpura trombocitopenica trombotica adquirida",
+      "PTT adquirida",
+      "púrpura trombocitopênica trombótica",
+      "purpura trombocitopenica trombotica"
+    ],
+    "specialty": "hematologia",
+    "hints": [
+      "Mulher de 38 anos chega ao pronto-socorro com mal-estar há 4 dias, cefaleia, náuseas, dor abdominal vaga e episódios breves de confusão. Está afebril no momento, mas refere febre baixa em casa.",
+      "PA 142/88 mmHg, FC 108 bpm. Exame neurológico oscila: ora está orientada, ora apresenta lentificação e dificuldade para nomear objetos. Sem rigidez de nuca. Urina escurecida nas últimas 24 horas. Foi tratada há 1 semana com antibiótico por infecção urinária.",
+      "Hemograma: Hb 8,9 g/dL, plaquetas 18.000/mm³, leucócitos normais. Creatinina 1,6 mg/dL. Bilirrubina indireta elevada, DHL muito alto, haptoglobina indetectável. Coagulograma normal ou quase normal.",
+      "TC de crânio sem sangramento. Líquor sem pleocitose relevante. Culturas ainda negativas. A equipe inicial considera sepse com plaquetopenia, mas a ausência de coagulopatia importante e a flutuação neurológica chamam atenção.",
+      "Esfregaço periférico mostra esquizócitos numerosos; teste de Coombs direto negativo. ADAMTS13 vem posteriormente muito reduzida, com inibidor circulante."
+    ]
+  },
+  {
+    "id": "tromboembolismo-pulmonar-risco-intermediario-001",
+    "diagnosis": [
+      "tromboembolismo pulmonar de risco intermediário",
       "tromboembolismo pulmonar",
+      "embolia pulmonar",
       "TEP",
-      "embolia pulmonar"
+      "TEP de risco intermediário"
+    ],
+    "specialty": "pneumologia",
+    "hints": [
+      "Homem de 61 anos procura atendimento por dispneia progressiva, tosse seca e fadiga há 10 dias. Refere perda de apetite e dor torácica mal localizada, pior ao respirar fundo.",
+      "Tem histórico de neoplasia de próstata em tratamento hormonal. Saturação 91% em ar ambiente, FC 116 bpm, PA 128/76 mmHg. Ausculta com discretos estertores basais. Radiografia de tórax mostra opacidade basal direita pequena, interpretada inicialmente como pneumonia.",
+      "PCR elevada, leucócitos discretamente aumentados. Foi iniciado antibiótico, mas após 24 horas mantém taquicardia e dispneia desproporcionais ao achado radiográfico. Troponina discretamente elevada. BNP elevado. ECG com taquicardia sinusal e alterações inespecíficas de repolarização.",
+      "Gasometria mostra hipoxemia com alcalose respiratória. Ecocardiograma: ventrículo direito dilatado, hipocinesia moderada e pressão sistólica pulmonar estimada elevada. Não há sinais claros de insuficiência ventricular esquerda.",
+      "Angiotomografia de tórax mostra falhas de enchimento em artérias pulmonares segmentares e lobares bilaterais, com relação VD/VE aumentada."
+    ]
+  },
+  {
+    "id": "porfiria-aguda-intermitente-001",
+    "diagnosis": [
+      "porfiria aguda intermitente",
+      "PAI"
     ],
     "specialty": "clínica médica",
     "hints": [
-      "Mulher de 46 anos chega ao PS com falta de ar subita e dor toracica ventilatorio-dependente iniciadas ha poucas horas. Esta no setimo dia de pos-operatorio de cirurgia ortopedica.",
-      "Refere palpitacoes e piora importante ao tentar caminhar. Nega febre alta e tosse produtiva. Conta que a perna esquerda vinha um pouco inchada desde a cirurgia.",
-      "Ao exame, esta taquicardica, taquipneica e com saturacao reduzida em ar ambiente. Ausculta pulmonar pouco expressiva para o grau de dispneia.",
-      "D-dimero pode estar elevado, embora o contexto clinico ja a coloque em cenario de alta probabilidade. Gasometria mostra hipoxemia e hipocapnia em muitos casos.",
-      "Angiotomografia toracica demonstra defeito de enchimento em ramo arterial pulmonar, confirmando tromboembolismo pulmonar."
+      "Mulher de 47 anos chega com dor abdominal recorrente, náuseas, fraqueza e ansiedade intensa. Já teve três atendimentos prévios por quadro semelhante, sempre com exames de imagem abdominais sem alterações relevantes.",
+      "Refere constipação importante, dor em cólica mal localizada e parestesias em membros inferiores. Nega febre. Foi recentemente medicada com anticonvulsivante por episódios descritos como crises de ansiedade com tremores.",
+      "Exame físico: abdome doloroso difusamente, sem peritonite. PA 158/96 mmHg, FC 112 bpm. Sódio sérico 123 mEq/L. Função renal normal. Enzimas hepáticas discretamente elevadas. Tomografia de abdome novamente sem causa cirúrgica.",
+      "Durante a internação, evolui com fraqueza proximal progressiva e urina mais escura após exposição à luz. A hipótese de transtorno psiquiátrico isolado perde força porque há disautonomia, hiponatremia e neuropatia motora em progressão.",
+      "Dosagem urinária durante a crise mostra aumento importante de porfobilinogênio e ácido delta-aminolevulínico."
     ]
   },
   {
-    "id": "estenose-hipertrofica-do-piloro-001",
+    "id": "abscesso-epidural-espinhal-lombar-staphylococcus-aureus-001",
     "diagnosis": [
-      "estenose hipertrófica do piloro"
+      "abscesso epidural espinhal lombar por Staphylococcus aureus",
+      "abscesso epidural espinhal lombar",
+      "abscesso epidural espinhal",
+      "abscesso epidural vertebral",
+      "abscesso epidural medular"
     ],
-    "specialty": "pediatria",
+    "specialty": "infectologia",
     "hints": [
-      "Lactente de 5 semanas e levado pela mae por vomitos progressivos ha 6 dias. Ela descreve episodios em jato logo apos as mamadas, sem conteudo bilioso.",
-      "Apesar disso, o bebe continua com fome depois de vomitar e quer mamar de novo. A familia nota perda de peso e menos fraldas molhadas.",
-      "Ao exame, apresenta sinais de desidratacao leve e podem ser percebidas ondas peristalticas visiveis apos alimentacao. Em alguns momentos, palpa-se pequena massa em epigastrio.",
-      "Gasometria e eletrolitos podem mostrar alcalose metabolica hipocloremica e hipocalemica, sobretudo quando o quadro ja vem ha alguns dias.",
-      "Ultrassom evidencia espessamento e alongamento do piloro, compativeis com estenose hipertrofica do piloro."
+      "Homem de 55 anos, diabético, apresenta febre intermitente, dor lombar e queda do estado geral há 2 semanas. Procurou atendimento por piora da dor e dificuldade para caminhar longas distâncias.",
+      "Relata tratamento recente para celulite em pé direito. Exame: dor à percussão lombar, sem déficit motor evidente inicialmente. Leucócitos 13.500/mm³, PCR e VHS muito elevados. Urina tipo 1 com leucocitúria discreta, levando a hipótese inicial de pielonefrite.",
+      "Após 48 horas de antibiótico para foco urinário, mantém febre e passa a relatar dor radicular. Hemoculturas crescem Staphylococcus aureus. Ultrassom de vias urinárias sem obstrução. A dor lombar é mais intensa do que seria esperado para infecção urinária simples.",
+      "Exame neurológico evolui com fraqueza discreta em dorsiflexão do pé e alteração sensitiva em sela incipiente. A febre não é alta, mas a combinação de bacteremia, dor axial e sinais neurológicos progressivos torna a situação crítica.",
+      "Ressonância magnética com contraste mostra coleção epidural posterior em L3-L5, com realce periférico e compressão do saco dural."
     ]
   },
   {
-    "id": "torcao-ovariana-001",
+    "id": "insuficiencia-adrenal-secundaria-apoplexia-hipofisaria-subaguda-001",
     "diagnosis": [
-      "torção ovariana"
+      "insuficiência adrenal secundária por apoplexia hipofisária subaguda",
+      "insuficiência adrenal secundária",
+      "apoplexia hipofisária subaguda",
+      "apoplexia hipofisária"
     ],
-    "specialty": "ginecologia/obstetrícia",
+    "specialty": "endocrinologia",
     "hints": [
-      "Mulher de 25 anos chega ao PS com dor pelvica subita, intensa, do lado direito, iniciada ha 4 horas. Conta que a dor veio acompanhada de nauseas e varios vomitos.",
-      "Refere antecedente de cisto ovariano funcional em acompanhamento. Nega atraso menstrual importante e o teste de gravidez e negativo.",
-      "Ao exame, encontra-se muito algiada, com dor localizada em fossa iliaca direita e discreta defesa, porem sem sinais francos de sepse ou irritacao peritoneal difusa.",
-      "Laboratorio pode ser pouco especifico, as vezes com leucocitose discreta apenas. A intensidade da dor contrasta com exames iniciais pouco alterados.",
-      "Ultrassom transvaginal mostra ovario aumentado e edemaciado, com fluxo diminuido ou ausente ao Doppler, sugerindo torcao anexial."
+      "Mulher de 69 anos chega por fraqueza, confusão leve e queda recente. Familiares relatam que ela não é mais a mesma há cerca de 1 mês, com sonolência diurna e perda de peso.",
+      "Tem hipertensão e usa hidroclorotiazida. PA 102/64 mmHg, FC 96 bpm. Pele discretamente seca. Sódio 119 mEq/L. A hipótese inicial da equipe é hiponatremia por diurético em idosa.",
+      "Após suspensão do diurético e soro fisiológico, o sódio sobe pouco e volta a cair. Osmolaridade sérica baixa, osmolaridade urinária inadequadamente alta, sódio urinário elevado. TSH normal. Cortisol matinal limítrofe-baixo.",
+      "Ela relata cefaleia nova, náuseas, inapetência e piora importante após uma virose recente. Não há edema periférico. Glicemia tende a ficar baixa. A hiponatremia parece SIADH-like, mas há sinais de deficiência hormonal sistêmica.",
+      "Teste de estímulo com ACTH mostra resposta adrenal inadequada; ACTH basal baixo. RM de sela revela lesão hipofisária com sinais de hemorragia subaguda."
     ]
   },
   {
-    "id": "anafilaxia-perioperatoria-001",
+    "id": "leptospirose-grave-forma-de-weil-acometimento-pulmonar-001",
     "diagnosis": [
-      "anafilaxia perioperatória",
-      "anafilaxia"
+      "leptospirose grave forma de Weil com acometimento pulmonar",
+      "leptospirose grave",
+      "forma de Weil",
+      "síndrome de Weil",
+      "doença de Weil"
     ],
-    "specialty": "anestesiologia",
+    "specialty": "infectologia",
     "hints": [
-      "Minutos apos a inducao anestesica, paciente previamente estavel passa a apresentar queda abrupta da pressao arterial e dificuldade ventilatoria. O contexto e de inicio subto, sem perda sanguinea importante.",
-      "A equipe percebe broncoespasmo, aumento das pressoes de via aerea e taquicardia. Lesoes cutaneas podem estar presentes, mas nem sempre sao facilmente visiveis em campo operatorio.",
-      "A hipoxemia piora rapidamente e a instabilidade hemodinamica chama atencao para mecanismo distributivo importante.",
-      "A relacao temporal com exposicao a antibiotico, bloqueador neuromuscular, latex ou outro agente do perioperatorio e pista fundamental.",
-      "Quadro compativel com reacao de hipersensibilidade sistemica grave no perioperatorio, isto e, anafilaxia perioperatoria."
-    ]
-  },
-  {
-    "id": "disseccao-de-aorta-001",
-    "diagnosis": [
-      "dissecção de aorta",
-      "dissecção aórtica"
-    ],
-    "specialty": "cardiologia",
-    "hints": [
-      "Homem de 64 anos, hipertenso de longa data, procura atendimento por dor toracica muito intensa, subita, descrita como “rasgando”, com irradiacao para dorso.",
-      "A dor comecou em repouso e nao melhora com mudanca de posicao. Nega febre e nao refere quadro respiratorio previo.",
-      "Ao exame, esta ansioso, sudoretico e pode apresentar assimetria de pulsos ou diferenca de pressao entre os bracos. Sopros novos podem ou nao estar presentes.",
-      "Radiografia pode mostrar alargamento de mediastino, embora nao exclua o diagnostico quando normal. Marcadores cardiacos nao explicam o quadro isoladamente.",
-      "Angiotomografia evidencia flap intimal e dupla luz na aorta, confirmando disseccao aortica."
-    ]
-  },
-  {
-    "id": "melanoma-cutaneo-001",
-    "diagnosis": [
-      "melanoma cutâneo",
-      "melanoma"
-    ],
-    "specialty": "dermatologia",
-    "hints": [
-      "Mulher de 41 anos procura dermatologia porque uma pinta nas costas mudou nos ultimos meses. Diz que a lesao ficou maior, mais escura e com formato “estranho”.",
-      "Tem fototipo claro e historia de queimaduras solares repetidas na adolescencia. Nega dor, mas relata cociera eventual no local.",
-      "Ao exame, observa-se lesao pigmentada assimetrica, de bordas irregulares, com variacao de cores e diametro aumentado.",
-      "Nao ha sinais claros de processo inflamatorio local ou trauma recente que justifiquem a mudanca do padrao da lesao.",
-      "A evolucao e os criterios clinicos de assimetria, bordas, cor, diametro e mudanca favorecem suspeita de melanoma cutaneo."
-    ]
-  },
-  {
-    "id": "transtorno-de-panico-001",
-    "diagnosis": [
-      "transtorno de pânico",
-      "síndrome do pânico"
-    ],
-    "specialty": "psiquiatria",
-    "hints": [
-      "Mulher de 31 anos relata episodios subitos de medo intenso que comecam “do nada” e atingem o pico em poucos minutos. Desde entao, passou a evitar sair sozinha por receio de novas crises.",
-      "Durante os episodios, sente palpitacoes, falta de ar, tremores, sudorese e sensacao de que vai morrer ou perder o controle. Entre as crises, fica preocupada antecipando a proxima.",
-      "Ja procurou pronto atendimento algumas vezes pensando em problema cardiaco, mas os exames iniciais foram normais.",
-      "Nao ha uso de substancias estimulantes em quantidade que explique sozinho o quadro, embora cafeina em excesso possa piorar os sintomas.",
-      "Fenomenologia compativel com transtorno de panico, especialmente pela recorrencia dos ataques inesperados e ansiedade antecipatoria."
-    ]
-  },
-  {
-    "id": "fratura-de-colo-de-femur-001",
-    "diagnosis": [
-      "fratura de colo de fêmur",
-      "fratura de quadril"
-    ],
-    "specialty": "geriatria",
-    "hints": [
-      "Mulher de 87 anos e trazida ao hospital apos queda da propria altura em casa. Desde entao, nao conseguiu mais levantar nem apoiar o membro inferior esquerdo.",
-      "Refere dor na virilha e no quadril, pior a qualquer tentativa de mobilizacao. Tem osteoporose conhecida e ja vinha com marcha insegura.",
-      "Ao exame, o membro acometido esta encurtado e em rotacao externa. Dor importante a mobilizacao passiva do quadril.",
-      "Sem trauma de alta energia nem outros ferimentos importantes, o que reforca mecanismo tipico de fratura osteoporotica.",
-      "Radiografia de pelve/quadril confirma fratura proximal do femur, em topografia de colo femoral."
-    ]
-  },
-  {
-    "id": "hernia-inguinal-encarcerada-001",
-    "diagnosis": [
-      "hérnia inguinal encarcerada",
-      "hérnia encarcerada"
-    ],
-    "specialty": "cirurgia geral",
-    "hints": [
-      "Homem de 68 anos procura o PS por abaulamento doloroso em regiao inguinal direita que surgiu apos esforco e nao reduziu como costumava acontecer antes.",
-      "Desde entao, apresenta nauseas, distensao abdominal e dificuldade para eliminar flatos. Nega febre alta, mas refere piora progressiva da dor local.",
-      "Ao exame, observa-se massa inguinal endurecida, dolorosa e irreduzivel, sem sinais claros de peritonite difusa naquele momento.",
-      "A historia de hernia previa conhecida ajuda, mas o cenario atual sugere complicacao mecanica. E importante avaliar sinais de sofrimento de alca.",
-      "O quadro e mais compativel com hernia inguinal encarcerada, com potencial evolucao para estrangulamento se nao abordada."
-    ]
-  },
-  {
-    "id": "cirrose-hepatica-descompensada-001",
-    "diagnosis": [
-      "cirrose hepática descompensada",
-      "cirrose descompensada"
-    ],
-    "specialty": "clínica médica",
-    "hints": [
-      "Homem de 57 anos chega ao ambulatorio ja bastante emagrecido, com aumento progressivo do abdomen e inchaco nas pernas nas ultimas semanas. Tem historia longa de etilismo e episodios previos de ictericia.",
-      "Refere cansaco, perda de apetite e dificuldade para dormir a noite, alem de sonolencia diurna recente. A familia comenta que ele ficou mais lento e as vezes confuso.",
-      "Ao exame, apresenta ascite, edema periferico, circulacao colateral abdominal e estigmas de hepatopatia cronica, como aranhas vasculares.",
-      "Laboratorio mostra albumina baixa, bilirrubina elevada, coagulopatia e plaquetopenia. Funcao renal merece atencao pelo risco de sindrome hepatorrenal.",
-      "Ultrassom evidencia figado de contornos irregulares, sinais de hipertensao portal e ascite, em contexto de cirrose ja descompensada."
-    ]
-  },
-  {
-    "id": "glomerulonefrite-pos-estreptococica-infantil-001",
-    "diagnosis": [
-      "glomerulonefrite pós-estreptocócica infantil"
-    ],
-    "specialty": "pediatria",
-    "hints": [
-      "Menino de 8 anos e trazido ao atendimento porque os pais notaram urina escura e inchaco ao redor dos olhos ao acordar. Ha cerca de duas semanas, teve impetigo tratado de forma irregular.",
-      "Desde ontem, urinou menos e ficou mais indisposto. Nega dor lombar e nao refere eliminacao de coagulos.",
-      "Ao exame, apresenta edema periorbitario discreto e pressao arterial acima do esperado para a idade.",
-      "EAS mostra hematúria e proteinúria nao nefrotica; sedimento com cilindros hematicos. Complemento C3 encontra-se reduzido.",
-      "Sindome nefritica aguda em crianca apos infeccao estreptococica cutanea recente, compativel com glomerulonefrite pos-estreptococica."
-    ]
-  },
-  {
-    "id": "descolamento-prematuro-de-placenta-001",
-    "diagnosis": [
-      "descolamento prematuro de placenta",
-      "DPP"
-    ],
-    "specialty": "ginecologia/obstetrícia",
-    "hints": [
-      "Gestante de 34 semanas procura maternidade por dor abdominal subita e sangramento vaginal escuro de pequena a moderada quantidade. Diz que o bebe mexeu menos desde o inicio do quadro.",
-      "Tem antecedente de hipertensao na gestacao atual. Nega perda de liquido e nao refere trauma evidente, embora nem sempre haja fator precipitante claro.",
-      "Ao exame, o utero esta endurecido e doloroso, sem relaxamento adequado entre as contracoes. A gestante encontra-se ansiosa e bastante algiada.",
-      "A cardiotocografia pode mostrar sinais de sofrimento fetal. Em casos mais graves, ha consumo de fatores de coagulacao e instabilidade materna.",
-      "Emergencia obstetrica compativel com descolamento prematuro de placenta normoinserida."
-    ]
-  },
-  {
-    "id": "depressao-geriatrica-001",
-    "diagnosis": [
-      "depressão geriátrica",
-      "episódio depressivo no idoso"
-    ],
-    "specialty": "geriatria",
-    "hints": [
-      "Homem de 76 anos vem a consulta acompanhado da filha por desanimo progressivo, isolamento e perda de interesse desde o falecimento da esposa, ha alguns meses. Ele diz que “nao ve mais graca em nada”.",
-      "Perdeu peso, passou a dormir mal e reduziu bastante as atividades que antes mantinha. Queixa-se de memoria ruim, mas a familia percebe mais lentificacao e falta de iniciativa do que esquecimento franco progressivo.",
-      "Na entrevista, fala pouco, mantem humor rebaixado e mostra-se pessimista em relacao ao futuro. Nao ha flutuacao aguda da atencao nem rebaixamento do nivel de consciencia.",
-      "E importante investigar luto complicado, comorbidades clinicas, efeitos de medicamentos e risco de suicidio, que pode ser subestimado nessa faixa etaria.",
-      "Quadro mais compativel com episodio depressivo no idoso do que com demencia primariamente degenerativa isolada."
+      "Homem de 42 anos apresenta febre diária há 12 dias, mialgia intensa, dor abdominal leve e mal-estar profundo. Foi atendido duas vezes com hipótese de virose.",
+      "Trabalha em área rural e teve contato recente com água de enchente. Está ictérico, mas sem colúria muito marcada. PA 94/58 mmHg, FC 118 bpm. Conjuntivas hiperemiadas. A ausculta pulmonar tem crepitações discretas.",
+      "Exames: plaquetas 62.000/mm³, creatinina 2,4 mg/dL, ureia elevada, bilirrubina total 6,8 mg/dL com predomínio direto, transaminases apenas moderadamente elevadas. CPK discretamente aumentada. Radiografia de tórax com infiltrado intersticial bilateral.",
+      "A equipe considera hepatite viral grave ou dengue complicada, mas a combinação de insuficiência renal aguda, icterícia desproporcional às transaminases, plaquetopenia e hiperemia conjuntival aponta para outro eixo fisiopatológico. Evolui com hemoptise discreta e piora da hipoxemia.",
+      "Sorologia pareada e/ou PCR confirmam infecção por Leptospira; o quadro fecha com forma ictérica grave associada a comprometimento renal e pulmonar."
     ]
   }
 ]
