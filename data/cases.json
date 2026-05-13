@@ -1,5 +1,1555 @@
 [
   {
+    "id": "infarto-agudo-do-miocardio-de-parede-inferior-com-acometimento-de-vd-pdf-001",
+    "diagnosis": [
+      "Infarto Agudo do Miocárdio de Parede Inferior (com acometimento de VD)",
+      "Infarto Agudo do Miocárdio de Parede Inferior",
+      "acometimento VD",
+      "IAM",
+      "IAM inferior",
+      "infarto inferior"
+    ],
+    "specialty": "cardiologia",
+    "hints": [
+      "Homem de 62 anos, hipertenso e diabético, chega à UPA referindo desconforto epigástrico e náuseas que iniciaram há 1 hora, após o almoço.",
+      "O paciente tomou um antiácido em casa acreditando ser \"má digestão\", mas a dor não aliviou e passou a irradiar para a mandíbula.",
+      "Ao exame, apresenta-se sudoreico, pálido, com PA 110x70 mmHg e FC 55 bpm. Ausculta cardíaca e pulmonar sem alterações.",
+      "Foi administrado nitrato sublingual na triagem, o que causou queda abrupta da pressão arterial (PA 80x50 mmHg), revertida com reposição de soro fisiológico.",
+      "O ECG de admissão revela supradesnivelamento do segmento ST nas derivações DII, DIII e aVF."
+    ]
+  },
+  {
+    "id": "tromboembolismo-pulmonar-tep-trombose-venosa-profunda-tvp-pdf-002",
+    "diagnosis": [
+      "Tromboembolismo Pulmonar (TEP)/Trombose Venosa Profunda (TVP)",
+      "Tromboembolismo Pulmonar/Trombose Venosa Profunda",
+      "TEP",
+      "TVP",
+      "Tromboembolismo Pulmonar (TEP)",
+      "Trombose Venosa Profunda (TVP)",
+      "embolia pulmonar",
+      "trombose venosa profunda"
+    ],
+    "specialty": "pneumologia",
+    "hints": [
+      "Mulher de 45 anos chega à emergência referindo falta de ar de início súbito e dor torácica à direita ao respirar fundo, iniciadas há 3 horas.",
+      "Tem antecedente de obesidade e relata ter retornado ontem de uma viagem internacional de avião que durou 14 horas. Faz uso de anticoncepcional oral.",
+      "Ao exame físico: taquipneica (FR 26 irpm), taquicárdica (FC 112 bpm), com saturação de O2 de 89% em ar ambiente.",
+      "O membro inferior esquerdo apresenta edema assimétrico (panturrilha E maior que a D), empastamento muscular e dor à palpação profunda.",
+      "O exame de Dímero-D está fortemente elevado. A angio-TC de tórax evidencia falha de enchimento em artéria pulmonar principal direita."
+    ]
+  },
+  {
+    "id": "apendicite-aguda-pdf-003",
+    "diagnosis": [
+      "Apendicite Aguda"
+    ],
+    "specialty": "cirurgia geral",
+    "hints": [
+      "Jovem de 18 anos procura o PS com dor periumbilical mal definida que se iniciou há cerca de 12 horas.",
+      "Evoluiu com perda de apetite, náuseas e um episódio de vômito. Relata febre não aferida em casa.",
+      "Na reavaliação médica algumas horas depois, a dor migrou e agora se localiza de forma intensa e contínua no quadrante inferior direito do abdome.",
+      "Ao exame físico, o paciente \"pula\" de dor quando o examinador afunda a mão na fossa ilíaca direita e solta subitamente.",
+      "O hemograma revela leucocitose (14.500/mm³) com desvio à esquerda. O ultrassom mostra uma estrutura tubular em fundo cego, não compressível e com halo hiperemiado."
+    ]
+  },
+  {
+    "id": "hipotireoidismo-tireoidite-de-hashimoto-pdf-004",
+    "diagnosis": [
+      "Hipotireoidismo (Tireoidite de Hashimoto)",
+      "Hipotireoidismo",
+      "Tireoidite Hashimoto"
+    ],
+    "specialty": "endocrinologia",
+    "hints": [
+      "Mulher de 35 anos queixa-se no ambulatório de ganho de peso (5 kg em 6 meses), cansaço constante e constipação intestinal.",
+      "O marido relata que ela anda muito esquecida e \"lenta\". A paciente refere que sente muito frio, mesmo em dias quentes.",
+      "Ao exame, nota-se pele ressecada, cabelos quebradiços, bradicardia (FC 58 bpm) e um discreto aumento indolor na região anterior do pescoço.",
+      "Os exames laboratoriais revelam um TSH significativamente elevado (15 mUI/L) e T4 livre abaixo do limite inferior da normalidade.",
+      "A pesquisa de autoanticorpos demonstra títulos altíssimos de anti-TPO (antimicrossomal) e antitireoglobulina."
+    ]
+  },
+  {
+    "id": "pancreatite-aguda-pdf-005",
+    "diagnosis": [
+      "Pancreatite Aguda"
+    ],
+    "specialty": "gastroenterologia",
+    "hints": [
+      "Homem de 48 anos, etilista diário, chega ao PS com dor abdominal intensa na \"boca do estômago\", iniciada há 6 horas após um churrasco farto.",
+      "A dor é contínua, em faixa, e irradia para as costas. O paciente encontra-se curvado para frente em posição antálgica (prece maometana).",
+      "Apresenta náuseas intensas e já vomitou 4 vezes desde o início do quadro.",
+      "Ao exame físico, o abdome é globoso, distendido e muito doloroso à palpação epigástrica, com ausência de ruídos hidroaéreos. Discreta equimose periumbilical.",
+      "Exames de sangue mostram amilase e lipase séricas elevadas em mais de três vezes o limite superior da normalidade."
+    ]
+  },
+  {
+    "id": "acidente-vascular-encefalico-isquemico-avei-de-arteria-cerebral-media-esquerda-pdf-006",
+    "diagnosis": [
+      "Acidente Vascular Encefálico Isquêmico (AVEi) de Artéria Cerebral Média esquerda",
+      "Acidente Vascular Encefálico Isquêmico de Artéria Cerebral Média esquerda",
+      "AVEi"
+    ],
+    "specialty": "neurologia",
+    "hints": [
+      "Mulher de 68 anos, hipertensa de longa data e tabagista, é trazida pelo filho ao PS com quadro agudo de fraqueza no lado direito do corpo.",
+      "O filho relata que o quadro começou de forma súbita há cerca de 2 horas, enquanto ela assistia televisão.",
+      "Ao exame neurológico, a paciente entende comandos simples, mas não consegue nomear objetos ou formular frases adequadamente.",
+      "Apresenta hemiparesia direita proporcionada (face, braço e perna) e desvio do olhar conjugado para a esquerda.",
+      "A tomografia computadorizada de crânio sem contraste inicial não mostra áreas de sangramento, mas evidencia sinal da artéria hiperdensa à esquerda."
+    ]
+  },
+  {
+    "id": "gravidez-ectopica-rota-pdf-007",
+    "diagnosis": [
+      "Gravidez Ectópica Rota"
+    ],
+    "specialty": "ginecologia",
+    "hints": [
+      "Mulher de 26 anos dá entrada na emergência trazida pelo SAMU apresentando dor abdominal súbita e intensa na pelve, iniciada há 2 horas.",
+      "Relata ter apresentado \"borra de café\" vaginal há cerca de 3 dias. Refere ciclos menstruais irregulares e não usa método contraceptivo regular.",
+      "Na admissão, encontra-se pálida, sudoreica, com PA de 85x50 mmHg e FC de 125 bpm. Tempo de enchimento capilar lentificado.",
+      "O abdome apresenta descompressão brusca dolorosa difusa. O exame especular mostra colo uterino amolecido e fundo de saco de Douglas abaulado e doloroso.",
+      "O teste rápido confirma presença de beta-hCG positivo. O ultrassom à beira-leito revela útero vazio e líquido livre abundante na cavidade pélvica."
+    ]
+  },
+  {
+    "id": "anemia-falciforme-crise-vaso-oclusiva-pdf-008",
+    "diagnosis": [
+      "Anemia Falciforme (Crise Vaso-oclusiva)",
+      "Anemia Falciforme",
+      "Crise Vaso-oclusiva"
+    ],
+    "specialty": "hematologia",
+    "hints": [
+      "Menino de 8 anos é trazido ao pronto-socorro infantil com dor extrema nas pernas e nos braços.",
+      "A mãe relata que ele já teve episódios semelhantes antes, sempre desencadeados por frio ou infecções. O paciente também apresenta atraso no crescimento.",
+      "Ao exame físico, a criança está febril (37,8°C), ictérica (+/4) e com palidez cutâneo-mucosa evidente. Não há baço palpável.",
+      "O hemograma revela Hb de 7,5 g/dL, VCM preservado e contagem de reticulócitos de 12%.",
+      "O esfregaço de sangue periférico mostra hemácias alongadas em formato de meia-lua ou foice."
+    ]
+  },
+  {
+    "id": "gota-artrite-gotosa-aguda-pdf-009",
+    "diagnosis": [
+      "Gota (Artrite Gotosa Aguda)",
+      "Gota",
+      "Artrite Gotosa Aguda"
+    ],
+    "specialty": "reumatologia",
+    "hints": [
+      "Homem de 55 anos, obeso, acorda no meio da noite com dor extrema, vermelhidão e inchaço no pé direito.",
+      "Ele relata que a dor é tão intensa que não suporta nem o peso do lençol sobre a articulação.",
+      "Na noite anterior, participou de uma festa onde consumiu grande quantidade de carne vermelha e cerveja.",
+      "O exame localiza o processo inflamatório agudo exclusivamente na primeira articulação metatarsofalangiana direita (podagra).",
+      "A artrocentese da articulação afetada revela líquido sinovial turvo com presença de cristais em forma de agulha e com birrefringência negativa à luz polarizada."
+    ]
+  },
+  {
+    "id": "meningite-bacteriana-meningococica-pdf-010",
+    "diagnosis": [
+      "Meningite Bacteriana (Meningocócica)",
+      "Meningite Bacteriana",
+      "Meningocócica"
+    ],
+    "specialty": "infectologia",
+    "hints": [
+      "Jovem de 20 anos, universitário, busca a emergência queixando-se de dor de cabeça insuportável e febre alta (39°C) iniciadas nas últimas 24 horas.",
+      "Relata que a dor piora muito com a luz e que teve episódios de vômitos em jato, sem náuseas prévias.",
+      "Ao deitá-lo na maca e fletir passivamente seu pescoço em direção ao tórax, o paciente flete involuntariamente os joelhos e quadris.",
+      "Observa-se a presença de lesões purpúricas pontilhadas nos membros inferiores que não desaparecem à digitopressão.",
+      "A punção lombar drena um líquido cefalorraquidiano turvo. A análise mostra pleocitose com predomínio de neutrófilos, glicose muito baixa e proteínas altas."
+    ]
+  },
+  {
+    "id": "glaucoma-agudo-de-angulo-fechado-pdf-011",
+    "diagnosis": [
+      "Glaucoma Agudo de Ângulo Fechado",
+      "glaucoma agudo",
+      "glaucoma de angulo fechado"
+    ],
+    "specialty": "oftalmologia",
+    "hints": [
+      "Mulher de 60 anos chega à emergência referindo dor ocular direita súbita e lancinante, associada a dor de cabeça ipsilateral.",
+      "A paciente também se queixa de náuseas, vômitos e visão embaçada. Relata enxergar \"halos coloridos\" ao redor das lâmpadas.",
+      "O quadro iniciou-se quando ela foi ao cinema (ambiente escuro) algumas horas antes.",
+      "O exame revela o olho direito hiperemiado, com córnea opaca (edema) e a pupila em média midríase não fotorreagente.",
+      "A tonometria ocular revela uma pressão intraocular (PIO) de 60 mmHg (normal: 10-21 mmHg)."
+    ]
+  },
+  {
+    "id": "asma-bronquica-crise-aguda-pdf-012",
+    "diagnosis": [
+      "Asma Brônquica (Crise Aguda)",
+      "Asma Brônquica",
+      "Crise Aguda",
+      "asma",
+      "crise de asma",
+      "crise asmatica"
+    ],
+    "specialty": "pneumologia",
+    "hints": [
+      "Paciente de 12 anos é trazido ao PS queixando-se de tosse seca e sensação de aperto no peito, que pioraram de madrugada.",
+      "A mãe informa que ele sempre espirra muito e fica com o nariz escorrendo quando há mudança de tempo. O menino parece ansioso e com dificuldade para falar frases completas.",
+      "Ao exame físico, nota-se tiragem intercostal e uso de musculatura acessória. Saturação de 92% em ar ambiente.",
+      "À ausculta pulmonar, ouvem-se sibilos difusos bilaterais, com tempo expiratório marcadamente prolongado.",
+      "O quadro reverteu quase completamente após a inalação com salbutamol (broncodilatador de curta ação)."
+    ]
+  },
+  {
+    "id": "esclerose-multipla-pdf-013",
+    "diagnosis": [
+      "Esclerose Múltipla"
+    ],
+    "specialty": "neurologia",
+    "hints": [
+      "Mulher de 28 anos procura o pronto-socorro queixando-se de embaçamento visual no olho direito, iniciado há 3 dias, associado à dor ao mover o olho.",
+      "Relata que, há cerca de um ano, teve um episódio de dormência e fraqueza na perna esquerda que durou duas semanas e melhorou espontaneamente.",
+      "O exame neurológico atual revela acuidade visual de 20/200 à direita e 20/20 à esquerda. Há defeito pupilar aferente relativo (Sinal de Marcus Gunn) à direita.",
+      "A ressonância magnética do encéfalo evidencia múltiplas lesões hiperintensas em T2 na substância branca periventricular e justacortical.",
+      "A análise do líquido cefalorraquidiano (LCR) demonstra a presença de bandas oligoclonais da classe IgG, ausentes no soro pareado."
+    ]
+  },
+  {
+    "id": "doenca-de-kawasaki-pdf-014",
+    "diagnosis": [
+      "Doença de Kawasaki",
+      "Kawasaki"
+    ],
+    "specialty": "pediatria",
+    "hints": [
+      "Menino de 2 anos é trazido à UPA devido à febre alta (39,5°C) persistente há 6 dias, que não cede com antitérmicos.",
+      "A mãe relata que a criança está irritada, parou de comer e está com os dois olhos \"muito vermelhos\", porém sem remela.",
+      "Ao exame, nota-se erupção cutânea avermelhada no tronco, linfonodo no pescoço de cerca de 2 cm e lábios rachados e sangrantes.",
+      "A língua da criança apresenta papilas proeminentes (aspecto de \"framboesa\"). Observa-se inchaço vermelho e endurecido nas palmas das mãos e plantas dos pés.",
+      "Um ecocardiograma é solicitado de urgência, pois a principal preocupação dessa síndrome é o desenvolvimento de aneurismas nas artérias coronárias."
+    ]
+  },
+  {
+    "id": "leptospirose-sindrome-de-weil-pdf-015",
+    "diagnosis": [
+      "Leptospirose (Síndrome de Weil)",
+      "Leptospirose",
+      "Síndrome Weil"
+    ],
+    "specialty": "infectologia",
+    "hints": [
+      "Homem de 35 anos, trabalhador da construção civil, procura a emergência com quadro de febre de início súbito, dor no corpo intensa e dor de cabeça há 5 dias.",
+      "O paciente destaca que a dor muscular é particularmente insuportável nas panturrilhas, dificultando o caminhar.",
+      "Apresenta-se com pele e olhos amarelados, além de hiperemia conjuntival bilateral, mas sem secreção ocular.",
+      "Laboratório mostra aumento grave de bilirrubinas, plaquetopenia leve e creatinina em 3,0 mg/dL. As transaminases (TGO/TGP) estão apenas moderadamente elevadas (< 500).",
+      "Informa que sua rua alagou completamente após fortes chuvas há cerca de 10 dias e ele ajudou a limpar a água suja e lama descalço."
+    ]
+  },
+  {
+    "id": "colangite-biliar-primaria-cbp-pdf-016",
+    "diagnosis": [
+      "Colangite Biliar Primária (CBP)",
+      "Colangite Biliar Primária",
+      "CBP"
+    ],
+    "specialty": "gastroenterologia",
+    "hints": [
+      "Mulher de 52 anos procura o ambulatório queixando-se de fadiga intensa há cerca de 6 meses, que não melhora com o repouso.",
+      "Queixa-se também de uma coceira no corpo todo, pior nas palmas das mãos e plantas dos pés, que tem atrapalhado seu sono.",
+      "O exame físico revela escoriações por coçadura, icterícia leve e pequenas placas amareladas na pálpebra (xantelasmas). O fígado é palpável a 2 cm do rebordo costal.",
+      "Exames laboratoriais mostram Fosfatase Alcalina e GGT muito elevadas, com transaminases apenas levemente tocadas.",
+      "O ultrassom descarta pedras na vesícula ou dilatação das vias biliares. O exame sorológico revela positividade em altos títulos para o anticorpo antimitocôndria (AMA)."
+    ]
+  },
+  {
+    "id": "lupus-eritematoso-sistemico-les-pdf-017",
+    "diagnosis": [
+      "Lúpus Eritematoso Sistêmico (LES)",
+      "Lúpus Eritematoso Sistêmico",
+      "LES",
+      "lupus"
+    ],
+    "specialty": "reumatologia",
+    "hints": [
+      "Mulher de 25 anos queixa-se de fadiga, perda de peso e dores migratórias nas articulações das mãos e punhos há 3 meses.",
+      "Relata que no último verão, ao ir à praia, desenvolveu uma vermelhidão intensa no rosto que piorava com o sol.",
+      "O exame físico evidencia úlceras indolores no palato duro e um rash eritematoso em ponte nasal e regiões malares, poupando os sulcos nasolabiais.",
+      "Os exames laboratoriais revelam anemia normocítica, leucopenia e um exame de urina com proteinúria e cilindros celulares.",
+      "A investigação sorológica retorna com um Fator Antinuclear (FAN) positivo padrão homogêneo > 1:640, além de Anti-DNA de dupla hélice positivo."
+    ]
+  },
+  {
+    "id": "miastenia-gravis-pdf-018",
+    "diagnosis": [
+      "Miastenia Gravis"
+    ],
+    "specialty": "neurologia",
+    "hints": [
+      "Mulher de 30 anos, professora, procura atendimento por fraqueza muscular que vem piorando nos últimos 2 meses.",
+      "Relata que acorda sentindo-se ótima, mas após dar várias aulas no dia, sua voz vai ficando \"nasalada\" e tem dificuldade para mastigar.",
+      "O marido nota que, no final do dia, a paciente fica com as \"pálpebras caídas\" (ptose) e ela própria relata visão dupla à noite.",
+      "Ao exame, a força muscular piora visivelmente após testes de esforço repetitivo. A sensibilidade e os reflexos neurológicos estão normais.",
+      "O exame de eletroneuromiografia com estimulação nervosa repetitiva mostra padrão decremental. Há positividade para anticorpos antirreceptor de acetilcolina (anti-AChR)."
+    ]
+  },
+  {
+    "id": "oclusao-arterial-aguda-pdf-019",
+    "diagnosis": [
+      "Oclusão Arterial Aguda"
+    ],
+    "specialty": "cirurgia vascular",
+    "hints": [
+      "Homem de 72 anos, portador de Fibrilação Atrial sem uso regular de anticoagulantes, chega ao PS gritando de dor na perna esquerda.",
+      "A dor começou subitamente há 1 hora. Ele não consegue caminhar e sente a perna dormente.",
+      "Ao exame comparativo, o membro inferior esquerdo apresenta-se marcadamente pálido e frio (poiquilotermia) em relação ao direito.",
+      "O paciente não consegue movimentar os dedos do pé esquerdo adequadamente.",
+      "À palpação, os pulsos femoral, poplíteo e distais (pedioso e tibial posterior) estão ausentes à esquerda, mas presentes e cheios à direita."
+    ]
+  },
+  {
+    "id": "doenca-celiaca-pdf-020",
+    "diagnosis": [
+      "Doença Celíaca"
+    ],
+    "specialty": "gastroenterologia",
+    "hints": [
+      "Mulher de 32 anos procura o consultório devido a diarreia pastosa crônica, gases e perda de 6 kg no último ano, apesar de ter bom apetite.",
+      "Relata que frequentemente se sente estufada após comer massas, pães e bolos.",
+      "Apresenta também o aparecimento recente de bolhas muito pruriginosas nos cotovelos e joelhos, que o dermatologista chamou de \"dermatite herpetiforme\".",
+      "O hemograma revela uma anemia ferropriva que não tem respondido ao tratamento com sulfato ferroso oral.",
+      "A endoscopia digestiva alta com biópsia de duodeno revela atrofia de vilosidades e hiperplasia de criptas. A sorologia para o anticorpo antitransglutaminase tecidual IgA é fortemente positiva."
+    ]
+  },
+  {
+    "id": "artrite-reumatoide-pdf-021",
+    "diagnosis": [
+      "Artrite Reumatoide"
+    ],
+    "specialty": "reumatologia",
+    "hints": [
+      "Mulher de 45 anos queixa-se de dor nas articulações das mãos há 6 meses.",
+      "Ela afirma que as juntas acordam duras e \"travadas\", demorando mais de 1 hora para conseguir fechar as mãos completamente pela manhã.",
+      "Ao exame, há inchaço em \"aspecto de fuso\", quente e doloroso afetando as articulações metacarpofalangeanas e interfalangeanas proximais de ambas as mãos, de forma simétrica.",
+      "As articulações interfalangeanas distais (perto das unhas) estão completamente preservadas.",
+      "A radiografia das mãos evidencia osteopenia periarticular e erosões marginais. O exame laboratorial acusa positividade para o anticorpo Anti-CCP."
+    ]
+  },
+  {
+    "id": "cetoacidose-diabetica-em-dm-tipo-1-pdf-022",
+    "diagnosis": [
+      "Cetoacidose Diabética (em DM Tipo 1)",
+      "Cetoacidose Diabética",
+      "DM Tipo 1",
+      "CAD"
+    ],
+    "specialty": "endocrinologia/emergência",
+    "hints": [
+      "Jovem de 19 anos é trazido ao PS letárgico. A família conta que nos últimos 15 dias ele tem urinado demais, bebido muita água e perdido muito peso.",
+      "Desde ontem começou a apresentar náuseas persistentes, dores abdominais inespecíficas e vômitos.",
+      "Ao exame, está desidratado (+++/4), com respiração profunda, rápida e ruidosa (Ritmo de Kussmaul).",
+      "O hálito do paciente tem um cheiro característico de maçã podre ou acetona.",
+      "A gasometria arterial evidencia um pH de 7.10, bicarbonato de 10 mEq/L e glicemia capilar \"HI\" (acima da capacidade de leitura do aparelho, estimado > 500 mg/dL). Há forte cetonúria."
+    ]
+  },
+  {
+    "id": "endocardite-infecciosa-pdf-023",
+    "diagnosis": [
+      "Endocardite Infecciosa"
+    ],
+    "specialty": "infectologia/cardiologia",
+    "hints": [
+      "Homem de 40 anos busca avaliação médica por febre diária vespertina, cansaço e perda de peso há 3 semanas.",
+      "Ao exame físico, detecta-se um sopro sistólico em foco mitral, que o paciente garante não ter nas consultas anteriores.",
+      "O paciente possui histórico de troca de válvula cardíaca há 5 anos e relata ter feito um canal dentário há cerca de 1 mês, sem tomar antibiótico antes.",
+      "Ao exame das mãos, observam-se pequenos nódulos dolorosos nas pontas dos dedos e manchas avermelhadas indolores nas palmas.",
+      "Duas amostras de hemocultura colhidas em intervalos diferentes positivaram para Streptococcus viridans. O ecocardiograma transesofágico revelou uma massa móvel aderida ao folheto valvular."
+    ]
+  },
+  {
+    "id": "gravidez-molar-doenca-trofoblastica-gestacional-pdf-024",
+    "diagnosis": [
+      "Gravidez Molar (Doença Trofoblástica Gestacional)",
+      "Gravidez Molar",
+      "Doença Trofoblástica Gestacional"
+    ],
+    "specialty": "ginecologia/obstetricia",
+    "hints": [
+      "Mulher de 22 anos, nulípara, procura a maternidade relatando atraso menstrual de 10 semanas e sangramento vaginal indolor de cor escura.",
+      "Queixa-se de enjoos terríveis e incoercíveis (hiperêmese), que a impedem de comer qualquer coisa.",
+      "Ao exame físico obstétrico, a altura uterina encontra-se ao nível da cicatriz umbilical, tamanho incompatível (muito maior) do que o esperado para a idade gestacional alegada.",
+      "Não é possível auscultar batimentos cardíacos fetais com o sonar Doppler.",
+      "O exame de beta-hCG sérico retorna com valor extremamente elevado (> 100.000 mUI/mL). O ultrassom pélvico mostra uma cavidade uterina preenchida por inúmeras vesículas, com imagem clássica em \"tempestade de neve\"."
+    ]
+  },
+  {
+    "id": "feocromocitoma-pdf-025",
+    "diagnosis": [
+      "Feocromocitoma"
+    ],
+    "specialty": "endocrinologia",
+    "hints": [
+      "Homem de 34 anos relata no consultório episódios recorrentes de dor de cabeça latejante e suor excessivo que duram de 15 a 20 minutos.",
+      "Durante as crises sente o \"coração saindo pela boca\" e palidez extrema. Os episódios ocorrem de 2 a 3 vezes por semana, do nada.",
+      "Ao exame físico, apresenta PA de 180x110 mmHg e FC de 115 bpm. IMC de 22. O restante do exame físico é inocente.",
+      "O Holter 24h mostrou taquicardia sinusal episódica severa. Exames de rotina evidenciam apenas uma glicemia de jejum de 115 mg/dL.",
+      "A dosagem de metanefrinas urinárias fracionadas retornou com valores três vezes acima do limite superior. Uma TC de abdome mostrou massa em região suprarrenal."
+    ]
+  },
+  {
+    "id": "purpura-trombocitopenica-trombotica-ptt-pdf-026",
+    "diagnosis": [
+      "Púrpura Trombocitopênica Trombótica (PTT)",
+      "Púrpura Trombocitopênica Trombótica",
+      "PTT"
+    ],
+    "specialty": "hematologia",
+    "hints": [
+      "Mulher de 42 anos dá entrada no PS com confusão mental flutuante, fraqueza extrema e febre baixa (37,8°C) iniciados há 2 dias.",
+      "O marido refere que a paciente vinha se queixando de urina escura e percebeu o aparecimento de manchas arroxeadas na pele.",
+      "Ao exame, apresenta-se ictérica, muito descorada e com petéquias disseminadas nos membros. O baço não é palpável.",
+      "Laboratório inicial: Hb 7,8 g/dL, Plaquetas 18.000/mm³, Creatinina 1,8 mg/dL, LDH > 1.500 U/L. Provas de coagulação (TAP e TTPA) totalmente normais.",
+      "O esfregaço de sangue revela numerosos esquizócitos (hemácias fragmentadas em capacete). A doença decorre de deficiência da enzima ADAMTS13."
+    ]
+  },
+  {
+    "id": "sindrome-de-guillain-barre-pdf-027",
+    "diagnosis": [
+      "Síndrome de Guillain-Barré"
+    ],
+    "specialty": "neurologia",
+    "hints": [
+      "Homem de 35 anos queixa-se de formigamento nos pés e fraqueza nas pernas que iniciou há 3 dias e tem piorado diariamente.",
+      "Hoje, o paciente mal consegue ficar em pé e a fraqueza começou a ascender, acometendo também as mãos e os braços.",
+      "Relata que teve um quadro de diarreia forte com muco e sangue (suspeita de Campylobacter jejuni) há cerca de duas semanas.",
+      "Ao exame neurológico, nota-se fraqueza muscular flácida global e arreflexia profunda (ausência de reflexos patelares, aquileus e bicipitais).",
+      "O líquor coletado revela hiperproteinorraquia com contagem celular normal (dissociação proteíno-citológica)."
+    ]
+  },
+  {
+    "id": "tumor-de-pancoast-pdf-028",
+    "diagnosis": [
+      "Tumor de Pancoast"
+    ],
+    "specialty": "oncologia/pneumologia",
+    "hints": [
+      "Homem de 65 anos, tabagista pesadíssimo, queixa-se de dor intensa e constante no ombro direito, irradiando pela face interna do braço até o dedinho da mão.",
+      "O ortopedista tratou o caso inicialmente como uma tendinite do manguito rotador, sem sucesso após semanas de anti-inflamatórios.",
+      "A esposa nota que o olho direito do paciente está \"diferente\", parecendo menor.",
+      "O exame da face mostra ptose palpebral leve à direita, miose ipsilateral e ausência de suor na metade direita do rosto (Síndrome de Horner).",
+      "A radiografia de tórax evidencia uma massa opaca localizada no ápice do pulmão direito com destruição das primeiras costelas."
+    ]
+  },
+  {
+    "id": "ulcera-peptica-perfurada-pdf-029",
+    "diagnosis": [
+      "Úlcera Péptica Perfurada"
+    ],
+    "specialty": "gastroenterologia/cirurgia geral",
+    "hints": [
+      "Homem de 60 anos, em uso crônico de anti-inflamatórios para artrose, sente dor abdominal aguda, descrita como uma \"facada\", de início há 1 hora.",
+      "O paciente encontra-se deitado, imóvel, sudoreico, respirando curto, afirmando que qualquer movimento piora a dor absurdamente.",
+      "Ao deparar-se com o paciente, o médico observa fáceis de dor e sinais de choque inicial (hipotensão e taquicardia).",
+      "O abdome apresenta-se retraído, extremamente tenso e difusamente doloroso à menor palpação, clássico \"abdome em tábua\". Há perda da macicez hepática (Sinal de Jobert).",
+      "A radiografia de tórax e abdome em ortostatismo evidencia a presença de uma lâmina de ar livre entre o fígado e a cúpula diafragmática direita (pneumoperitônio)."
+    ]
+  },
+  {
+    "id": "sindrome-de-cushing-pdf-030",
+    "diagnosis": [
+      "Síndrome de Cushing"
+    ],
+    "specialty": "endocrinologia",
+    "hints": [
+      "Mulher de 40 anos é encaminhada à endocrinologia por ganho de peso centrado no abdome, rosto e pescoço, poupando os membros, que parecem afinados.",
+      "Apresenta pressão arterial de difícil controle, fraqueza ao subir escadas e relata que sua menstruação parou.",
+      "O exame físico revela face em \"lua cheia\", acúmulo de gordura na região cervicodorsal (\"giba\") e estrias violáceas largas e exuberantes no abdome.",
+      "Os exames laboratoriais revelam hiperglicemia leve e potássio sérico baixo.",
+      "O exame de cortisol livre em urina de 24h está altamente elevado. O teste de supressão com dose baixa de dexametasona não consegue inibir os níveis de cortisol sérico matinal."
+    ]
+  },
+  {
+    "id": "intoxicacao-por-organofosforados-ou-carbamatos-sindrome-colinergica-pdf-031",
+    "diagnosis": [
+      "Intoxicação por Organofosforados (ou Carbamatos/Síndrome Colinérgica)",
+      "Intoxicação por Organofosforados",
+      "Carbamatos",
+      "Síndrome Colinérgica",
+      "Intoxicação por Organofosforados (ou Carbamatos",
+      "intoxicacao por carbamatos"
+    ],
+    "specialty": "toxicologia",
+    "hints": [
+      "Trabalhador rural de 45 anos é trazido por colegas de lavoura com confusão mental, tremores musculares e dificuldade para respirar.",
+      "Os colegas relatam que ele estava borrifando as plantações sem equipamento de proteção individual durante toda a manhã.",
+      "Ao exame, o paciente babava excessivamente, estava com os olhos lacrimejando muito e apresentava diurese e evacuação soltas na roupa.",
+      "Sinais vitais revelam bradicardia importante (FC 45 bpm). As pupilas estão extremamente contraídas, do tamanho de \"cabeça de alfinete\" (miose puntiforme).",
+      "À ausculta pulmonar, há sibilos e crepitações difusas compatíveis com broncorreia. A atividade da enzima colinesterase plasmática encontra-se quase indetectável."
+    ]
+  },
+  {
+    "id": "disseccao-aguda-de-aorta-pdf-032",
+    "diagnosis": [
+      "Dissecção Aguda de Aorta"
+    ],
+    "specialty": "cardiologia/cirurgia",
+    "hints": [
+      "Homem de 58 anos dá entrada no PS com dor torácica súbita, excruciante, com a sensação de algo rasgando por dentro.",
+      "A dor começou na região anterior do tórax, mas migrou rapidamente para as costas, entre as escápulas.",
+      "O paciente possui diagnóstico de Síndrome de Marfan, mas perdeu seguimento médico há anos.",
+      "Ao aferir os sinais vitais, a PA no braço direito é 190x110 mmHg, enquanto no braço esquerdo é 110x70 mmHg. Os pulsos distais à esquerda são filiformes.",
+      "A radiografia de tórax evidencia alargamento mediastinal e botão aórtico proeminente. O ecocardiograma transesofágico mostra uma aba (\"flap\") intimal separando a luz do vaso em luz falsa e verdadeira."
+    ]
+  },
+  {
+    "id": "tuberculose-pulmonar-pdf-033",
+    "diagnosis": [
+      "Tuberculose Pulmonar"
+    ],
+    "specialty": "pneumologia/infectologia",
+    "hints": [
+      "Paciente relata tosse diária produtiva com secreção amarelada há 4 semanas, que não cedeu com xaropes caseiros.",
+      "Ele sente febre diária (sempre ao final da tarde), além de suar a ponto de molhar os lençóis da cama à noite. Perdeu 5 kg no período.",
+      "Nos últimos dois dias, a tosse passou a apresentar rajadas de sangue vivo misturadas ao escarro.",
+      "A radiografia de tórax revela consolidações no ápice do pulmão direito, com uma área central mais radiolúcida compatível com formação de caverna.",
+      "A pesquisa no escarro com coloração de Ziehl-Neelsen demonstra a presença de Bacilos Álcool-Ácido Resistentes (BAAR)."
+    ]
+  },
+  {
+    "id": "sarcoidose-pdf-034",
+    "diagnosis": [
+      "Sarcoidose"
+    ],
+    "specialty": "reumatologia/pneumologia",
+    "hints": [
+      "Mulher de 35 anos, afrodescendente, procura oftalmologista por queixa de olho vermelho crônico e visão turva bilateral (diagnosticada como uveíte anterior).",
+      "Durante a investigação, relata tosse seca esporádica e aparecimento de nódulos vermelhos, dolorosos e quentes na face anterior das canelas (eritema nodoso).",
+      "O exame laboratorial de rotina evidencia níveis aumentados de cálcio sérico e da enzima conversora de angiotensina (ECA).",
+      "Uma radiografia de tórax mostra um aumento simétrico dos linfonodos no hilo pulmonar e paratraqueais direitos, poupando parênquima.",
+      "Foi realizada biópsia por broncoscopia da lesão, que revelou a presença de granulomas epitelioides não caseosos (sem necrose central)."
+    ]
+  },
+  {
+    "id": "sindrome-de-lise-tumoral-pdf-035",
+    "diagnosis": [
+      "Síndrome de Lise Tumoral"
+    ],
+    "specialty": "nefrologia/oncologia",
+    "hints": [
+      "Adolescente de 15 anos foi internado há dois dias com diagnóstico de Linfoma de Burkitt de grande volume, iniciando quimioterapia agressiva.",
+      "Hoje de manhã, o paciente começou a relatar dormência perioral, formigamento nas mãos e teve um episódio de crise convulsiva.",
+      "Nota-se redução abrupta do volume urinário nas últimas horas (oligúria) e aparecimento de arritmias cardíacas no monitor.",
+      "O exame laboratorial estat revela potássio de 7,0 mEq/L, fósforo de 8,5 mg/dL e cálcio de 5,0 mg/dL (muito reduzido).",
+      "Há também elevação dramática dos níveis de ácido úrico (15 mg/dL) e creatinina duplicada, caracterizando insuficiência renal aguda secundária à liberação maciça de conteúdo intracelular."
+    ]
+  },
+  {
+    "id": "sindrome-dos-ovarios-policisticos-sop-pdf-036",
+    "diagnosis": [
+      "Síndrome dos Ovários Policísticos (SOP)",
+      "Síndrome dos Ovários Policísticos",
+      "SOP"
+    ],
+    "specialty": "ginecologia/endocrinologia",
+    "hints": [
+      "Paciente do sexo feminino, 24 anos, com IMC de 32, procura o ambulatório por irregularidade menstrual (tem de 3 a 4 menstruações ao ano apenas).",
+      "Queixa-se do surgimento recente de pelos grossos e escuros no buço, queixo, peito e linha alba (hirsutismo), além de acne persistente nas costas.",
+      "Ao exame físico, observa-se espessamento e escurecimento aveludado da pele na nuca e nas axilas, indicativo de Acanthosis nigricans.",
+      "Seus exames de sangue revelam níveis de testosterona total e livre no limite superior ou pouco elevados e resistência insulínica (HOMA-IR elevado).",
+      "O ultrassom pélvico endovaginal revela ambos os ovários de volume aumentado, com múltiplos pequenos cistos organizados na periferia, lembrando um \"colar de pérolas\"."
+    ]
+  },
+  {
+    "id": "diverticulite-aguda-pdf-037",
+    "diagnosis": [
+      "Diverticulite Aguda"
+    ],
+    "specialty": "gastroenterologia",
+    "hints": [
+      "Homem de 65 anos chega ao PS queixando-se de dor abdominal que começou há 3 dias, associada a febre baixa e alteração do hábito intestinal (constipação).",
+      "Ele relata que costuma ter o intestino \"preso\" há anos e que raramente come fibras.",
+      "A dor é contínua e localiza-se primariamente no quadrante inferior esquerdo do abdome.",
+      "Ao exame físico, há dor à palpação profunda na fossa ilíaca esquerda, com descompressão brusca duvidosa. O hemograma mostra leucocitose de 13.000/mm³.",
+      "A tomografia computadorizada de abdome revela espessamento da parede do cólon sigmoide e densificação da gordura pericólica adjacente a pequenas saculações intestinais."
+    ]
+  },
+  {
+    "id": "colecistite-aguda-pdf-038",
+    "diagnosis": [
+      "Colecistite Aguda"
+    ],
+    "specialty": "cirurgia geral",
+    "hints": [
+      "Mulher de 42 anos, com sobrepeso, procura a UPA por dor abdominal intensa após comer uma feijoada no almoço.",
+      "A dor é em cólica, localiza-se no hipocôndrio direito e irradia para o ombro ipsilateral e escápula.",
+      "A paciente apresenta náuseas e vômitos biliosos, mas a dor não alivia após vomitar. Refere febre de 38°C.",
+      "Durante a palpação do hipocôndrio direito, o médico pede para a paciente inspirar fundo. Ela interrompe a respiração subitamente devido à dor aguda (Sinal de Murphy positivo).",
+      "O ultrassom de abdome superior mostra vesícula biliar distendida, com paredes espessadas (> 3 mm), líquido perivesicular e uma imagem hiperecogênica com sombra acústica posterior impactada no infundíbulo."
+    ]
+  },
+  {
+    "id": "doenca-pulmonar-obstrutiva-cronica-dpoc-exacerbada-pdf-039",
+    "diagnosis": [
+      "Doença Pulmonar Obstrutiva Crônica (DPOC) Exacerbada",
+      "Doença Pulmonar Obstrutiva Crônica Exacerbada",
+      "DPOC"
+    ],
+    "specialty": "pneumologia",
+    "hints": [
+      "Homem de 68 anos, fumante de 2 maços por dia há 40 anos, chega à emergência com piora da falta de ar há 2 dias.",
+      "Ele já é conhecido no posto de saúde por ter tosse produtiva crônica. Agora, relata que o catarro aumentou em volume e ficou esverdeado.",
+      "Ao exame, o paciente está taquipneico, usando musculatura acessória e apresenta cianose central leve. Saturação de O2 em 88%.",
+      "A ausculta pulmonar revela murmúrio vesicular globalmente diminuído e sibilos expiratórios difusos. O tórax tem formato \"em tonel\".",
+      "A gasometria arterial mostra hipoxemia e hipercapnia (pCO2 de 55 mmHg) com pH de 7.32 (acidose respiratória). A radiografia mostra hiperinsuflação e retificação das cúpulas diafragmáticas."
+    ]
+  },
+  {
+    "id": "insuficiencia-cardiaca-descompensada-perfil-b-quente-e-umido-pdf-040",
+    "diagnosis": [
+      "Insuficiência Cardíaca Descompensada (Perfil B - Quente e Úmido)",
+      "Insuficiência Cardíaca Descompensada",
+      "Perfil B - Quente Úmido",
+      "IC descompensada",
+      "insuficiencia cardiaca"
+    ],
+    "specialty": "cardiologia",
+    "hints": [
+      "Mulher de 70 anos é trazida ao PS pois não consegue dormir deitada há duas noites devido à falta de ar extrema.",
+      "A filha relata que a mãe tem hipertensão de longa data, tem acordado de madrugada tossindo (dispneia paroxística noturna) e que seus tornozelos estão muito inchados.",
+      "Ao exame, o paciente está sentada na beira da cama (ortopneia), taquicárdica e com estase jugular a 45 graus.",
+      "A ausculta cardíaca revela ritmo de galope com presença de terceira bulha (B3). A ausculta pulmonar apresenta estertores crepitantes bilaterais até o terço médio.",
+      "A radiografia de tórax evidencia área cardíaca aumentada e sinais de congestão venocapilar pulmonar (linhas B de Kerley). O BNP sérico está muito elevado."
+    ]
+  },
+  {
+    "id": "dengue-fase-aguda-pdf-041",
+    "diagnosis": [
+      "Dengue (Fase Aguda)",
+      "Dengue",
+      "Fase Aguda"
+    ],
+    "specialty": "infectologia",
+    "hints": [
+      "Jovem de 25 anos procura a unidade de saúde por febre alta, dor de cabeça e dor intensa atrás dos olhos há 3 dias.",
+      "Queixa-se também de dores extremas nas juntas e nos músculos, descrevendo a sensação como se \"os ossos estivessem quebrando\".",
+      "No dia da consulta, nota o aparecimento de manchas vermelhas no tronco e braços, que coçam muito.",
+      "O hemograma revela leucopenia e plaquetas em 110.000/mm³. O hematócrito está normal.",
+      "A prova do laço realizada no consultório é positiva (mais de 20 petéquias no quadrado desenhado no antebraço). O antígeno NS1 solicitado no 3º dia de febre é reagente."
+    ]
+  },
+  {
+    "id": "sifilis-secundaria-pdf-042",
+    "diagnosis": [
+      "Sífilis Secundária"
+    ],
+    "specialty": "infectologia/dermatologia",
+    "hints": [
+      "Homem de 30 anos procura o ambulatório devido ao surgimento de manchas pelo corpo que não coçam e não doem, iniciadas há 2 semanas.",
+      "Refere que se sente um pouco cansado, teve febre baixa esporádica e percebeu aumento de \"ínguas\" pelo corpo todo.",
+      "Relata ter tido uma ferida indolor no pênis há cerca de 2 meses, que sumiu sozinha sem nenhum tratamento, então ele não se preocupou.",
+      "Ao exame físico, notam-se lesões maculopapulares eritematosas disseminadas, acometendo inclusive as palmas das mãos e as plantas dos pés.",
+      "O exame VDRL retorna reagente em título de 1:64 e o teste rápido treponêmico (FTA-ABS) é positivo."
+    ]
+  },
+  {
+    "id": "espondilite-anquilosante-pdf-043",
+    "diagnosis": [
+      "Espondilite Anquilosante"
+    ],
+    "specialty": "reumatologia",
+    "hints": [
+      "Homem de 28 anos queixa-se de dor nas costas arrastada há mais de 6 meses, pior na região lombar baixa e nas nádegas.",
+      "Curiosamente, ele diz que a dor é pior de manhã e ao repousar, melhorando significativamente quando ele se movimenta ou faz exercícios.",
+      "Apresenta rigidez matinal na coluna que dura mais de uma hora. Relata que no último ano teve um episódio de \"olho vermelho e doloroso\" (uveíte anterior).",
+      "Ao exame físico, o Teste de Schober demonstra mobilidade lombar restrita (expansão < 5 cm).",
+      "A radiografia da bacia evidencia sacroiliíte bilateral e a coluna lombar começa a mostrar pontes ósseas entre as vértebras (sindesmófitos), dando um aspecto de \"coluna em bambu\"."
+    ]
+  },
+  {
+    "id": "hipertireoidismo-doenca-de-graves-pdf-044",
+    "diagnosis": [
+      "Hipertireoidismo (Doença de Graves)",
+      "Hipertireoidismo",
+      "Doença Graves"
+    ],
+    "specialty": "endocrinologia",
+    "hints": [
+      "Mulher de 32 anos procura o médico por palpitações, ansiedade extrema, insônia e perda de 6 kg no último mês, mesmo comendo muito.",
+      "Ela diz que se sente \"acelerada\" o tempo todo e que não suporta mais o calor, transpirando excessivamente até em dias frescos.",
+      "O exame físico revela tremor fino nas extremidades das mãos, pele quente e úmida, e taquicardia de repouso (FC 110 bpm).",
+      "Nota-se também que a paciente está com os olhos \"arregalados\" (exoftalmia) e há um bócio difuso, indolor e com frêmito à palpação na região anterior do pescoço.",
+      "Laboratório: TSH suprimido (< 0,01) e T4 livre muito elevado. O anticorpo antirreceptor de TSH (TRAB) é positivo."
+    ]
+  },
+  {
+    "id": "endometriose-pdf-045",
+    "diagnosis": [
+      "Endometriose"
+    ],
+    "specialty": "ginecologia",
+    "hints": [
+      "Mulher de 30 anos, nulípara, busca ajuda devido a dores pélvicas intensas e incapacitantes que ocorrem sempre durante o período menstrual.",
+      "A paciente relata que as dores vêm piorando progressivamente nos últimos 3 anos e os analgésicos comuns já não fazem efeito.",
+      "Queixa-se também de dor profunda durante as relações sexuais (dispareunia de profundidade) e dor para evacuar na época da menstruação.",
+      "O casal está tentando engravidar há 2 anos, sem sucesso.",
+      "A ressonância magnética pélvica evidencia nódulos espessos nos ligamentos uterossacros e um cisto ovariano com conteúdo espesso de alto sinal em T1 (aspecto de \"vidro moído\" ou endometrioma)."
+    ]
+  },
+  {
+    "id": "litiase-ureteral-colica-nefretica-pdf-046",
+    "diagnosis": [
+      "Litíase Ureteral (Cólica Nefrética)",
+      "Litíase Ureteral",
+      "Cólica Nefrética"
+    ],
+    "specialty": "urologia/nefrologia",
+    "hints": [
+      "Homem de 40 anos chega ao pronto-socorro de madrugada se contorcendo de dor, sem conseguir encontrar posição na maca.",
+      "A dor é excruciante, em cólica, localizada na região lombar direita e iniciou-se abruptamente há 2 horas.",
+      "A dor irradia para a região da virilha e testículo direito. O paciente apresenta náuseas severas, mas sem febre.",
+      "O exame de urina I (EAS) da admissão revela hematúria macroscópica (inúmeras hemácias por campo) e ausência de nitrito ou bactérias.",
+      "A tomografia computadorizada de abdome sem contraste evidencia um cálculo radiopaco de 6 mm no terço médio do ureter direito, causando hidronefrose leve a montante."
+    ]
+  },
+  {
+    "id": "doenca-inflamatoria-pelvica-dip-pdf-047",
+    "diagnosis": [
+      "Doença Inflamatória Pélvica (DIP)",
+      "Doença Inflamatória Pélvica",
+      "DIP"
+    ],
+    "specialty": "ginecologia",
+    "hints": [
+      "Mulher de 24 anos procura a emergência referindo dor pélvica contínua, febre (38,2°C) e corrimento vaginal de mau cheiro há 4 dias.",
+      "Refere múltiplos parceiros sexuais recentes e não utiliza preservativo de forma consistente. A menstruação desceu há 1 semana.",
+      "Ao exame especular, observa-se colo uterino hiperemiado com saída de secreção purulenta espessa pelo orifício externo.",
+      "O toque vaginal bimanual revela dor extrema à mobilização do colo uterino e à palpação dos anexos.",
+      "A ultrassonografia transvaginal descarta gravidez e abcessos tubo-ovarianos, mas evidencia espessamento tubário bilateral e líquido livre no fundo de saco. O PCR da secreção é positivo para Chlamydia trachomatis."
+    ]
+  },
+  {
+    "id": "sarampo-pdf-048",
+    "diagnosis": [
+      "Sarampo"
+    ],
+    "specialty": "pediatria",
+    "hints": [
+      "Criança de 4 anos é levada ao pediatra com quadro de febre alta, tosse intensa, coriza e olhos vermelhos (conjuntivite) há 3 dias. A mãe relata que a criança não tomou todas as vacinas.",
+      "No dia anterior à consulta, a mãe notou pequenos pontos brancos com halo avermelhado na parte de dentro das bochechas do filho.",
+      "Hoje, apareceu uma erupção na pele (exantema) que começou no rosto, atrás das orelhas, e agora está descendo para o tronco.",
+      "O exantema é maculopapular, avermelhado e tem tendência a se fundir (confluente). A criança está muito prostrada.",
+      "Os pontos brancos na mucosa oral são identificados pelo médico como Manchas de Koplik, um sinal patognomônico dessa infecção viral."
+    ]
+  },
+  {
+    "id": "hernia-de-disco-lombar-radiculopatia-l5-pdf-049",
+    "diagnosis": [
+      "Hérnia de Disco Lombar (Radiculopatia L5)",
+      "Hérnia de Disco Lombar",
+      "Radiculopatia L5"
+    ],
+    "specialty": "ortopedia/neurologia",
+    "hints": [
+      "Homem de 45 anos, trabalhador braçal, queixa-se de dor intensa na região lombar que começou subitamente após ele levantar uma caixa pesada.",
+      "No dia seguinte, a dor passou a \"descer\" pela parte de trás da coxa e perna direita, chegando até o pé.",
+      "Ele refere sensação de choque e formigamento na face lateral da perna e no dorso do pé direito.",
+      "Ao exame neurológico, ao deitar o paciente de costas e elevar sua perna direita esticada, ele sente dor aguda irradiada abaixo do joelho com apenas 30 graus de elevação (Sinal de Lasègue positivo).",
+      "Há diminuição da força para a extensão do hálux (dedão do pé). A ressonância magnética confirma compressão da raiz nervosa L5 por extrusão discal."
+    ]
+  },
+  {
+    "id": "anemia-megaloblastica-por-deficiencia-de-b12-pdf-050",
+    "diagnosis": [
+      "Anemia Megaloblástica (por deficiência de B12)",
+      "Anemia Megaloblástica",
+      "deficiência B12",
+      "deficiencia de B12",
+      "anemia por deficiencia de B12"
+    ],
+    "specialty": "hematologia/gastroenterologia",
+    "hints": [
+      "Mulher de 60 anos queixa-se de cansaço extremo, tontura e formigamento persistente nas mãos e nos pés (parestesia) há meses.",
+      "A paciente tem antecedente de uma cirurgia bariátrica (bypass gástrico) realizada há 5 anos, da qual perdeu o seguimento e parou de tomar os suplementos.",
+      "Ao exame físico, nota-se palidez cutâneo-mucosa, icterícia muito leve e uma língua lisa, vermelha e brilhante (glossite).",
+      "O hemograma mostra Hemoglobina de 8,0 g/dL e um VCM muito elevado (115 fL), caracterizando macrocitose.",
+      "O nível sérico de Vitamina B12 está indetectável. O esfregaço de sangue periférico mostra neutrófilos hipersegmentados."
+    ]
+  },
+  {
+    "id": "erisipela-pdf-051",
+    "diagnosis": [
+      "Erisipela"
+    ],
+    "specialty": "infectologia/dermatologia",
+    "hints": [
+      "Homem de 55 anos, diabético, chega ao ambulatório com dor, inchaço e vermelhidão na perna direita iniciados subitamente há 24 horas.",
+      "Relata calafrios intensos e apresentou febre de 39°C em casa antes da perna ficar completamente vermelha.",
+      "Ao inspecionar os pés do paciente, o médico encontra uma fissura interdigital (frieira) entre o 4º e o 5º dedos do pé direito.",
+      "O exame da perna mostra uma placa avermelhada, brilhante, dolorosa, com bordas muito bem delimitadas e elevadas em relação à pele normal. A pele tem aspecto de \"casca de laranja\".",
+      "O quadro clínico é clássico de uma infecção bacteriana da derme superficial e dos vasos linfáticos, mais comumente causada pelo Streptococcus pyogenes."
+    ]
+  },
+  {
+    "id": "tamponamento-cardiaco-pdf-052",
+    "diagnosis": [
+      "Tamponamento Cardíaco"
+    ],
+    "specialty": "cardiologia/cirurgia de trauma",
+    "hints": [
+      "Jovem de 25 anos é trazido pelo SAMU após acidente de carro com colisão frontal (volante contra o peito). Chega muito dispneico e confuso.",
+      "Na sala de emergência, apresenta pele fria e pegajosa, taquicardia (FC 130 bpm) e pressão arterial de 80x50 mmHg.",
+      "A ausculta pulmonar é normal bilateralmente, sem desvio de traqueia. As veias do pescoço estão extremamente ingurgitadas.",
+      "A ausculta cardíaca revela bulhas muito abafadas, quase inaudíveis.",
+      "O médico percebe que a pressão arterial sistólica do paciente cai mais de 15 mmHg durante a inspiração profunda (pulso paradoxal). O ultrassom FAST (janela pericárdica) mostra líquido escuro ao redor de todo o coração, colapsando o ventrículo direito."
+    ]
+  },
+  {
+    "id": "isquemia-mesenterica-aguda-pdf-053",
+    "diagnosis": [
+      "Isquemia Mesentérica Aguda"
+    ],
+    "specialty": "cirurgia vascular/gastroenterologia",
+    "hints": [
+      "Mulher de 75 anos, com histórico de fibrilação atrial e insuficiência cardíaca, queixa-se de dor abdominal súbita e excruciante iniciada há 2 horas.",
+      "Ela chora e se contorce na maca. Apresentou um episódio de diarreia sanguinolenta em casa.",
+      "Curiosamente, apesar dos gritos de dor, o abdome é flácido à palpação, sem sinais de irritação peritoneal evidente. O médico anota: \"dor desproporcional aos achados do exame físico\".",
+      "O lactato arterial está muito elevado (sinal de hipoperfusão tecidual) e a gasometria mostra acidose metabólica grave.",
+      "A angiotomografia de abdome demonstra ausência de fluxo sanguíneo por obstrução abrupta na origem da Artéria Mesentérica Superior."
+    ]
+  },
+  {
+    "id": "granulomatose-com-poliangiite-antiga-doenca-de-wegener-pdf-054",
+    "diagnosis": [
+      "Granulomatose com Poliangiíte (antiga Doença de Wegener)",
+      "Granulomatose com Poliangiíte",
+      "antiga Doença Wegener"
+    ],
+    "specialty": "nefrologia/reumatologia",
+    "hints": [
+      "Homem de 45 anos procura o hospital por sinusite de repetição, secreção nasal sanguinolenta e febre baixa há 3 meses.",
+      "Ele já fez múltiplos ciclos de antibióticos sem melhora. Agora, queixa-se de tosse com raios de sangue e falta de ar.",
+      "O exame físico revela uma deformidade adquirida recente no nariz (nariz em \"sela\").",
+      "Os exames laboratoriais admissionais chocam o plantonista: a creatinina do paciente, que era 0,9 mg/dL há seis meses, agora está em 4,5 mg/dL, com hematúria e cilindros hemáticos na urina.",
+      "A radiografia de tórax mostra nódulos pulmonares cavitados. O exame de sangue revela positividade para o anticorpo c-ANCA. Trata-se de uma vasculite de pequenos vasos."
+    ]
+  },
+  {
+    "id": "hemorragia-subaracnoidea-por-ruptura-de-aneurisma-pdf-055",
+    "diagnosis": [
+      "Hemorragia Subaracnoidea (por ruptura de aneurisma)",
+      "Hemorragia Subaracnoidea",
+      "ruptura aneurisma"
+    ],
+    "specialty": "neurologia/emergência",
+    "hints": [
+      "Mulher de 42 anos, previamente hígida, é trazida ao PS desmaiada. O marido relata que ela estava na academia quando gritou de dor segurando a cabeça.",
+      "Antes de perder a consciência, ela descreveu para o marido como \"a pior dor de cabeça da minha vida\", com início em fração de segundos (\"em trovoada\").",
+      "A paciente apresenta vômitos na admissão. Na avaliação inicial, está em Glasgow 11 e o pescoço apresenta forte resistência à flexão passiva.",
+      "A tomografia computadorizada de crânio sem contraste mostra material hiperdenso preenchendo as cisternas basais e as fissuras de Sylvius.",
+      "Uma angiografia cerebral subsequente revela uma dilatação sacular de 8 mm na artéria comunicante anterior."
+    ]
+  },
+  {
+    "id": "crise-adrenal-doenca-de-addison-insuficiencia-adrenal-primaria-pdf-056",
+    "diagnosis": [
+      "Crise Adrenal/Doença de Addison (Insuficiência Adrenal Primária)",
+      "Crise Adrenal/Doença de Addison",
+      "Insuficiência Adrenal Primária",
+      "Crise Adrenal",
+      "Doença de Addison (Insuficiência Adrenal Primária)"
+    ],
+    "specialty": "endocrinologia/emergência",
+    "hints": [
+      "Homem de 35 anos chega ao PS em estado de choque (PA 70x40 mmHg) que não responde à ressuscitação vigorosa com soro fisiológico.",
+      "A família relata que ele vem perdendo peso há meses, sente uma fraqueza que o impede de levantar da cama e relata dores abdominais inespecíficas e náuseas crônicas.",
+      "O médico nota que o paciente tem um tom de pele intensamente bronzeado, mesmo nas áreas não expostas ao sol, e manchas escuras na gengiva e mucosa oral.",
+      "Os exames laboratoriais iniciais mostram hiponatremia grave (Sódio 122 mEq/L), hipercalemia (Potássio 6,5 mEq/L) e hipoglicemia capilar.",
+      "A suspeita recai sobre uma destruição autoimune primária do córtex de uma glândula suprarrenal. A administração intravenosa de hidrocortisona reverte rapidamente o choque."
+    ]
+  },
+  {
+    "id": "intussuscepcao-intestinal-pdf-057",
+    "diagnosis": [
+      "Intussuscepção Intestinal"
+    ],
+    "specialty": "pediatria/cirurgia",
+    "hints": [
+      "Lactente do sexo masculino, 8 meses de idade, é levado à emergência por crises súbitas de choro inconsolável e palidez, seguidas de períodos de letargia.",
+      "A mãe relata que, durante as crises de dor, o bebê encolhe as pernas em direção à barriga. Ele vomitou duas vezes desde o início do quadro.",
+      "Na troca da fralda no hospital, a enfermeira nota fezes misturadas com muco e sangue fresco, descritas classicamente como \"geleia de framboesa\".",
+      "Durante a palpação abdominal em um momento de calma do bebê, o médico sente uma massa palpável em formato de \"salsicha\" no quadrante superior direito. A fossa ilíaca direita parece vazia (Sinal de Dance).",
+      "O ultrassom abdominal confirma o diagnóstico mostrando uma imagem em \"alvo\" ou \"pseudorrim\", indicando que uma porção do intestino invaginou para dentro de si mesma."
+    ]
+  },
+  {
+    "id": "sindrome-hellp-pdf-058",
+    "diagnosis": [
+      "Síndrome HELLP"
+    ],
+    "specialty": "obstetrícia/terapia intensiva",
+    "hints": [
+      "Gestante de 34 semanas, portadora de pré-eclâmpsia (PA de 160x110 mmHg e proteinúria), dá entrada no pronto-socorro obstétrico queixando-se de dor intensa na \"boca do estômago\" e no lado direito, abaixo das costelas.",
+      "Refere náuseas fortes e cefaleia visual (escotomas cintilantes). O exame físico mostra edema de membros inferiores (3+/4).",
+      "Os exames laboratoriais urgentes são colhidos. O hemograma demonstra uma queda abrupta nas plaquetas (50.000/mm³).",
+      "A avaliação hepática mostra TGO de 350 U/L e TGP de 400 U/L. O LDH está em 1200 U/L e a bilirrubina indireta está elevada.",
+      "O esfregaço de sangue periférico mostra esquizócitos (hemólise microangiopática). A presença de Hemólise, Enzimas Hepáticas Elevadas e Plaquetas Baixas sela a indicação para parto imediato."
+    ]
+  },
+  {
+    "id": "leucemia-mieloide-aguda-lma-pdf-059",
+    "diagnosis": [
+      "Leucemia Mieloide Aguda (LMA)",
+      "Leucemia Mieloide Aguda",
+      "LMA"
+    ],
+    "specialty": "hematologia/oncologia",
+    "hints": [
+      "Homem de 50 anos procura a UPA por fadiga extrema, sangramento gengival ao escovar os dentes e febre alta há 1 semana.",
+      "Ele notou o aparecimento de manchas roxas (equimoses) pelo corpo sem ter sofrido nenhum trauma e diz que as infecções não melhoram.",
+      "Ao exame físico, não há aumento de gânglios (adenomegalia) ou do baço, mas a palidez é marcante.",
+      "O hemograma revela pancitopenia paradoxal: Anemia (Hb 7,0), Plaquetopenia severa (15.000/mm³) e Leucócitos normais, porém com presença de 40% de células imaturas (blastos) no sangue periférico.",
+      "A biópsia de medula óssea confirma hipercelularidade por blastos de linhagem não-linfoide. O achado de Bastonetes de Auer no citoplasma dessas células confirma a linhagem do tumor."
+    ]
+  },
+  {
+    "id": "tetano-acidental-pdf-060",
+    "diagnosis": [
+      "Tétano Acidental"
+    ],
+    "specialty": "infectologia/neurologia",
+    "hints": [
+      "Homem de 60 anos, lavrador, busca o serviço de saúde devido a dificuldade para abrir a boca e mastigar há 2 dias.",
+      "A família diz que a expressão do rosto dele mudou, parecendo um \"sorriso forçado\" e constante (riso sardônico).",
+      "Ele relata que sofreu um ferimento perfurante no pé com um prego enferrujado enquanto trabalhava na roça há 10 dias e nunca foi vacinado adequadamente.",
+      "Durante a avaliação, o paciente apresenta espasmos musculares dolorosos generalizados ao menor estímulo sonoro ou luminoso no quarto.",
+      "O quadro evolui para uma contratura severa da musculatura paravertebral, fazendo com que suas costas se arqueiem para trás como um arco (opistótono)."
+    ]
+  },
+  {
+    "id": "fibrose-pulmonar-idiopatica-fpi-pdf-061",
+    "diagnosis": [
+      "Fibrose Pulmonar Idiopática (FPI)",
+      "Fibrose Pulmonar Idiopática",
+      "FPI"
+    ],
+    "specialty": "pneumologia/reumatologia",
+    "hints": [
+      "Homem de 65 anos, ex-fumante, procura o consultório devido a falta de ar aos esforços que vem piorando progressivamente nos últimos 2 anos.",
+      "Ele também relata uma tosse seca e irritativa diária, resistente a qualquer xarope.",
+      "Ao examinar as mãos do paciente, o médico nota alargamento das pontas dos dedos e unhas convexas (baqueteamento digital).",
+      "A ausculta pulmonar revela crepitações finas bilaterais nas bases dos pulmões, com um som característico que lembra o \"abrir de um velcro\".",
+      "A Tomografia de Alta Resolução (TCAR) de tórax não mostra nódulos, mas evidencia espessamento septal, bronquiectasias de tração e cistos subpleurais dispostos em camadas, padrão conhecido como \"favo de mel\". A biópsia descarta causas autoimunes."
+    ]
+  },
+  {
+    "id": "botulismo-pdf-062",
+    "diagnosis": [
+      "Botulismo"
+    ],
+    "specialty": "infectologia/toxicologia",
+    "hints": [
+      "Mulher de 35 anos vai ao pronto-socorro com queixa de visão dupla (diplopia), boca extremamente seca e dificuldade para engolir alimentos e líquidos (disfagia).",
+      "O quadro iniciou há cerca de 18 horas e ela está lúcida, sem febre e sem alterações da sensibilidade.",
+      "Uma anamnese detalhada revela que ela consumiu palmito em conserva artesanal comprado na beira da estrada há 2 dias.",
+      "O exame neurológico revela pupilas dilatadas (midríase) não reativas, ptose palpebral bilateral e voz anasalada.",
+      "Nas horas seguintes, a paciente começa a apresentar fraqueza muscular simétrica e descendente, culminando com dificuldade respiratória pela paralisia do diafragma, exigindo intubação orotraqueal."
+    ]
+  },
+  {
+    "id": "miocardiopatia-hipertrofica-pdf-063",
+    "diagnosis": [
+      "Miocardiopatia Hipertrófica"
+    ],
+    "specialty": "cardiologia/medicina esportiva",
+    "hints": [
+      "Jovem de 19 anos, atleta de futebol de alto rendimento, tem um episódio de desmaio (síncope) no meio de um jogo intenso, sem trauma associado.",
+      "Ele se recupera rapidamente, mas admite que vinha sentindo falta de ar desproporcional e uma \"dorzinha\" no peito em treinos recentes.",
+      "O histórico familiar revela que seu pai faleceu de \"morte súbita\" inexplicada aos 35 anos de idade.",
+      "O exame físico detecta um sopro sistólico ejetivo que curiosamente aumenta de intensidade quando o paciente se levanta rapidamente ou faz a manobra de Valsalva (diminuição do retorno venoso).",
+      "O ecocardiograma de urgência revela um septo interventricular exageradamente espessado (> 15 mm), causando obstrução dinâmica da via de saída do ventrículo esquerdo."
+    ]
+  },
+  {
+    "id": "angioedema-hereditario-pdf-064",
+    "diagnosis": [
+      "Angioedema Hereditário"
+    ],
+    "specialty": "alergia e imunologia",
+    "hints": [
+      "Homem de 22 anos procura a emergência com inchaço colossal no rosto, lábios e pálpebras, iniciado há 4 horas após uma extração dentária.",
+      "O paciente afirma que as lesões não coçam, não estão vermelhas e que ele não está com falta de ar por alergia clássica. Corticoides e antialérgicos aplicados na triagem não surtiram efeito.",
+      "Ele conta que, na infância, teve episódios recorrentes de inchaços semelhantes nas mãos e dores abdominais fortíssimas sem causa cirúrgica aparente.",
+      "Nega contato com novos alimentos, medicações ou insetos. Informa que o irmão mais velho tem os mesmos sintomas esporádicos de inchaço após traumas.",
+      "O exame laboratorial confirma níveis muito baixos da proteína C4 do sistema complemento e deficiência quantitativa/qualitativa do Inibidor de C1 (C1-INH)."
+    ]
+  },
+  {
+    "id": "volvo-de-sigmoide-obstrucao-intestinal-pdf-065",
+    "diagnosis": [
+      "Volvo de Sigmoide (Obstrução Intestinal)",
+      "Volvo de Sigmoide",
+      "Obstrução Intestinal"
+    ],
+    "specialty": "cirurgia geral/gastroenterologia",
+    "hints": [
+      "Homem de 80 anos, residente de asilo e acamado por sequelas de AVC, é trazido ao PS devido a distensão abdominal colossal há 3 dias.",
+      "O cuidador relata que o idoso não evacua e não elimina gases há pelo menos 72 horas. Apresentou um episódio de vômito fecaloide hoje.",
+      "Ao exame, o abdome é absurdamente globoso, timpânico à percussão (som de tambor), indolor e sem sinais de peritonite.",
+      "O toque retal demonstra uma ampola retal completamente vazia, sem fezes.",
+      "A radiografia de abdome em decúbito dorsal revela uma alça intestinal do cólon distal gigantescamente dilatada, que se eleva da pelve em direção ao quadrante superior direito, formando o clássico \"Sinal do Grão de Café\" ou \"U invertido\"."
+    ]
+  },
+  {
+    "id": "hipertensao-intracraniana-idiopatica-pseudotumor-cerebral-pdf-066",
+    "diagnosis": [
+      "Hipertensão Intracraniana Idiopática (Pseudotumor Cerebral)",
+      "Hipertensão Intracraniana Idiopática",
+      "Pseudotumor Cerebral"
+    ],
+    "specialty": "neurologia/oftalmologia",
+    "hints": [
+      "Mulher de 28 anos, obesa (IMC 36), queixa-se de dor de cabeça diária constante e visão embaçada transitória que piora quando ela se curva para frente ou tosse.",
+      "Ela relata ouvir um zumbido pulsátil no ouvido, parecendo o barulho do \"coração batendo\".",
+      "Nega febre, vômitos em jato, alterações motoras ou sensitivas nos braços e pernas.",
+      "O exame de fundoscopia ocular revela edema de papila (papiledema) bilateral evidente.",
+      "A Ressonância Magnética de crânio é absolutamente normal (sem massas, trombose venosa ou hidrocefalia). A punção lombar revela uma pressão de abertura muito elevada (35 cmH2O), mas o líquor tem composição celular e química normais. A dor de cabeça aliviou após a punção."
+    ]
+  },
+  {
+    "id": "nefropatia-por-iga-doenca-de-berger-pdf-067",
+    "diagnosis": [
+      "Nefropatia por IgA (Doença de Berger)",
+      "Nefropatia por IgA",
+      "Doença Berger",
+      "doenca de Berger"
+    ],
+    "specialty": "nefrologia",
+    "hints": [
+      "Jovem do sexo masculino, 22 anos, procura a urgência porque a sua urina ficou subitamente muito escura, com a cor semelhante a \"Coca-Cola\" ou chá preto.",
+      "Ele relata que este quadro começou há 2 dias, coincidindo com o início de uma dor de garganta intensa e febre para as quais ainda não tomou antibiótico.",
+      "Ao exame físico, a pressão arterial está ligeiramente elevada (145x90 mmHg). Não há edema periférico ou periorbitário evidente.",
+      "O exame de urina (EAS/Urina II) mostra hematúria maciça com presença de hemácias dismórficas e cilindros hemáticos. Os níveis de complemento sérico (C3 e C4) estão normais.",
+      "A biópsia renal, solicitada pelo nefrologista, evidencia proliferação mesangial com depósitos granulares difusos de uma imunoglobulina específica à imunofluorescência."
+    ]
+  },
+  {
+    "id": "meningite-criptococica-criptococose-do-snc-pdf-068",
+    "diagnosis": [
+      "Meningite Criptocócica (Criptococose do SNC)",
+      "Meningite Criptocócica",
+      "Criptococose SNC"
+    ],
+    "specialty": "neurologia/infectologia",
+    "hints": [
+      "Homem de 38 anos é trazido ao hospital com confusão mental, letargia e dor de cabeça persistente há 2 semanas.",
+      "O parceiro refere que ele tem tido febre baixa diária e perda de peso. Ao exame da cavidade oral, notam-se placas esbranquiçadas destacáveis na língua (candidíase).",
+      "O paciente possui histórico de infecção por VIH, mas abandonou a terapia antirretroviral há 2 anos. A sua contagem de células CD4 atual é de 45 células/mm³.",
+      "A punção lombar revela uma pressão de abertura muito elevada (35 cmH2O) e um líquor com pleocitose linfomonocitária leve.",
+      "A coloração do LCR com Tinta da China (Nanquim) revela leveduras encapsuladas proeminentes. O teste de antígeno no líquor é fortemente positivo."
+    ]
+  },
+  {
+    "id": "pericardite-aguda-pdf-069",
+    "diagnosis": [
+      "Pericardite Aguda"
+    ],
+    "specialty": "cardiologia",
+    "hints": [
+      "Homem de 40 anos, sem fatores de risco cardiovascular, chega à emergência com dor torácica aguda, em pontada, na região retroesternal.",
+      "Relata que teve um quadro semelhante a uma gripe (tosse, coriza e mialgia) na semana passada.",
+      "A dor agrava-se com a tosse, ao inspirar fundo e quando se deita de costas (decúbito dorsal). Curiosamente, a dor alivia quase por completo quando o paciente se senta e inclina o tronco para a frente.",
+      "À ausculta cardíaca, o médico ouve um som áspero, semelhante ao raspar de couro, audível tanto na sístole quanto na diástole na borda esternal esquerda.",
+      "O eletrocardiograma (ECG) evidencia supradesnivelamento difuso do segmento ST em quase todas as derivações e infradesnivelamento do segmento PR."
+    ]
+  },
+  {
+    "id": "acalasia-pdf-070",
+    "diagnosis": [
+      "Acalasia"
+    ],
+    "specialty": "gastroenterologia",
+    "hints": [
+      "Mulher de 50 anos queixa-se de dificuldade progressiva para engolir (disfagia) há 8 meses. Curiosamente, ela tem dificuldade tanto para engolir alimentos sólidos quanto líquidos desde o início.",
+      "Refere que frequentemente regurgita alimentos não digeridos durante a noite, sujando a almofada, e tem tido perda de peso.",
+      "Tentou usar inibidores da bomba de protões (Omeprazol) receitados na atenção primária, mas não houve qualquer alívio dos sintomas.",
+      "A esofagografia baritada mostra um esófago muito dilatado que termina num afilamento abrupto na transição esofagogástrica, num padrão clássico de \"bico de pássaro\".",
+      "A manometria esofágica é o exame padrão-ouro e, neste caso, evidenciou aperistalse do corpo esofágico e falha no relaxamento do esfíncter esofágico inferior."
+    ]
+  },
+  {
+    "id": "esclerose-sistemica-esclerodermia-forma-limitada-sindrome-crest-pdf-071",
+    "diagnosis": [
+      "Esclerose Sistêmica (Esclerodermia) - Forma Limitada (Síndrome CREST)",
+      "Esclerose Sistêmica - Forma Limitada",
+      "Esclerodermia",
+      "Síndrome CREST"
+    ],
+    "specialty": "reumatologia",
+    "hints": [
+      "Mulher de 45 anos queixa-se de que, ao pegar em objetos frios ou em dias de inverno, os seus dedos ficam primeiramente brancos, depois azulados e finalmente doloridos e muito vermelhos ao aquecer.",
+      "Queixa-se também de azia constante e sensação de que a comida fica \"presa\" no meio do peito.",
+      "Ao exame físico, a pele das mãos e dos dedos encontra-se espessada, brilhante e endurecida, sendo impossível pregueá-la. Os dedos parecem \"salsichas\".",
+      "Observam-se pequenas manchas vermelhas na face e nas palmas das mãos que desaparecem com a digitopressão (telangiectasias), além de pequenos nódulos calcificados sob a pele dos dedos.",
+      "Os exames laboratoriais revelam FAN positivo com padrão centromérico. O anticorpo anticentrômero é reagente em altos títulos."
+    ]
+  },
+  {
+    "id": "policitemia-vera-pdf-072",
+    "diagnosis": [
+      "Policitemia Vera"
+    ],
+    "specialty": "hematologia",
+    "hints": [
+      "Homem de 60 anos marca consulta relatando um prurido (comichão) corporal severo e generalizado, que se manifesta quase exclusivamente após tomar banhos quentes.",
+      "Queixa-se de dores de cabeça frequentes, tonturas e visão turva. A sua esposa comenta que o rosto dele anda sempre \"avermelhado\", como se estivesse queimado do sol.",
+      "Ao exame físico, apresenta pletora facial, congestão das mucosas e o baço é palpável a 4 cm do rebordo costal esquerdo.",
+      "O hemograma revela Hemoglobina de 19,5 g/dL, Hematócrito de 58%, além de aumento leve e concomitante nos leucócitos e plaquetas.",
+      "A eritropoietina sérica encontra-se muito suprimida. A pesquisa molecular no sangue periférico confirma a presença da mutação V617F no gene JAK2."
+    ]
+  },
+  {
+    "id": "pneumotorax-espontaneo-primario-pdf-073",
+    "diagnosis": [
+      "Pneumotórax Espontâneo Primário"
+    ],
+    "specialty": "pneumologia",
+    "hints": [
+      "Jovem do sexo masculino, 19 anos, biótipo longilíneo (alto e magro), estava a assistir a um filme no sofá quando sentiu uma dor torácica súbita no lado direito, seguida de falta de ar.",
+      "Ele nega qualquer tipo de trauma recente, não fuma e nunca teve problemas de saúde antes.",
+      "Os sinais vitais mostram taquicardia (110 bpm) e frequência respiratória de 22 cpm. A saturação está em 94%.",
+      "À ausculta pulmonar, o murmúrio vesicular está totalmente abolido no hemitórax direito. A percussão desse mesmo lado revela som hipertimpânico.",
+      "A radiografia de tórax mostra hipertransparência à direita, ausência de trama vascular na periferia e visualização de uma linha pleural visceral fina delimitando o pulmão colapsado."
+    ]
+  },
+  {
+    "id": "esclerose-lateral-amiotrofica-ela-pdf-074",
+    "diagnosis": [
+      "Esclerose Lateral Amiotrófica (ELA)",
+      "Esclerose Lateral Amiotrófica",
+      "ELA"
+    ],
+    "specialty": "neurologia",
+    "hints": [
+      "Homem de 55 anos queixa-se de fraqueza progressiva na mão direita há 6 meses, relatando dificuldade em rodar a chave na fechadura e queda de objetos.",
+      "Recentemente, começou a notar fraqueza também na perna esquerda, o que o faz tropeçar frequentemente. Ele não tem qualquer dor, dormência ou alteração de sensibilidade.",
+      "A esposa notou que a fala dele tem ficado mais arrastada e ele apresenta movimentos ondulatórios involuntários por baixo da pele dos braços e na língua (fasciculações).",
+      "O exame neurológico revela atrofia muscular evidente nas mãos, mas os reflexos tendíneos estão paradoxalmente exacerbados (hiperreflexia) e há presença do Sinal de Babinski.",
+      "A eletroneuromiografia (ENMG) demonstra sinais extensos de desinervação aguda e crónica em múltiplos territórios corporais, caracterizando degeneração simultânea do primeiro e segundo neurónios motores."
+    ]
+  },
+  {
+    "id": "placenta-previa-insercao-baixa-pdf-075",
+    "diagnosis": [
+      "Placenta Prévia (inserção baixa)",
+      "Placenta Prévia",
+      "inserção baixa"
+    ],
+    "specialty": "obstetrícia",
+    "hints": [
+      "Grávida de 32 anos, na sua terceira gestação (G3P2), com 32 semanas de idade gestacional, acorda de madrugada numa poça de sangue vermelho vivo.",
+      "Ela chega muito assustada à maternidade, mas afirma categoricamente que não sente qualquer dor abdominal ou cólica.",
+      "Ao exame físico obstétrico, o abdómen é indolor, o útero encontra-se com o tónus normal (relaxado) e os batimentos cardíacos fetais são de 145 bpm e tranquilizadores.",
+      "O médico plantonista, ao avaliar a história clínica, decide contraindicar estritamente a realização de toque vaginal neste momento.",
+      "A ultrassonografia transvaginal evidencia tecido placentário a cobrir completamente o orifício interno do colo do útero."
+    ]
+  },
+  {
+    "id": "estenose-hipertrofica-do-piloro-pdf-076",
+    "diagnosis": [
+      "Estenose Hipertrófica do Piloro"
+    ],
+    "specialty": "pediatria/cirurgia",
+    "hints": [
+      "Bebé do sexo masculino, com 4 semanas de vida, é levado pelos pais devido a vómitos após todas as mamadas nos últimos 5 dias.",
+      "A mãe relata que os vómitos parecem um \"jato\" muito forte e que o líquido expelido parece apenas leite coalhado, nunca sendo amarelado ou esverdeado (não bilioso).",
+      "Apesar de vomitar repetidamente, o lactente mostra-se sempre esfomeado e chora à procura do peito logo a seguir aos episódios.",
+      "O bebé apresenta sinais de desidratação moderada. Durante o exame abdominal, após a mamada, o médico consegue palpar uma pequena massa endurecida e móvel, em formato de azeitona, no quadrante superior direito.",
+      "O exame de ultrassonografia de abdómen superior confirma o espessamento e alongamento da musculatura do canal de saída do estômago."
+    ]
+  },
+  {
+    "id": "isquemia-mesenterica-cronica-angina-intestinal-pdf-077",
+    "diagnosis": [
+      "Isquemia Mesentérica Crónica (\"Angina Intestinal\")",
+      "Isquemia Mesentérica Crónica",
+      "\"Angina Intestinal\""
+    ],
+    "specialty": "cirurgia vascular/gastroenterologia",
+    "hints": [
+      "Mulher de 68 anos, grande fumadora e com diagnóstico prévio de doença arterial periférica, procura a consulta por perda de peso severa (15 kg em 6 meses).",
+      "Ela queixa-se de uma dor abdominal surda e em cólica que surge impreterivelmente 30 a 60 minutos após comer qualquer refeição mais pesada.",
+      "A dor é tão desconfortável que ela desenvolveu um medo patológico de comer (sitofobia), sendo essa a verdadeira causa da sua perda de peso extrema.",
+      "O exame físico abdominal é inespecífico e a endoscopia digestiva alta e colonoscopia realizadas recentemente não revelaram alterações significativas.",
+      "A angiotomografia computadorizada (Angio-TC) de abdómen evidencia estenose aterosclerótica grave do tronco celíaco e da artéria mesentérica superior."
+    ]
+  },
+  {
+    "id": "malaria-provavelmente-plasmodium-vivax-pela-febre-terca-pdf-078",
+    "diagnosis": [
+      "Malária (provavelmente Plasmodium vivax, pela febre terçã)",
+      "Malária",
+      "Plasmodium vivax",
+      "febre terçã"
+    ],
+    "specialty": "infectologia",
+    "hints": [
+      "Homem de 30 anos dá entrada na urgência com febre de 40°C, calafrios incontroláveis (tremores) e sudorese profusa.",
+      "O paciente relata que tem estado com estes episódios febris de forma muito padronizada: passa um dia inteiro bem e, no dia seguinte, a febre alta e os tremores regressam (padrão em dias alternados).",
+      "Uma anamnese detalhada revela que ele retornou há 15 dias de uma viagem de turismo ecológico numa região de selva da Bacia Amazónica, onde sofreu múltiplas picadas de inseto.",
+      "Os exames laboratoriais revelam anemia hemolítica, plaquetopenia importante e elevação da bilirrubina indireta e do LDH.",
+      "O teste da gota espessa e esfregaço de sangue periférico identificam a presença de parasitas intraeritrocitários em formato de anel."
+    ]
+  },
+  {
+    "id": "arterite-de-celulas-gigantes-arterite-temporal-pdf-079",
+    "diagnosis": [
+      "Arterite de Células Gigantes (Arterite Temporal)",
+      "Arterite de Células Gigantes",
+      "Arterite Temporal"
+    ],
+    "specialty": "reumatologia/neurologia",
+    "hints": [
+      "Mulher de 72 anos queixa-se de uma dor de cabeça de início recente, localizada exclusivamente na região temporal direita, muito intensa e latejante.",
+      "Ela relata que tem sentido dores fortes na mandíbula sempre que tenta mastigar um bife ou alimentos mais duros (claudicação mandibular), obrigando-a a parar de comer.",
+      "Refere ainda que, nas últimas semanas, tem sentido muitas dores e rigidez muscular nos ombros e ancas (compatível com Polimialgia Reumática).",
+      "A paciente deu entrada na urgência hoje porque perdeu a visão do olho direito subitamente durante a manhã (amaurose fugaz).",
+      "A artéria temporal direita à palpação encontra-se endurecida, nodular e sem pulso. O exame de VHS (Velocidade de Hemossedimentação) está altíssimo (> 100 mm/h). A biópsia do vaso está indicada, mas os corticosteróides em alta dose devem ser iniciados imediatamente."
+    ]
+  },
+  {
+    "id": "diabetes-insipidus-origem-central-pdf-080",
+    "diagnosis": [
+      "Diabetes Insipidus (Origem Central)",
+      "Diabetes Insipidus",
+      "Origem Central"
+    ],
+    "specialty": "endocrinologia",
+    "hints": [
+      "Mulher de 28 anos, previamente saudável, procura o clínico geral referindo uma sede incontrolável (polidipsia) e a necessidade de beber água constantemente ao longo do dia.",
+      "Relata que urina volumes enormes (cerca de 8 a 10 litros por dia) e que tem de acordar 4 a 5 vezes todas as noites para esvaziar a bexiga, o que a deixa exausta.",
+      "O exame de urina de rotina mostra que a urina é quase transparente, sem glicose ou proteínas, mas com uma densidade (gravidade específica) extremamente baixa (1.003). O sódio sérico está no limite superior do normal (146 mEq/L).",
+      "O médico interna a paciente e realiza o \"Teste de Privação de Água\". Mesmo após horas sem beber líquidos, a osmolalidade da sua urina não aumenta.",
+      "Administra-se então uma dose de desmopressina (um análogo hormonal) por via nasal. Imediatamente após, o volume urinário cai drasticamente e a urina torna-se concentrada."
+    ]
+  },
+  {
+    "id": "doenca-renal-policistica-autossomica-dominante-drpad-pdf-081",
+    "diagnosis": [
+      "Doença Renal Policística Autossómica Dominante (DRPAD)",
+      "Doença Renal Policística Autossómica Dominante",
+      "DRPAD",
+      "doenca renal policistica"
+    ],
+    "specialty": "nefrologia/genetica",
+    "hints": [
+      "Homem de 42 anos queixa-se de uma dor persistente e surda em ambos os flancos das costas.",
+      "Hoje de manhã, observou que a sua urina estava tingida de sangue (hematúria macroscópica). Ao verificar os seus sinais vitais, a pressão arterial estava alta (160x100 mmHg).",
+      "Colhendo a história familiar, o paciente menciona que o seu pai faleceu repentinamente aos 50 anos devido ao rompimento de um aneurisma cerebral e que também tinha problemas renais.",
+      "Ao exame físico, o médico consegue palpar massas volumosas e irregulares em ambos os flancos abdominais. A creatinina sérica apresenta-se ligeiramente alterada (1,5 mg/dL).",
+      "A ecografia renal revela ambos os rins massivamente aumentados de tamanho, com o parênquima quase totalmente substituído por inúmeras formações císticas de tamanhos variados."
+    ]
+  },
+  {
+    "id": "endocardite-infecciosa-de-coracao-direito-pdf-082",
+    "diagnosis": [
+      "Endocardite Infecciosa de Coração Direito"
+    ],
+    "specialty": "infectologia/cardiologia",
+    "hints": [
+      "Jovem do sexo masculino, 28 anos, chega ao pronto-socorro com febre de 39,5°C, calafrios e dor no peito à direita que piora ao respirar fundo.",
+      "O paciente apresenta marcas de picadas ao longo das veias dos braços e o acompanhante admite que ele é usuário ativo de drogas intravenosas.",
+      "O exame físico revela um sopro holossistólico na borda esternal esquerda inferior, que sofre aumento de intensidade durante a inspiração profunda (Sinal de Rivero-Carvallo).",
+      "A radiografia de tórax não mostra uma pneumonia lobar clássica, mas sim múltiplos nódulos espalhados pela periferia de ambos os pulmões, alguns com áreas de cavitação no seu interior (sugestivo de êmbolos sépticos).",
+      "As hemoculturas colhidas confirmam a presença de Staphylococcus aureus meticilino-resistente. O ecocardiograma transesofágico revela uma vegetação móvel de 15 mm aderida à válvula tricúspide."
+    ]
+  },
+  {
+    "id": "sindrome-carcinoide-pdf-083",
+    "diagnosis": [
+      "Síndrome Carcinoide"
+    ],
+    "specialty": "oncologia/endocrinologia",
+    "hints": [
+      "Homem de 55 anos queixa-se de episódios recorrentes em que o seu rosto, pescoço e parte superior do tronco ficam subitamente muito vermelhos e quentes (flushing facial).",
+      "Estes episódios são acompanhados por cólicas abdominais intensas e diarreia aquosa severa. Ele percebeu que o álcool e alguns alimentos desencadeiam os sintomas.",
+      "Nas últimas semanas, tem sentido também falta de ar, e a ausculta pulmonar revela sibilos bilaterais, embora ele nunca tenha tido asma.",
+      "O ecocardiograma revela espessamento e retração das válvulas do lado direito do coração, com insuficiência tricúspide, mas as válvulas do lado esquerdo estão normais.",
+      "A tomografia de abdómen identifica uma pequena massa no íleo terminal e várias metástases hipervasculares no fígado. A urina de 24 horas mostra níveis absurdamente elevados de ácido 5-hidroxi-indolacético (5-HIAA)."
+    ]
+  },
+  {
+    "id": "hiperparatireoidismo-primario-pdf-084",
+    "diagnosis": [
+      "Hiperparatireoidismo Primário"
+    ],
+    "specialty": "endocrinologia",
+    "hints": [
+      "Mulher de 60 anos marca consulta relatando dores ósseas generalizadas, cansaço extremo e sintomas depressivos que pioraram no último ano.",
+      "Revendo o seu histórico, nota-se que ela esteve na urgência duas vezes nos últimos oito meses para tratar cólicas renais por cálculos (\"pedras nos rins\").",
+      "O médico solicita exames de rotina que revelam um Cálcio sérico muito elevado (11,8 mg/dL) e um Fósforo sérico baixo (2,1 mg/dL).",
+      "A densitometria óssea demonstra osteoporose severa, especialmente no osso cortical (ex: rádio distal). O eletrocardiograma mostra um intervalo QT encurtado.",
+      "A dosagem do hormônio PTH (paratormona) intacto no sangue encontra-se inapropriadamente alta, não tendo sido suprimida pela hipercalcemia. O cintilograma com Sestamibi evidencia um nódulo hipercaptante no pescoço."
+    ]
+  },
+  {
+    "id": "doenca-de-parkinson-pdf-085",
+    "diagnosis": [
+      "Doença de Parkinson"
+    ],
+    "specialty": "neurologia",
+    "hints": [
+      "Homem de 65 anos é trazido pela esposa, que reclama que ele tem ficado muito \"lento\" a fazer as tarefas do dia a dia e que os seus passos estão mais curtos e arrastados.",
+      "Ele próprio nota um tremor na mão direita que o incomoda principalmente quando está sentado a ver televisão. Estranhamente, o tremor desaparece quando ele usa a mão para pegar num copo de água.",
+      "O médico nota que o paciente pisca os olhos muito raramente e que a expressão do seu rosto está engessada, sem demonstrar emoções facilmente (hipomimia facial).",
+      "Ao realizar a movimentação passiva do braço do paciente, o examinador sente uma resistência intermitente que cede em pequenos solavancos, semelhante a uma \"roda dentada\".",
+      "O quadro neurológico reverte substancialmente, os movimentos aceleram e o tremor diminui após o início de um teste terapêutico com Levodopa associada à Carbidopa."
+    ]
+  },
+  {
+    "id": "tetralogia-de-fallot-pdf-086",
+    "diagnosis": [
+      "Tetralogia de Fallot",
+      "Fallot"
+    ],
+    "specialty": "cardiologia pediátrica",
+    "hints": [
+      "Bebé de 8 meses, com antecedente de um sopro cardíaco detetado à nascença, é trazido à urgência num estado de irritabilidade intensa.",
+      "Os pais relatam que o bebé fica muito ofegante e os lábios e unhas ficam roxos (cianose) de forma paroxística, principalmente quando chora copiosamente ou faz esforço ao mamar.",
+      "A mãe notou que, durante as crises em que fica roxinho, se dobrar as perninhas do bebé contra o peito dele (equivalente ao agachamento), ele parece acalmar-se e voltar à cor normal mais rapidamente.",
+      "O exame físico revela cianose central perioral. A ausculta evidencia um sopro sistólico ejetivo rude na borda esternal esquerda alta. O ECG mostra hipertrofia ventricular direita evidente.",
+      "A radiografia de tórax evidencia a diminuição da trama vascular pulmonar (pulmões claros) e uma silhueta cardíaca com o ápice levantado e escavação no arco médio, clássico aspeto em \"bota\" ou \"tamanco holandês\"."
+    ]
+  },
+  {
+    "id": "enxaqueca-migranea-com-aura-pdf-088",
+    "diagnosis": [
+      "Enxaqueca (Migrânea) com Aura",
+      "Enxaqueca com Aura",
+      "Migrânea"
+    ],
+    "specialty": "neurologia",
+    "hints": [
+      "Mulher de 25 anos queixa-se de uma dor de cabeça fortíssima que a impede de trabalhar.",
+      "A dor é latejante (pulsátil) e afeta apenas o lado direito da cabeça.",
+      "Ela diz que a luz do sol e barulhos altos tornam a dor insuportável (fotofobia e fonofobia).",
+      "Durante a crise, ela apresenta náuseas e chegou a vomitar uma vez.",
+      "Ela relata que, cerca de 30 minutos antes da dor começar, viu \"pontos brilhantes\" em zigue-zague na visão (aura)."
+    ]
+  },
+  {
+    "id": "doenca-do-refluxo-gastroesofagico-drge-pdf-089",
+    "diagnosis": [
+      "Doença do Refluxo Gastroesofágico (DRGE)",
+      "Doença do Refluxo Gastroesofágico",
+      "DRGE",
+      "refluxo gastroesofagico"
+    ],
+    "specialty": "gastroenterologia",
+    "hints": [
+      "Homem de 45 anos, com sobrepeso, procura o consultório queixando-se de queimação no peito.",
+      "A queimação parece subir do estômago para a garganta (pirose) e costuma piorar muito após refeições volumosas.",
+      "Ele relata que frequentemente tem uma tosse seca ao deitar na cama à noite e acorda com um gosto amargo na boca.",
+      "Nega perda de peso, dificuldade para engolir ou sangramentos.",
+      "Os sintomas desaparecem completamente após algumas semanas de uso de um inibidor da bomba de prótons (Pantoprazol)."
+    ]
+  },
+  {
+    "id": "sindrome-do-tunel-do-carpo-pdf-090",
+    "diagnosis": [
+      "Síndrome do Túnel do Carpo"
+    ],
+    "specialty": "ortopedia/neurologia",
+    "hints": [
+      "Mulher de 50 anos, secretária e digitadora há 20 anos, queixa-se de formigamento nas mãos.",
+      "O formigamento (parestesia) afeta principalmente o polegar, o dedo indicador e o dedo médio.",
+      "O sintoma é tão intenso à noite que ela frequentemente acorda precisando \"chacoalhar\" as mãos para aliviar o desconforto.",
+      "Ao exame, o médico bate levemente no punho dela (sobre o nervo mediano), o que desencadeia um choque nos dedos (Sinal de Tinel).",
+      "Dobrar os punhos a 90 graus por um minuto reproduz a dor e o formigamento (Sinal de Phalen positivo)."
+    ]
+  },
+  {
+    "id": "gripe-sazonal-influenza-pdf-091",
+    "diagnosis": [
+      "Gripe Sazonal (Influenza)",
+      "Gripe Sazonal",
+      "Influenza"
+    ],
+    "specialty": "infectologia",
+    "hints": [
+      "Jovem de 20 anos relata o aparecimento súbito de febre alta (39°C), calafrios e dores intensas no corpo todo (mialgia).",
+      "Ele sente-se extremamente prostrado, não tem vontade de sair da cama e apresenta tosse seca irritativa.",
+      "Refere também dor de garganta leve e nariz escorrendo.",
+      "Estamos no mês de junho (inverno) e vários colegas da faculdade estão com sintomas idênticos.",
+      "O teste rápido de swab nasal confirma a presença do vírus Influenza tipo A."
+    ]
+  },
+  {
+    "id": "candidiase-vulvovaginal-pdf-092",
+    "diagnosis": [
+      "Candidíase Vulvovaginal"
+    ],
+    "specialty": "ginecologia",
+    "hints": [
+      "Mulher de 30 anos procura o posto de saúde com queixa de coceira (prurido) vaginal intensa e insuportável há 3 dias.",
+      "Relata que terminou um tratamento com antibióticos de largo espectro para uma sinusite na semana passada.",
+      "Não tem febre e não relata mau cheiro na região íntima.",
+      "Ao exame especular, a vagina encontra-se muito avermelhada e edemaciada.",
+      "Observa-se um corrimento esbranquiçado, grumoso e aderido às paredes vaginais, com aspecto de \"leite talhado\" ou queijo cottage."
+    ]
+  },
+  {
+    "id": "tinea-corporis-impingem-dermatofitose-pdf-093",
+    "diagnosis": [
+      "Tinea Corporis (Impingem/Dermatofitose)",
+      "Tinea Corporis",
+      "Impingem",
+      "Dermatofitose",
+      "Tinea Corporis (Impingem"
+    ],
+    "specialty": "dermatologia",
+    "hints": [
+      "Menino de 10 anos apresenta uma mancha vermelha no braço que não para de coçar.",
+      "Ele brinca muito com o cachorro da família, que também está com falhas de pelo pelo corpo.",
+      "A mancha no braço do menino é circular (em forma de anel).",
+      "O centro da lesão é mais claro, enquanto as bordas são bem vermelhas, elevadas e descamativas.",
+      "O exame micológico direto das escamas da borda da lesão revela hifas septadas (um fungo dermatófito)."
+    ]
+  },
+  {
+    "id": "varicela-catapora-pdf-095",
+    "diagnosis": [
+      "Varicela (Catapora)",
+      "Varicela",
+      "Catapora"
+    ],
+    "specialty": "pediatria/infectologia",
+    "hints": [
+      "Criança de 5 anos apresenta febre baixa e perda de apetite há 2 dias. Hoje, surgiram \"bolinhas\" pelo corpo.",
+      "A mãe diz que as lesões coçam excessivamente, deixando a criança muito irritada.",
+      "Ao inspecionar, o médico nota manchas vermelhas, que evoluem para pequenas bolhas d'água (vesículas) sobre base eritematosa (\"gota de orvalho sobre pétala de rosa\").",
+      "Após algumas horas, essas vesículas rompem-se e formam crostas (casquinhas).",
+      "O marco principal do exame físico é o polimorfismo regional: há manchas, vesículas e crostas convivendo ao mesmo tempo na mesma área do corpo."
+    ]
+  },
+  {
+    "id": "insuficiencia-venosa-cronica-varizes-pdf-096",
+    "diagnosis": [
+      "Insuficiência Venosa Crônica (Varizes)",
+      "Insuficiência Venosa Crônica",
+      "Varizes"
+    ],
+    "specialty": "cardiologia/vascular",
+    "hints": [
+      "Mulher de 55 anos, obesa e que trabalha em pé como balconista o dia inteiro, queixa-se de sensação de peso nas pernas ao final do dia.",
+      "A dor melhora significativamente quando ela chega em casa e deita com as pernas elevadas sobre travesseiros.",
+      "Ela diz que tem vergonha de usar saias porque suas pernas são cheias de \"vasinhos\" e veias saltadas.",
+      "Ao exame em pé, observam-se veias superficiais tortuosas e dilatadas nos membros inferiores, além de edema de tornozelo leve.",
+      "O ecodoppler venoso de membros inferiores confirma refluxo (incompetência das válvulas venosas) na veia safena magna."
+    ]
+  },
+  {
+    "id": "pielonefrite-aguda-pdf-098",
+    "diagnosis": [
+      "Pielonefrite Aguda"
+    ],
+    "specialty": "nefrologia",
+    "hints": [
+      "Mulher de 32 anos procura o hospital com febre de 39°C, calafrios batendo os dentes e náuseas.",
+      "Refere que há três dias começou a sentir ardência para urinar (disúria) e ia ao banheiro toda hora, mas não tratou.",
+      "Agora, queixa-se de uma dor muito forte nas costas, do lado esquerdo.",
+      "O médico realiza uma punho-percussão leve na região lombar esquerda, o que faz a paciente pular de dor (Sinal de Giordano positivo).",
+      "O exame de urina revela leucocitúria maciça (piúria) e presença de nitrito positivo e cilindros leucocitários."
+    ]
+  },
+  {
+    "id": "doenca-arterial-obstrutiva-periferica-daop-pdf-099",
+    "diagnosis": [
+      "Doença Arterial Obstrutiva Periférica (DAOP)",
+      "Doença Arterial Obstrutiva Periférica",
+      "DAOP"
+    ],
+    "specialty": "cirurgia vascular",
+    "hints": [
+      "Homem de 65 anos, diabético e fumante pesado (tabagista), queixa-se de dor nas panturrilhas sempre que caminha.",
+      "Ele relata que consegue andar exatamente dois quarteirões antes que a dor tipo cãibra se torne insuportável.",
+      "Se ele parar e descansar por alguns minutos em pé, a dor desaparece completamente (claudicação intermitente).",
+      "Ao inspecionar os pés do paciente, nota-se ausência de pelos, pele fina e brilhante, e as unhas estão engrossadas.",
+      "A palpação revela que os pulsos pedioso e tibial posterior estão ausentes em ambos os pés. O índice tornozelo-braço (ITB) é de 0,6 (anormal)."
+    ]
+  },
+  {
+    "id": "doenca-de-alzheimer-pdf-100",
+    "diagnosis": [
+      "Doença de Alzheimer"
+    ],
+    "specialty": "psiquiatria/neurologia",
+    "hints": [
+      "Mulher de 78 anos é trazida pela filha, que relata que a mãe está muito esquecida nos últimos 2 anos.",
+      "Ela esquece frequentemente onde guardou objetos, repete as mesmas histórias várias vezes no mesmo dia e perdeu-se no próprio bairro na semana passada.",
+      "Surpreendentemente, ela lembra-se com riqueza de detalhes de eventos de quando era criança, mas não sabe o que comeu no almoço de hoje.",
+      "A paciente nega qualquer problema e fica irritada com as acusações da filha. O exame físico e os exames de sangue (B12, tireoide, VDRL) são normais.",
+      "A ressonância magnética do crânio mostra atrofia cortical global, mais pronunciada nos lobos temporais e hipocampos, incompatível apenas com a idade."
+    ]
+  },
+  {
+    "id": "trombocitopenia-induzida-por-heparina-hit-pdf-110",
+    "diagnosis": [
+      "Trombocitopenia Induzida por Heparina (HIT)",
+      "Trombocitopenia Induzida por Heparina",
+      "HIT"
+    ],
+    "specialty": "hematologia",
+    "hints": [
+      "Paciente internado na UTI após uma cirurgia ortopédica de grande porte começa a apresentar, no 7º dia de internação, uma queda acentuada e inexplicável nas plaquetas (de 250.000 para 60.000).",
+      "Curiosamente, em vez de sangrar por causa da plaquetopenia, o paciente desenvolve trombose venosa profunda numa veia do braço que nem estava com acesso e, no dia seguinte, apresenta sinais de necrose na pele.",
+      "O seu único medicamento contínuo na UTI, além do antibiótico, era a medicação de profilaxia para trombose, injetada sob a pele todos os dias desde a cirurgia.",
+      "O quadro clínico suspeita de uma reação imune cruzada bizarra, onde os anticorpos ativam as plaquetas no momento em que elas deveriam estar inibidas.",
+      "O médico suspende imediatamente o anticoagulante em uso e solicita a pesquisa do anticorpo anti-Fator Plaquetário 4 (Anti-PF4). Inicia-se um inibidor direto da trombina."
+    ]
+  },
+  {
+    "id": "sindrome-de-stevens-johnson-ssj-pdf-112",
+    "diagnosis": [
+      "Síndrome de Stevens-Johnson (SSJ)",
+      "Síndrome de Stevens-Johnson",
+      "SSJ",
+      "Stevens-Johnson"
+    ],
+    "specialty": "dermatologia/emergência",
+    "hints": [
+      "Homem de 40 anos iniciou uso de Alopurinol há duas semanas para tratar ácido úrico alto.",
+      "Hoje, dá entrada no pronto-socorro com febre alta e ardor intenso nos olhos, boca e região genital.",
+      "O corpo está coberto por manchas avermelhadas que rapidamente se estão transformando em bolhas.",
+      "As mucosas (lábios, interior da boca, conjuntivas oculares) estão erodidas e sangrantes, causando dor excruciante para engolir.",
+      "Ao esfregar o dedo levemente na pele aparentemente normal próxima às bolhas, a camada superficial (epiderme) se descola com facilidade (Sinal de Nikolsky positivo). O descolamento corporal total afeta cerca de 8% da superfície da pele."
+    ]
+  },
+  {
+    "id": "doenca-de-wilson-pdf-113",
+    "diagnosis": [
+      "Doença de Wilson"
+    ],
+    "specialty": "gastroenterologia/genética",
+    "hints": [
+      "Homem de 22 anos é levado ao psiquiatra devido a um quadro recente e progressivo de depressão, agitação e alterações bruscas de personalidade.",
+      "A família nota que ele apresenta tremores grosseiros nas mãos e que os seus movimentos estão cada vez mais rígidos (sintomas parkinsonianos num jovem).",
+      "Exames de sangue de rotina revelam enzimas hepáticas ligeiramente elevadas (TGO e TGP).",
+      "Suspeitando de um defeito genético, o médico oftalmologista examina o paciente na lâmpada de fenda e identifica um anel acastanhado/esverdeado na periferia da córnea de ambos os olhos (Anel de Kayser-Fleischer).",
+      "O exame laboratorial chave revela níveis muito baixos de Ceruloplasmina sérica, apontando para o acúmulo tóxico de cobre no fígado e nos gânglios da base do cérebro."
+    ]
+  },
+  {
+    "id": "porfiria-intermitente-aguda-pdf-116",
+    "diagnosis": [
+      "Porfiria Intermitente Aguda",
+      "porfiria aguda intermitente",
+      "PAI"
+    ],
+    "specialty": "gastroenterologia/genética",
+    "hints": [
+      "Mulher de 35 anos chega à emergência gritando com uma dor abdominal em cólica insuportável e generalizada.",
+      "Ela não tem febre, e surpreendentemente o seu abdome é totalmente flácido e sem irritação peritoneal.",
+      "O quadro é acompanhado por confusão mental, alucinações, taquicardia e dormência nos membros. O psiquiatra de plantão é acionado por suspeita de histeria ou psicose.",
+      "Uma revisão do prontuário mostra que ela iniciou um tratamento profilático com um antibiótico à base de sulfonamidas alguns dias antes para uma infecção de urina de repetição, o que serviu como gatilho.",
+      "A enfermeira nota que o frasco de urina da paciente coletado na triagem, que ficou sobre a bancada exposto à luz solar por algumas horas, mudou de cor, adquirindo uma coloração escura como \"vinho do porto\" devido à presença de porfobilinogênio."
+    ]
+  },
+  {
     "id": "hipertermia-maligna-001",
     "diagnosis": [
       "hipertermia maligna"
@@ -40,84 +1590,6 @@
       "Ao exame, encontra-se muito algiada, com dor localizada em fossa iliaca direita e discreta defesa, porem sem sinais francos de sepse ou irritacao peritoneal difusa.",
       "Laboratorio pode ser pouco especifico, as vezes com leucocitose discreta apenas. A intensidade da dor contrasta com exames iniciais pouco alterados.",
       "Ultrassom transvaginal mostra ovario aumentado e edemaciado, com fluxo diminuido ou ausente ao Doppler, sugerindo torcao anexial."
-    ]
-  },
-  {
-    "id": "insuficiencia-adrenal-primaria-crise-001",
-    "diagnosis": [
-      "insuficiência adrenal primária",
-      "crise adrenal",
-      "crise addisoniana",
-      "doença de Addison"
-    ],
-    "specialty": "clínica médica",
-    "hints": [
-      "Homem de 68 anos apresenta perda de peso, fraqueza, hipotensão postural e dor abdominal vaga há 2 meses.",
-      "Usa corticoide inalatório em dose alta, fez infiltrações articulares recentes e relata hiperpigmentação discreta que atribui ao sol.",
-      "Exames mostram hiponatremia, hipercalemia leve, glicemia baixa-normal e eosinofilia discreta.",
-      "Durante gastroenterite, evolui com confusão, hipotensão persistente e piora da dor abdominal. Não melhora adequadamente com volume.",
-      "Cortisol basal muito baixo e ACTH elevado; resposta inadequada ao teste com cosintropina."
-    ]
-  },
-  {
-    "id": "infarto-agudo-do-miocardio-001",
-    "diagnosis": [
-      "infarto agudo do miocárdio",
-      "IAM",
-      "infarto do miocárdio"
-    ],
-    "specialty": "cardiologia",
-    "hints": [
-      "Homem de 58 anos chega ao PS com dor no peito em aperto ha cerca de 1 hora, iniciada em repouso enquanto assistia televisao. Diz que a dor irradia para braco esquerdo e mandibula.",
-      "Esta nauseado, suando frio e bastante ansioso. E hipertenso, diabetico e tabagista. Nega trauma e nao refere febre ou tosse.",
-      "Ao exame, encontra-se palido, sudoretico e levemente hipertenso, com desconforto evidente. Ausculta pulmonar sem congestao importante naquele momento.",
-      "Eletrocardiograma inicial mostra alteracoes isquemicas agudas em derivacoes contiguas. Biomarcadores cardiacos tornam-se elevados na sequencia da observacao.",
-      "Sindome coronariana aguda com necrose miocardica, exigindo abordagem imediata de reperfusao conforme contexto eletrocardiografico."
-    ]
-  },
-  {
-    "id": "apendicite-aguda-001",
-    "diagnosis": [
-      "apendicite aguda",
-      "apendicite"
-    ],
-    "specialty": "cirurgia geral",
-    "hints": [
-      "Homem de 25 anos chega ao PS relatando dor abdominal ha cerca de 18 horas. Diz que comecou “no meio da barriga”, mal localizada, e foi ficando mais forte ate se concentrar na fossa iliaca direita. Nega episodios parecidos previos.",
-      "Refere anorexia, nauseas e um episodio de vomito. Conta que a dor piora quando anda, sobe escadas ou tosse. Nega diarreia, disuria e corrimento.",
-      "Ao exame, encontra-se em regular estado geral, levemente taquicardico, afebril ou com febre baixa. Abdome com dor localizada em FID, discreta defesa e descompressao dolorosa; restante sem sinais francos de peritonite difusa.",
-      "Hemograma mostra leucocitose moderada com neutrofilia; PCR discretamente elevada. Urina tipo I sem achados que expliquem o quadro.",
-      "USG abdominal evidencia estrutura tubular nao compressivel em FID, espessada, com diametro aumentado e pequena reacao inflamatoria ao redor."
-    ]
-  },
-  {
-    "id": "invaginacao-intestinal-002",
-    "diagnosis": [
-      "invaginação intestinal",
-      "intussuscepção",
-      "intussuscepção intestinal"
-    ],
-    "specialty": "pediatria",
-    "hints": [
-      "Lactente de 9 meses apresenta episódios intermitentes de choro intenso, vômitos e períodos de aparente melhora.",
-      "Teve infecção respiratória recente. No pronto atendimento, está afebril, hidratado limítrofe, abdome pouco distendido.",
-      "A mãe relata fezes mais escuras, mas sem sangramento evidente. Ultrassom inicial é inconclusivo por excesso de gases.",
-      "Entre as crises, a criança parece quase normal, levando a equipe a considerar cólica ou gastroenterite.",
-      "Novo ultrassom durante crise mostra imagem em alvo no quadrante superior direito."
-    ]
-  },
-  {
-    "id": "pielonefrite-aguda-001",
-    "diagnosis": [
-      "pielonefrite aguda"
-    ],
-    "specialty": "clínica médica",
-    "hints": [
-      "Mulher de 31 anos procura atendimento por febre alta, dor lombar a direita e mal-estar ha 24 horas. Conta que vinha com ardor para urinar e aumento da frequencia miccional ha alguns dias, mas nao procurou atendimento.",
-      "Teve calafrios, nauseas e queda do estado geral. Nega corrimento vaginal e nao tem antecedente de colica renal conhecida.",
-      "Ao exame, esta febril e taquicardica. Apresenta dor a punho-percussao lombar direita, sem sinais de abdomen agudo peritoneal.",
-      "EAS mostra leucocituria e bacteriuria; pode haver nitrito positivo. Hemograma com leucocitose e PCR elevada.",
-      "O conjunto e mais compativel com infeccao urinaria alta do que com cistite simples ou dor musculoesqueletica lombar."
     ]
   },
   {
@@ -164,25 +1636,6 @@
     ]
   },
   {
-    "id": "tromboembolismo-pulmonar-submacico-001",
-    "diagnosis": [
-      "tromboembolismo pulmonar submaciço",
-      "tromboembolismo pulmonar intermediário risco",
-      "tromboembolismo pulmonar de risco intermediário",
-      "TEP submaciço",
-      "TEP intermediário risco",
-      "embolia pulmonar submaciça"
-    ],
-    "specialty": "clínica médica",
-    "hints": [
-      "Mulher de 54 anos procura atendimento por dispneia progressiva há 3 semanas, fadiga e desconforto torácico inespecífico. Refere ansiedade recente e sono ruim.",
-      "Tem história de câncer de mama tratado há 8 anos. Está normotensa, taquicárdica, saturando 93% em ar ambiente. Ausculta pulmonar quase normal.",
-      "ECG mostra taquicardia sinusal e alterações inespecíficas de repolarização. Troponina discretamente elevada. Radiografia de tórax sem consolidação.",
-      "D-dímero elevado. Ecocardiograma mostra ventrículo direito discretamente dilatado, mas sem colapso hemodinâmico. A equipe cogita síndrome coronariana sem supra.",
-      "Angiotomografia mostra múltiplos defeitos de enchimento em artérias pulmonares segmentares bilateralmente, com relação VD/VE aumentada."
-    ]
-  },
-  {
     "id": "amiloidose-cardiaca-transtirretina-selvagem-001",
     "diagnosis": [
       "amiloidose cardíaca por transtirretina",
@@ -201,22 +1654,6 @@
     ]
   },
   {
-    "id": "doenca-de-kawasaki-incompleta-001",
-    "diagnosis": [
-      "doença de Kawasaki incompleta",
-      "Kawasaki incompleta",
-      "doença de Kawasaki com acometimento coronariano"
-    ],
-    "specialty": "pediatria",
-    "hints": [
-      "Menino de 4 anos tem febre há 6 dias, irritabilidade e redução do apetite. Foi tratado como virose.",
-      "Apresenta conjuntivite bilateral sem secreção, lábios fissurados e exantema polimorfo, mas sem todos os critérios clássicos.",
-      "PCR e VHS muito elevados, plaquetas inicialmente normais, transaminases discretamente elevadas e urina com piúria estéril.",
-      "A febre persiste apesar de antibiótico. Ecocardiograma inicial é descrito como sem alterações significativas, mas a criança permanece muito inflamada.",
-      "Novo ecocardiograma mostra dilatação de artéria coronária direita com escore Z aumentado."
-    ]
-  },
-  {
     "id": "sindrome-hemolitico-uremica-toxina-shiga-001",
     "diagnosis": [
       "síndrome hemolítico-urêmica típica",
@@ -231,22 +1668,6 @@
       "Hemograma mostra anemia, plaquetopenia e leucocitose. Creatinina elevada. Urina com hematúria e proteinúria moderada.",
       "Esfregaço mostra esquizócitos. Coombs direto negativo. A família relata consumo de hambúrguer artesanal em festa.",
       "Pesquisa fecal/PCR identifica toxina Shiga."
-    ]
-  },
-  {
-    "id": "isquemia-mesenterica-aguda-embolica-001",
-    "diagnosis": [
-      "isquemia mesentérica aguda embólica",
-      "isquemia mesentérica aguda",
-      "oclusão embólica da artéria mesentérica superior"
-    ],
-    "specialty": "cirurgia geral",
-    "hints": [
-      "Homem de 76 anos apresenta dor abdominal intensa há 5 horas, náuseas e exame abdominal surpreendentemente pouco expressivo.",
-      "Tem fibrilação atrial, parou anticoagulante por conta própria para procedimento odontológico. Lactato discretamente elevado.",
-      "Tomografia sem contraste mostra achados pouco específicos. A equipe cogita gastroenterite ou pancreatite leve.",
-      "A dor piora, surge acidose metabólica e leucocitose. Amilase discretamente elevada.",
-      "Angiotomografia mostra oclusão embólica da artéria mesentérica superior."
     ]
   },
   {
@@ -297,21 +1718,6 @@
     ]
   },
   {
-    "id": "sindrome-hellp-001",
-    "diagnosis": [
-      "síndrome HELLP",
-      "HELLP"
-    ],
-    "specialty": "ginecologia/obstetrícia",
-    "hints": [
-      "Gestante de 32 semanas apresenta epigastralgia, náuseas e mal-estar, sem queixa obstétrica exuberante.",
-      "Pressão arterial está apenas levemente elevada em uma medida. Sem proteinúria importante inicialmente.",
-      "Plaquetas caindo, AST/ALT elevadas e DHL aumentado. Dor em hipocôndrio direito persiste.",
-      "A equipe cogita gastrite, colelitíase e hepatite viral. Ultrassom abdominal não mostra obstrução biliar.",
-      "Hemólise laboratorial, enzimas hepáticas elevadas e plaquetopenia em gestante no terceiro trimestre."
-    ]
-  },
-  {
     "id": "tromboflebite-pelvica-septica-pos-parto-001",
     "diagnosis": [
       "tromboflebite pélvica séptica pós-parto",
@@ -325,57 +1731,6 @@
       "Hemoculturas negativas, ferida operatória sem secreção, ultrassom sem restos ovulares.",
       "TC mostra achados discretos e inespecíficos em pelve. A equipe troca antibióticos repetidamente.",
       "Febre persistente pós-parto apesar de antibiótico, com imagem sugerindo trombo em veia pélvica/ovariana."
-    ]
-  },
-  {
-    "id": "purpura-trombocitopenica-trombotica-adquirida-001",
-    "diagnosis": [
-      "púrpura trombocitopênica trombótica adquirida",
-      "purpura trombocitopenica trombotica adquirida",
-      "PTT adquirida",
-      "púrpura trombocitopênica trombótica",
-      "purpura trombocitopenica trombotica"
-    ],
-    "specialty": "hematologia",
-    "hints": [
-      "Mulher de 38 anos chega ao pronto-socorro com mal-estar há 4 dias, cefaleia, náuseas, dor abdominal vaga e episódios breves de confusão. Está afebril no momento, mas refere febre baixa em casa.",
-      "PA 142/88 mmHg, FC 108 bpm. Exame neurológico oscila: ora está orientada, ora apresenta lentificação e dificuldade para nomear objetos. Sem rigidez de nuca. Urina escurecida nas últimas 24 horas. Foi tratada há 1 semana com antibiótico por infecção urinária.",
-      "Hemograma: Hb 8,9 g/dL, plaquetas 18.000/mm³, leucócitos normais. Creatinina 1,6 mg/dL. Bilirrubina indireta elevada, DHL muito alto, haptoglobina indetectável. Coagulograma normal ou quase normal.",
-      "TC de crânio sem sangramento. Líquor sem pleocitose relevante. Culturas ainda negativas. A equipe inicial considera sepse com plaquetopenia, mas a ausência de coagulopatia importante e a flutuação neurológica chamam atenção.",
-      "Esfregaço periférico mostra esquizócitos numerosos; teste de Coombs direto negativo. ADAMTS13 vem posteriormente muito reduzida, com inibidor circulante."
-    ]
-  },
-  {
-    "id": "tromboembolismo-pulmonar-risco-intermediario-001",
-    "diagnosis": [
-      "tromboembolismo pulmonar de risco intermediário",
-      "tromboembolismo pulmonar",
-      "embolia pulmonar",
-      "TEP",
-      "TEP de risco intermediário"
-    ],
-    "specialty": "pneumologia",
-    "hints": [
-      "Homem de 61 anos procura atendimento por dispneia progressiva, tosse seca e fadiga há 10 dias. Refere perda de apetite e dor torácica mal localizada, pior ao respirar fundo.",
-      "Tem histórico de neoplasia de próstata em tratamento hormonal. Saturação 91% em ar ambiente, FC 116 bpm, PA 128/76 mmHg. Ausculta com discretos estertores basais. Radiografia de tórax mostra opacidade basal direita pequena, interpretada inicialmente como pneumonia.",
-      "PCR elevada, leucócitos discretamente aumentados. Foi iniciado antibiótico, mas após 24 horas mantém taquicardia e dispneia desproporcionais ao achado radiográfico. Troponina discretamente elevada. BNP elevado. ECG com taquicardia sinusal e alterações inespecíficas de repolarização.",
-      "Gasometria mostra hipoxemia com alcalose respiratória. Ecocardiograma: ventrículo direito dilatado, hipocinesia moderada e pressão sistólica pulmonar estimada elevada. Não há sinais claros de insuficiência ventricular esquerda.",
-      "Angiotomografia de tórax mostra falhas de enchimento em artérias pulmonares segmentares e lobares bilaterais, com relação VD/VE aumentada."
-    ]
-  },
-  {
-    "id": "porfiria-aguda-intermitente-001",
-    "diagnosis": [
-      "porfiria aguda intermitente",
-      "PAI"
-    ],
-    "specialty": "clínica médica",
-    "hints": [
-      "Mulher de 47 anos chega com dor abdominal recorrente, náuseas, fraqueza e ansiedade intensa. Já teve três atendimentos prévios por quadro semelhante, sempre com exames de imagem abdominais sem alterações relevantes.",
-      "Refere constipação importante, dor em cólica mal localizada e parestesias em membros inferiores. Nega febre. Foi recentemente medicada com anticonvulsivante por episódios descritos como crises de ansiedade com tremores.",
-      "Exame físico: abdome doloroso difusamente, sem peritonite. PA 158/96 mmHg, FC 112 bpm. Sódio sérico 123 mEq/L. Função renal normal. Enzimas hepáticas discretamente elevadas. Tomografia de abdome novamente sem causa cirúrgica.",
-      "Durante a internação, evolui com fraqueza proximal progressiva e urina mais escura após exposição à luz. A hipótese de transtorno psiquiátrico isolado perde força porque há disautonomia, hiponatremia e neuropatia motora em progressão.",
-      "Dosagem urinária durante a crise mostra aumento importante de porfobilinogênio e ácido delta-aminolevulínico."
     ]
   },
   {
@@ -411,24 +1766,6 @@
       "Após suspensão do diurético e soro fisiológico, o sódio sobe pouco e volta a cair. Osmolaridade sérica baixa, osmolaridade urinária inadequadamente alta, sódio urinário elevado. TSH normal. Cortisol matinal limítrofe-baixo.",
       "Ela relata cefaleia nova, náuseas, inapetência e piora importante após uma virose recente. Não há edema periférico. Glicemia tende a ficar baixa. A hiponatremia parece SIADH-like, mas há sinais de deficiência hormonal sistêmica.",
       "Teste de estímulo com ACTH mostra resposta adrenal inadequada; ACTH basal baixo. RM de sela revela lesão hipofisária com sinais de hemorragia subaguda."
-    ]
-  },
-  {
-    "id": "leptospirose-grave-forma-de-weil-acometimento-pulmonar-001",
-    "diagnosis": [
-      "leptospirose grave forma de Weil com acometimento pulmonar",
-      "leptospirose grave",
-      "forma de Weil",
-      "síndrome de Weil",
-      "doença de Weil"
-    ],
-    "specialty": "infectologia",
-    "hints": [
-      "Homem de 42 anos apresenta febre diária há 12 dias, mialgia intensa, dor abdominal leve e mal-estar profundo. Foi atendido duas vezes com hipótese de virose.",
-      "Trabalha em área rural e teve contato recente com água de enchente. Está ictérico, mas sem colúria muito marcada. PA 94/58 mmHg, FC 118 bpm. Conjuntivas hiperemiadas. A ausculta pulmonar tem crepitações discretas.",
-      "Exames: plaquetas 62.000/mm³, creatinina 2,4 mg/dL, ureia elevada, bilirrubina total 6,8 mg/dL com predomínio direto, transaminases apenas moderadamente elevadas. CPK discretamente aumentada. Radiografia de tórax com infiltrado intersticial bilateral.",
-      "A equipe considera hepatite viral grave ou dengue complicada, mas a combinação de insuficiência renal aguda, icterícia desproporcional às transaminases, plaquetopenia e hiperemia conjuntival aponta para outro eixo fisiopatológico. Evolui com hemoptise discreta e piora da hipoxemia.",
-      "Sorologia pareada e/ou PCR confirmam infecção por Leptospira; o quadro fecha com forma ictérica grave associada a comprometimento renal e pulmonar."
     ]
   }
 ]
